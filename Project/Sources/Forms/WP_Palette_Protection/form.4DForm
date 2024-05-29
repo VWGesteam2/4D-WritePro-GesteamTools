@@ -1,0 +1,236 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"windowTitle": "Frames",
+	"inheritedForm": "WP_Z_Common",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 260,
+	"height": 620,
+	"markerBody": 430,
+	"markerBreak": 620,
+	"markerFooter": 620,
+	"events": [
+		"onLoad",
+		"onDataChange",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rect1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 260,
+					"height": 260,
+					"fill": "#CCCCCC",
+					"stroke": "transparent",
+					"borderRadius": 0
+				},
+				"Separator4": {
+					"type": "rectangle",
+					"top": 15,
+					"left": 5,
+					"width": 250,
+					"height": 15,
+					"fill": "#777777",
+					"stroke": "transparent",
+					"borderRadius": 4
+				},
+				"sepLbl_Frame1": {
+					"type": "text",
+					"top": 15,
+					"left": 20,
+					"width": 220,
+					"height": 13,
+					"stroke": "#FFFFFF",
+					"class": "Palette",
+					"textAlign": "center",
+					"text": ":xliff:protection",
+					"fontTheme": "additional"
+				},
+				"cbParagraphProtected": {
+					"type": "checkbox",
+					"top": 50,
+					"left": 80,
+					"width": 170,
+					"height": 16,
+					"text": ":xliff:protectParagraphs",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.paragraphProtected",
+					"method": "ObjectMethods/cbParagraphProtected.4dm",
+					"threeState": true
+				},
+				"cbProtectionEnabled": {
+					"type": "checkbox",
+					"top": 200,
+					"left": 85,
+					"width": 170,
+					"height": 16,
+					"text": ":xliff:protectionEnabled",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.protectionEnabled",
+					"method": "ObjectMethods/cbProtectionEnabled.4dm",
+					"threeState": false
+				},
+				"Separator1": {
+					"type": "rectangle",
+					"top": 165,
+					"left": 5,
+					"width": 250,
+					"height": 15,
+					"fill": "#777777",
+					"stroke": "transparent",
+					"borderRadius": 4
+				},
+				"sepLbl_Frame2": {
+					"type": "text",
+					"top": 165,
+					"left": 20,
+					"width": 220,
+					"height": 13,
+					"stroke": "#FFFFFF",
+					"class": "Palette",
+					"textAlign": "center",
+					"text": "Document",
+					"fill": "transparent",
+					"fontTheme": "additional"
+				},
+				"decor2": {
+					"type": "picture",
+					"top": 195,
+					"left": 20,
+					"width": 50,
+					"height": 50,
+					"picture": "/RESOURCES/Images/Light/DocumentProtected_48.png",
+					"pictureFormat": "truncatedTopLeft"
+				},
+				"decor1": {
+					"type": "picture",
+					"top": 40,
+					"left": 20,
+					"width": 50,
+					"height": 50,
+					"picture": "/RESOURCES/Images/Light/Protected_48.png",
+					"pictureFormat": "truncatedTopLeft"
+				},
+				"cbTableProtected": {
+					"type": "checkbox",
+					"top": 80,
+					"left": 80,
+					"width": 110,
+					"height": 16,
+					"text": ":xliff:protectTables",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.tableProtected",
+					"method": "ObjectMethods/cbTableProtected.4dm",
+					"threeState": true
+				},
+				"cbRowProtected": {
+					"type": "checkbox",
+					"top": 101,
+					"left": 100,
+					"width": 110,
+					"height": 16,
+					"text": ":xliff:protectRows",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.rowProtected",
+					"method": "ObjectMethods/cbRowProtected.4dm",
+					"threeState": true
+				},
+				"cbCellProtected": {
+					"type": "checkbox",
+					"top": 122,
+					"left": 120,
+					"width": 110,
+					"height": 16,
+					"text": ":xliff:protectCells",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.cellProtected",
+					"method": "ObjectMethods/cbCellProtected.4dm",
+					"threeState": true
+				},
+				"Rect2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 260,
+					"height": 260,
+					"visibility": "hidden",
+					"fill": "#CCCCCC",
+					"stroke": "transparent",
+					"borderRadius": 8
+				},
+				"Text": {
+					"type": "text",
+					"top": 0,
+					"left": 10,
+					"width": 41,
+					"height": 258,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 28,
+					"textAngle": 270,
+					"text": "4DWP Protection"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"sepLbl_Frame1",
+					"sepLbl_Frame2"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {
+				"visible": false,
+				"objects": [
+					"Rect2",
+					"Text"
+				]
+			}
+		}
+	},
+	"geometryStamp": 36
+}

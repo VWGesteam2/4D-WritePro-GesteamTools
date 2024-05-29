@@ -1,0 +1,86 @@
+{
+	"Sources/Forms/WP_Toolbar/ObjectMethods/btn_insertExpression.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": ""
+	},
+	"Sources/Methods/WP_Set4Dexpression.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2024-05-29T13:50:46.236Z"
+	},
+	"Sources/Forms/WP_Toolbar/ObjectMethods/btn_computeExpression.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2024-05-23T12:15:37.971Z"
+	},
+	"Sources/Forms/WP_Toolbar/method.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [
+			14,
+			93
+		],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	},
+	"Sources/Methods/WP ShowTabPages.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	},
+	"Sources/Forms/WP_Toolbar/ObjectMethods/WP.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 34,
+		"lastSelectedLine": 34,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	},
+	"Sources/Methods/WP_ShowTabPages.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 83,
+		"lastSelectedLine": 83,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	},
+	"Sources/Forms/WP_Gesteam_Toolbar/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	},
+	"Sources/Forms/WP_Gesteam_Toolbar/ObjectMethods/btn_insertExpression.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-12-16T08:05:47.000Z"
+	}
+}

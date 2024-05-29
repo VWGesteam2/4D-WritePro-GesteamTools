@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type = "text/css" href="BuildLogStyleSheet.css"?>
+<BuildApplicationLog>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Début de compilation [2024-05-29T15:47:18]</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Début de copie des fichiers : C:\Users\Vincent WAURZYCZKA\Downloads\4D WritePro Interface_Build\Components\4D WritePro Interface Gesteam.4dbase\4D WritePro Interface Gesteam.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Fin de copie des fichiers : C:\Users\Vincent WAURZYCZKA\Downloads\4D WritePro Interface_Build\Components\4D WritePro Interface Gesteam.4dbase\4D WritePro Interface Gesteam.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Fin de compilation [2024-05-29T15:47:20]</Message>
+  </Log>
+
+</BuildApplicationLog>

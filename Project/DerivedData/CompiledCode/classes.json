@@ -1,0 +1,17 @@
+{
+	"Toolbar": {
+		"functions": {
+			"setButtons": 2147483480,
+			"setButtonSizes": 2147483479,
+			"setBestSize": 2147483478,
+			"setButtonMargins": 2147483477,
+			"setLabelMargins": 2147483476,
+			"setDirection": 2147483475,
+			"setContainer": 2147483474,
+			"setBestContainer": 2147483473,
+			"setRect": 2147483472,
+			"_alignButtons": 2147483471
+		},
+		"constructorID": 2147483481
+	}
+}

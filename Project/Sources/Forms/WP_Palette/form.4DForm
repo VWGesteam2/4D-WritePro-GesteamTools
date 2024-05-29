@@ -1,0 +1,530 @@
+﻿{
+	"destination": "detailScreen",
+	"shared": true,
+	"inheritedForm": "",
+	"width": 260,
+	"height": 650,
+	"markerBody": 680,
+	"markerBreak": 680,
+	"markerFooter": 680,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onTimer",
+		"onResize",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rect": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 260,
+					"height": 29,
+					"fill": "#CCCCCC",
+					"stroke": "transparent",
+					"borderRadius": 0
+				},
+				"TabArea": {
+					"type": "rectangle",
+					"top": 4,
+					"left": 2,
+					"width": 256,
+					"height": 22,
+					"visibility": "hidden",
+					"stroke": "#9400d3",
+					"fill": "transparent"
+				},
+				"PaletteSubform": {
+					"type": "subform",
+					"top": 30,
+					"left": 0,
+					"width": 260,
+					"height": 620,
+					"detailForm": "WP_Palette_Fonts",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/PaletteSubform.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"borderStyle": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Line": {
+					"type": "line",
+					"top": 5,
+					"left": 396,
+					"height": 30,
+					"visibility": "hidden",
+					"stroke": "#777777",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"tabBtn_Alignments": {
+					"type": "radio",
+					"top": 5,
+					"left": 22,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Margins"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/margins.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Alignments.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Fonts": {
+					"type": "radio",
+					"top": 5,
+					"left": 2,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/FontStyle"
+					},
+					"fontFamily": "Xingkai SC Light",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/fontStyle.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Fonts.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Expressions": {
+					"type": "radio",
+					"top": 5,
+					"left": 122,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Information"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/expressions.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Expressions.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Frames": {
+					"type": "radio",
+					"top": 5,
+					"left": 82,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Frames"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/frames.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Frames.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Tabulations": {
+					"type": "radio",
+					"top": 5,
+					"left": 42,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Tabulations"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/tabulations.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Tabulations.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Sizes": {
+					"type": "radio",
+					"top": 5,
+					"left": 62,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Sizes"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/units.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Sizes.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Backgrounds": {
+					"type": "radio",
+					"top": 5,
+					"left": 102,
+					"width": 20,
+					"height": 20,
+					"tooltip": "Picture",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/Background.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Backgrounds.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Bookmarks": {
+					"type": "radio",
+					"top": 5,
+					"left": 142,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Bookmarks"
+					},
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/bookmarks.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Bookmarks.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Stylesheets": {
+					"type": "radio",
+					"top": 5,
+					"left": 161,
+					"width": 20,
+					"height": 20,
+					"tooltip": ":xliff:stylesheets",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/stylesheets.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Stylesheets.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Tables": {
+					"type": "radio",
+					"top": 5,
+					"left": 180,
+					"width": 20,
+					"height": 20,
+					"tooltip": ":xliff:Tables",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/tables.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Tables.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_FindAndReplace": {
+					"type": "radio",
+					"top": 5,
+					"left": 237,
+					"width": 20,
+					"height": 20,
+					"tooltip": ":xliff:FindAndReplace",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/find.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"method": "ObjectMethods/tabBtn_FindAndReplace.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_Protection": {
+					"type": "radio",
+					"top": 5,
+					"left": 199,
+					"width": 20,
+					"height": 20,
+					"tooltip": ":xliff:stylesheets",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/protection.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_Protection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tabBtn_ImportExport": {
+					"type": "radio",
+					"top": 5,
+					"left": 218,
+					"width": 20,
+					"height": 20,
+					"tooltip": ":xliff:ImportExport",
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"stroke": "#FFFFFF",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Light/file.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "custom",
+					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"radioGroup": "GR_Top",
+					"method": "ObjectMethods/tabBtn_ImportExport.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Rect1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 260,
+					"height": 680,
+					"visibility": "hidden",
+					"fill": "#CCCCCC",
+					"stroke": "transparent",
+					"borderRadius": 8
+				},
+				"Text": {
+					"type": "text",
+					"top": 0,
+					"left": 10,
+					"width": 60,
+					"height": 680,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 50,
+					"textAngle": 270,
+					"text": "4D WritePro Widget"
+				},
+				"Button": {
+					"type": "button",
+					"text": "LOREM",
+					"top": 0,
+					"left": 454,
+					"width": 138,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": true,
+					"shortcutAlt": true,
+					"shortcutKey": "l",
+					"method": "ObjectMethods/Button.4dm",
+					"focusable": false,
+					"sizingX": "move"
+				},
+				"cbBold": {
+					"type": "checkbox",
+					"top": 39,
+					"left": 460,
+					"width": 30,
+					"height": 24,
+					"tooltip": ":xliff:bold",
+					"action": "fontBold",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Home/Bold_24.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "b"
+				},
+				"cbItalic": {
+					"type": "checkbox",
+					"top": 39,
+					"left": 490,
+					"width": 30,
+					"height": 24,
+					"tooltip": ":xliff:italic",
+					"action": "fontItalic",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Home/Italic_24.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "i"
+				},
+				"btn_underline": {
+					"type": "checkbox",
+					"top": 39,
+					"left": 520,
+					"width": 30,
+					"height": 24,
+					"tooltip": ":xliff:underline",
+					"action": "fontUnderline",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Home/Underline_24.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"shortcutAccel": true,
+					"shortcutControl": false,
+					"shortcutShift": false,
+					"shortcutAlt": false,
+					"shortcutKey": "u"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 29,
+					"left": 0,
+					"width": 260,
+					"height": 0,
+					"stroke": "#808080"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Rect"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"Invisible By default": {
+				"visible": false,
+				"objects": [
+					"Rect1",
+					"Text"
+				]
+			}
+		}
+	},
+	"geometryStamp": 502
+}

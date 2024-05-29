@@ -1,0 +1,199 @@
+{
+	"ImportExport Dialogs": {
+		"forms": [
+			"D_Import"
+		]
+	},
+	"Methods": {
+		"methods": [
+			"Call_CustomColorPalette",
+			"ResetIfMixed",
+			"SetupLocalVariables",
+			"TOOL_HLStoRGB",
+			"TOOL_RGBtoHLS",
+			"UI_ApplySkin",
+			"UI_Palette",
+			"UI_PaletteAlignments",
+			"UI_PaletteFonts",
+			"UI_PaletteFrames",
+			"UI_PaletteInfos",
+			"UI_PaletteSizes",
+			"UI_PaletteTabulations",
+			"UI_Selector",
+			"WP_4DexpressionCompute",
+			"WP_4DexpressionFreeze",
+			"WP_CopyPasteMenu",
+			"WP_FillCurrent",
+			"WP_GetBackgroundClip",
+			"WP_GetBackgroundColor",
+			"WP_GetBackgroundOrigin",
+			"WP_GetBackgroundPosition",
+			"WP_GetBackgroundRepeat",
+			"WP_GetBackgroundSize",
+			"WP_GetBackgroundURL",
+			"WP_GetDecoInfo",
+			"WP_GetExpressions",
+			"WP_GetFontInfo",
+			"WP_GetFontVertAlign",
+			"WP_GetFrame",
+			"WP_GetImageUrl",
+			"WP_GetListStyle",
+			"WP_GetMargins",
+			"WP_GetParagraphVertAlign",
+			"WP_GetSizes",
+			"WP_GetTabInfo",
+			"WP_GetTextAlign",
+			"WP_GetTextIndent",
+			"WP_GetTextLineHeight",
+			"WP_GetTextTransform",
+			"WP_GetTextUnderline",
+			"WP_GetUserUnit",
+			"WP_Set4Ddate",
+			"WP_Set4Ddisplay",
+			"WP_Set4Dexpression",
+			"WP_Set4Durl",
+			"WP_SetAlign",
+			"WP_SetBackgroundClip",
+			"WP_SetBackgroundColor",
+			"WP_SetBackgroundOrigin",
+			"WP_SetBackgroundPicture",
+			"WP_SetBackgroundPosition",
+			"WP_SetBackgroundRepeat",
+			"WP_SetBackgroundSize",
+			"WP_SetDocInfos",
+			"WP_SetFontBold",
+			"WP_SetFontFamily",
+			"WP_SetFontItalic",
+			"WP_SetFontSize",
+			"WP_SetFontVertAlign",
+			"WP_SetFrame",
+			"WP_SetListStyle",
+			"WP_SetMargins",
+			"WP_SetParagraphVertAlign",
+			"WP_SetSizes",
+			"WP_SetTabIndent",
+			"WP_SetTabInfos",
+			"WP_SetTabType",
+			"WP_SetTextColor",
+			"WP_SetTextIndent",
+			"WP_SetTextLineHeight",
+			"WP_SetTextLinetrough",
+			"WP_SetTextShadow",
+			"WP_SetTextTransform",
+			"WP_SetTextUnderline",
+			"WP_SetUserUnit"
+		]
+	},
+	"PaletteForms": {
+		"forms": [
+			"WP_CustomColors",
+			"WP_Palette",
+			"WP_Palette_Alignments",
+			"WP_Palette_Backgrounds",
+			"WP_Palette_BookMarks",
+			"WP_Palette_Expressions",
+			"WP_Palette_Fonts",
+			"WP_Palette_Frames",
+			"WP_Palette_ImportExport",
+			"WP_Palette_Protection",
+			"WP_Palette_Sizes",
+			"WP_Palette_StyleSheets",
+			"WP_Palette_Tables",
+			"WP_Palette_Tabulations"
+		]
+	},
+	"PALETTES": {
+		"groups": [
+			"Methods",
+			"PaletteForms"
+		],
+		"methods": [
+			"4D_Licence",
+			"RndRGB",
+			"TOOL_ColorRgbLongToColorRgbText",
+			"TOOL_ColorRgbTextToColorRgbLong",
+			"TOOL_WPIAlignButtons",
+			"TrapError",
+			"UI_PaletteBackgrounds",
+			"UI_PaletteBookMarks",
+			"WP_Convert",
+			"WP_GetBookmarks",
+			"WP_GetDocInfos",
+			"WP_GetTextShadow",
+			"WP_SelectBookmark",
+			"WP_SetFont"
+		]
+	},
+	"Table Forms": {
+		"tables": [
+			"SAMPLE"
+		],
+		"forms": [
+			"[SAMPLE]InputPalettes",
+			"[SAMPLE]InputToolBar",
+			"[SAMPLE]Output"
+		]
+	},
+	"TOOLBARS": {
+		"methods": [
+			"debug_ReformatButtons",
+			"TB_GotoPage",
+			"TB_setAutomaticActions",
+			"TB_SwitchSkin"
+		]
+	},
+	"WP_Private": {
+		"methods": [
+			"MENU_Display",
+			"MENU_Execute",
+			"UI_isProtected",
+			"UI_PaletteFindAndReplace",
+			"UI_PaletteImportExport",
+			"UI_PaletteProtect",
+			"UI_PaletteStylesheets",
+			"UI_Tables",
+			"UI_Toolbar",
+			"UI_ToolbarStylesheets",
+			"UI_TranslateConstant",
+			"WP_BorderMenu",
+			"WP_GetProtections",
+			"WP_GetStyleAttributesByGroup",
+			"WP_GetStyleAttributesByType",
+			"WP_GetStyleSheet",
+			"WP_GetStyleSheets",
+			"WP_GetStylesheetType",
+			"WP_IgnoreError",
+			"WP_InsertSoftHyphen",
+			"WP_RemoveSoftHyphen",
+			"WP_Request",
+			"WP_SetCellProtection",
+			"WP_SetDocumentProtection",
+			"WP_SetImageUrl",
+			"WP_SetParagraphProtection",
+			"WP_SetRowProtection",
+			"WP_SetTableProtection",
+			"WP_ShiftIndent",
+			"WP_ShowTabPages",
+			"WP_StyleFillEditLB",
+			"WP_StylesheetAdd",
+			"WP_StylesheetCopyAttributes",
+			"WP_StylesheetEdit",
+			"WP_StylesheetRemove",
+			"WP_StylesheetSetAttributes",
+			"WP_StylesheetUpdate",
+			"WP_SwitchToolbar",
+			"WP_TableMenu"
+		],
+		"forms": [
+			"WP_StyleSheetEdit"
+		]
+	},
+	"WP_Public": {
+		"methods": [
+			"WP ShowTabPages",
+			"WP SwitchToolbar",
+			"WP UpdateWidget"
+		]
+	},
+	"trash": {}
+}
