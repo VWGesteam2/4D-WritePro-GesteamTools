@@ -1,5 +1,7 @@
-# Trouvé sur le net et légérement modifié : ici https://discuss.4d.com/t/project-mode-gitignore/14861/7
 
+# ----------------------------------
+# Trouvé sur le net et légérement modifié : ici https://discuss.4d.com/t/project-mode-gitignore/14861/7
+# -------------------
 #Inspired by Tom Benedict's .gitignore
 
 # Ignore all at the root.
@@ -27,3 +29,7 @@ Project/Trash
 
 # Ignore everywhere.
 __MACOSX
+# ----------------------------------
+
+# Ajout du dossier logs de compilation
+data/Logs/
