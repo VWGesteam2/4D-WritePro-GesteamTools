@@ -250,3 +250,6 @@ C_TEXT:C284(WP_PictureSaveSettings; $1)
 
 //zGetSamplePict
 C_PICTURE:C286(zGetSamplePict; $0)
+
+//WP_Set4Dexpression_Gesteam
+C_TEXT:C284(WP_Set4Dexpression_Gesteam; $1)

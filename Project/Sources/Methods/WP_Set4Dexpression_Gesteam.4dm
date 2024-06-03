@@ -29,19 +29,12 @@ End if
 //Si (Nombre de paramètres>=2)
 //DBG_Trace_Method_Params_...
 //Fin de si 
-
 If (True:C214)  //Code de la méthode
-	C_OBJECT:C1216($o_plage_selection)
-	C_VARIANT:C1683($ignoreReturn)
-	If (areaName#"")
-		$o_plage_selection:=WP Selection range:C1340(*; areaName)
-	Else 
-		$o_plage_selection:=New object:C1471()
-	End if 
+	//EXÉCUTER MÉTHODE("WPTB_Gesteam_Inser_Expression"; *; Nom du formulaire courant; areaName)
 	
-	EXECUTE METHOD:C1007("WPTB_Gesteam_Inser_Expression"; $ignoreReturn; $o_plage_selection)
+	EXECUTE METHOD:C1007("WPTB_Gesteam_Inser_Expression"; *; areaName; OBJECT Get pointer:C1124(Objet conteneur sous formulaire:K67:4))
+	
 End if 
-
 ////Fin du mode Trace
 //DBG_Trace_Method(Nom méthode courante; 0)
 

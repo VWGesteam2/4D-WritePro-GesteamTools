@@ -27,7 +27,7 @@
       <HardLink></HardLink>
     </CS>
     <BuildApplicationName>4D WritePro Interface Gesteam</BuildApplicationName>
-    <BuildWinDestFolder>..\4D WritePro Interface_Build\</BuildWinDestFolder>
+    <BuildWinDestFolder>C:\Gesteam4D\Copie - Test V17 - V19\</BuildWinDestFolder>
     <ArrayExcludedPluginName>
       <ItemsCount>0</ItemsCount>
     </ArrayExcludedPluginName>
