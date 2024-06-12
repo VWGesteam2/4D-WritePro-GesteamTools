@@ -19,5 +19,5 @@ This method updates the widget when modifications have been made
 
 ## Example
 ```4d
-WP UpdateWidget ("WPtoolbar";"WParea")
+WP GTB UpdateWidget ("WPtoolbar";"WParea")
 ```

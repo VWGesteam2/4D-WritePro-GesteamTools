@@ -2,7 +2,7 @@
 Méthode de la barre d'outils 4D Write Pro Gesteam
 This method allows you to define the tabs to be displayed, as well as the order of the tabs. -->
 ```4d
-WP BGT ShowTabPages( widget name ; toolbar name )
+WP GTB ShowTabPages( widget name ; toolbar name )
 ```
 
 |Parameter|Type|In/Out|Description|
