@@ -25,7 +25,7 @@ Else
 		"Spell")
 End if 
 
-WP ShowTabPages("WPtoolbar"; $tabs)
+WP GTB ShowTabPages("WPtoolbar"; $tabs)
 
 //WP ShowTabPages("xxxx"; $tabs)
 

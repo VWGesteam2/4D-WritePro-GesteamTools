@@ -14,4 +14,4 @@ If (False:C215)
 	//$WP_skin.separatorFontColor:=0x00D0D0FF
 End if 
 
-WP UpdateWidget("WPwidget"; "WParea"; $WP_skin)
+WP GTB UpdateWidget("WPwidget"; "WParea"; $WP_skin)

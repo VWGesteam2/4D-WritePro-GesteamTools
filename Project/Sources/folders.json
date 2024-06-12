@@ -191,9 +191,9 @@
 	},
 	"WP_Public": {
 		"methods": [
-			"WP ShowTabPages",
-			"WP SwitchToolbar",
-			"WP UpdateWidget"
+			"WP GTB ShowTabPages",
+			"WP GTB SwitchToolbar",
+			"WP GTB UpdateWidget"
 		]
 	},
 	"trash": {}

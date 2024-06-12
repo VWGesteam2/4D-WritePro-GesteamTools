@@ -23,6 +23,6 @@ Case of
 		//$tabs:=New collection()
 End case 
 
-WP ShowTabPages("WPwidget"; $tabs)
+WP GTB ShowTabPages("WPwidget"; $tabs)
 
 

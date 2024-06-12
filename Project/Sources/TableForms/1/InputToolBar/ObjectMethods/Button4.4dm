@@ -1,2 +1,2 @@
 
-WP SwitchToolbar ("WPtoolbar";"Toolbar2")
+WP GTB SwitchToolbar("WPtoolbar"; "Toolbar2")

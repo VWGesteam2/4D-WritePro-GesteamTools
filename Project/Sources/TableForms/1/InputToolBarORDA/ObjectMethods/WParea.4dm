@@ -1,1 +1,1 @@
-WP UpdateWidget("WPtoolbar"; "WParea")
+WP GTB UpdateWidget("WPtoolbar"; "WParea")
