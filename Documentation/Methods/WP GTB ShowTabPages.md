@@ -1,7 +1,8 @@
-<!-- WP ShowTabPages( widget name ; toolbar name )
+<!-- WP BGT ShowTabPages( widget name ; toolbar name )
+Méthode de la barre d'outils 4D Write Pro Gesteam
 This method allows you to define the tabs to be displayed, as well as the order of the tabs. -->
 ```4d
-WP ShowTabPages( widget name ; toolbar name )
+WP BGT ShowTabPages( widget name ; toolbar name )
 ```
 
 |Parameter|Type|In/Out|Description|
@@ -11,6 +12,8 @@ WP ShowTabPages( widget name ; toolbar name )
 
 
 ## Description
+
+Méthode de la barre d'outils 4D Write Pro Gesteam
 
 This method allows you to define the tabs to be displayed, as well as their order.
 
@@ -49,7 +52,5 @@ Example for sidebars:
 
 ```code4d
 $tabs:=New collection("ImportExport";"Fonts";"Alignments";"Tabulations")
-WP ShowTabPages ("WPwidget";$tabs)
+WP GTB ShowTabPages ("WPwidget";$tabs)
 ```
-
-

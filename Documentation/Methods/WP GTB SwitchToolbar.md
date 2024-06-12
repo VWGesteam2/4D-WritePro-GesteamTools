@@ -1,6 +1,6 @@
 <!-- This method allows switching between toolbar interfaces. -->
 ```4d
-WP SwitchToolbar( widget name ; toolbar name )
+WP GTB SwitchToolbar( widget name ; toolbar name )
 ```
 | Parameter | Type   | in/out | Description |
 | --------- | ------ | ------ | ----------- |
@@ -8,10 +8,13 @@ WP SwitchToolbar( widget name ; toolbar name )
 | toolbar name   | String | in     | Name of toolbar: Toolbar1 or Toolbar2 |
 
 ## Description
+
+Méthode de la barre d'outils Gesteam 4D Write Pro.
+
 This method allows switching between toolbar interfaces.
 
 ## Example
 ```4d
-WP SwitchToolbar ("WParea" ; "Toolbar1")
-WP SwitchToolbar ("WParea" ; "Toolbar2")
+WP GTB SwitchToolbar ("WParea" ; "Toolbar1")
+WP GTB SwitchToolbar ("WParea" ; "Toolbar2")
 ```
