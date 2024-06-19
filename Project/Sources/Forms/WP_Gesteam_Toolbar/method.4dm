@@ -4,15 +4,19 @@ C_COLLECTION:C1488($_buttonNames)
 
 C_LONGINT:C283($typeSelection)
 C_LONGINT:C283($page)
+C_BOOLEAN:C305($page_3_4)
+C_BOOLEAN:C305($areaPointerOk)
+C_LONGINT:C283($indexSelection)
 
 C_OBJECT:C1216($param)
+C_COLLECTION:C1488($collection)
+C_LONGINT:C283($cpt)
 
 C_TEXT:C284($buttonName)
 
-
 Case of 
 		
-	: (Form event code:C388=On Load:K2:1)
+	: (Form event code:C388=Sur chargement:K2:1)
 		
 		InitFontLists
 		
@@ -45,10 +49,11 @@ Case of
 			"tabBtn_Spell"; \
 			"tabBtn_Protection"; \
 			"tabBtn_ImportExport"; \
-			"tabBtn_FindAndReplace")
+			"tabBtn_FindAndReplace"; \
+			"tabBtn_MergeOptions")
 		
 		For each ($buttonName; $_buttonNames)
-			OBJECT SET FONT STYLE:C166(*; $buttonName; Bold:K14:2)  // Temporary to be sure they fit in space
+			OBJECT SET FONT STYLE:C166(*; $buttonName; Gras:K14:2)  // Temporary to be sure they fit in space
 		End for each 
 		
 		oForm.ToolbarTabs:=cs:C1710.Toolbar.new($_buttonNames; "TabArea")
@@ -56,7 +61,7 @@ Case of
 		oForm.ToolbarTabs.setButtonSizes(100; 20)  // height (temp) and height (fixed)
 		oForm.ToolbarTabs.setLabelMargins(2; 2)  //2px label margins
 		oForm.ToolbarTabs.setButtonMargins(2; 0; 2; 0)  // left - top - right - bottom
-		oForm.ToolbarTabs.pageIndexes:=New collection:C1472(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11)
+		oForm.ToolbarTabs.pageIndexes:=New collection:C1472(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13)
 		
 		TB_GotoPage(oForm.ToolbarTabs.buttonNames[0])
 		
@@ -81,7 +86,6 @@ Case of
 		OBJECT SET ENABLED:C1123(*; "ssType4"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "ssType5"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "ssType6"; False:C215)
-		
 		If (Is macOS:C1572)
 			OBJECT SET VISIBLE:C603(*; "mac_@"; True:C214)
 		Else 
@@ -91,22 +95,31 @@ Case of
 		
 		SET TIMER:C645(-1)
 		
-	: (Form event code:C388=On Page Change:K2:54)
-		
+	: (Form event code:C388=Sur changement de page:K2:54)
+		$page:=FORM Get current page:C276(*)
+		$page_3_4:=False:C215
+		Case of 
+			: ($page=3)
+				$page_3_4:=True:C214
+			: ($page=4)
+				$page_3_4:=True:C214
+			: ($page=5)
+				SET TIMER:C645(-1)
+		End case 
 		ARRAY TEXT:C222(WP_applyTo; 0)
-		If ((FORM Get current page:C276(*)=3) | (FORM Get current page:C276(*)=4))
+		If ($page_3_4)
 			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("sections"))  //1
 			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("paragraphs"))  //2
 			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("pictures"))  //3
 			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Table"))  //4
 			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Cell"))  //5
-			If (FORM Get current page:C276(*)=4)
+			If ($page=4)
 				APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Row"))  //6
 			End if 
 			WP_applyTo:=2
 		End if 
 		
-	: (Form event code:C388=On Bound Variable Change:K2:52) | (Form event code:C388=On Timer:K2:25)
+	: (Form event code:C388=Sur modif variable liée:K2:52) | (Form event code:C388=Sur minuteur:K2:25)
 		
 		SET TIMER:C645(0)
 		
@@ -118,7 +131,6 @@ Case of
 						$typeSelection:=Form:C1466.selection.type
 						SetupLocalVariables  // in this widget, mainly for areaName and masterTable
 						
-						
 						If ($typeSelection#2)
 							WP_GetExpressions
 							WP_GetFontInfo(Form:C1466.selection)  // font, size, weight, textcolor  (common method with font palette)
@@ -126,6 +138,34 @@ Case of
 						
 						$page:=FORM Get current page:C276(*)
 						Case of 
+							: ($page=5)  //  Images
+								$param:=ObToolBarToDocument(Form:C1466)
+								
+								If ($param=Null:C1517)
+									//-> par sécurité on vide le tableau
+									ARRAY TEXT:C222(ImagesDocument; 0)
+									ARRAY TEXT:C222(ImagesDocumentInfo; 0)
+								Else 
+									$collection:=WP Get elements:C1550($param; wk type image anchored:K81:248).extract("id")
+									ARRAY TEXT:C222(ImagesDocument; $collection.length)
+									ARRAY TEXT:C222(ImagesDocumentInfo; $collection.length)
+									
+									For ($cpt; 1; $collection.length)
+										ImagesDocument{$cpt}:=$collection[$cpt-1]
+										ImagesDocumentInfo{$cpt}:=$collection[$cpt-1]
+									End for 
+								End if 
+								If ($typeSelection=2)
+									$indexSelection:=Find in array:C230(ImagesDocument; Form:C1466.selection.id)
+									
+									If ($indexSelection>0)
+										ImagesDocument:=$indexSelection
+									Else 
+										ALERT:C41("L'image id=["+Form:C1466.selection.id+"] n'a pas été trouvée dans la liste des images")
+									End if 
+								Else 
+									ImagesDocument:=-1
+								End if 
 								
 							: ($page=9)
 								WP_GetProtections(Form:C1466.selection)
@@ -142,14 +182,19 @@ Case of
 									oForm.FR.occurences:=-1
 								End if 
 								
-								
 						End case 
-						
 						// WP_GetProtection  // page 2
-						
+					Else 
+						ImagesDocument:=-1
 					End if 
+				Else 
+					ImagesDocument:=-1
 				End if 
+			Else 
+				ImagesDocument:=-1
 			End if 
+		Else 
+			ImagesDocument:=-1
 		End if 
 		
 		UI_Toolbar  // will call UI_PaletteFindAndReplace

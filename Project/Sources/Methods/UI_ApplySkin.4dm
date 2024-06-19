@@ -166,11 +166,11 @@ If (Not:C34(Undefined:C82(skin)))
 		End if 
 		
 		If ($fontColor#-1)
-			OBJECT SET RGB COLORS:C628(*; "rb@"; $fontColor; Background color:K23:2)
-			OBJECT SET RGB COLORS:C628(*; "cb@"; $fontColor; Background color:K23:2)
+			OBJECT SET RGB COLORS:C628(*; "rb@"; $fontColor; Coul arrière plan:K23:2)
+			OBJECT SET RGB COLORS:C628(*; "cb@"; $fontColor; Coul arrière plan:K23:2)
 			OBJECT SET RGB COLORS:C628(*; "lbl_@"; $fontColor)  //;Background color)
 			
-			OBJECT SET RGB COLORS:C628(*; "lb_@"; $fontColor; Background color none:K23:10)  // tabulations & bookmarks
+			OBJECT SET RGB COLORS:C628(*; "lb_@"; $fontColor; Coul fond transparent:K23:10)  // tabulations & bookmarks
 		End if 
 		
 		If ($separatorFontColor#-1)
@@ -202,6 +202,7 @@ If (Not:C34(Undefined:C82(skin)))
 		APPEND TO ARRAY:C911($_names; "tabBtn_Protection")
 		APPEND TO ARRAY:C911($_names; "tabBtn_ImportExport")
 		APPEND TO ARRAY:C911($_names; "tabBtn_FindAndReplace")
+		APPEND TO ARRAY:C911($_names; "tabBtn_MergeOptions")
 		
 		APPEND TO ARRAY:C911($_names; "TargetSelector1")  // document
 		APPEND TO ARRAY:C911($_names; "TargetSelector2")  // paragraphg

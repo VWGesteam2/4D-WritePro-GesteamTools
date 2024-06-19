@@ -9,6 +9,10 @@
       </header>
       <body>
          <group resname="Tips">
+            <trans-unit id="Gesteam/PicturesList" resname="PicturesList">
+               <source>Images list</source>
+               <target>(FR !) Liste des images</target>
+            </trans-unit>
             <trans-unit id="84" resname="alignBottom">
                <source>Align bottom</source>
                <target>下揃え</target>
@@ -436,6 +440,14 @@
 	         <trans-unit id="ZLC852EL1drI+I11mR0Tvg" resname="RemoveSoftHyphen">
 	           <source>Remove soft hyphen</source>
 	           <target>ソフトハイフンを削除</target>
+	         </trans-unit>
+	         <trans-unit id="Gesteam_DeleteHeaders" resname="DeleteHeader">
+	           <source>Delete header</source>
+	           <target>(FR) Supprimer les entêtes des sections actives</target>
+	         </trans-unit>
+	         <trans-unit id="Gesteam_DeleteFooter" resname="DeleteFooter">
+	           <source>Delete footer</source>
+	           <target>(FR) Supprimer les pieds des sections actives</target>
 	         </trans-unit>
          </group>
          <group resname="Tabs">

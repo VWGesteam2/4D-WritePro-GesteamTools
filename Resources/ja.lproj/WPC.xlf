@@ -1785,6 +1785,12 @@ When not selected, only formulas that have never been evaluated will be computed
           <target>ページ番号</target>
         </trans-unit>
       </group>
+      <group resname="PaletteMergeOption">
+	    <trans-unit id="Gesteam_MergeOptions" resname="MergeOptions">
+          <source>Merge options</source>
+          <target>(FR) Options de fusion</target>
+        </trans-unit>
+      </group>
     </body>
   </file>
 

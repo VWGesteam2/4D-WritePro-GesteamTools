@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowTitle": "4D Write Pro",
 	"markerBody": 217,
@@ -23,7 +23,7 @@
 					"width": 880,
 					"height": 90,
 					"sizingX": "grow",
-					"detailForm": "WP_Toolbar",
+					"detailForm": "WP_Gesteam_Toolbar",
 					"focusable": false,
 					"deletableInList": false,
 					"doubleClickInRowAction": "editSubrecord",

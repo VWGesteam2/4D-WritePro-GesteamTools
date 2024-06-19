@@ -3,7 +3,7 @@
 	"shared": true,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
-	"width": 880,
+	"width": 960,
 	"height": 90,
 	"markerBody": 90,
 	"markerBreak": 90,
@@ -31,7 +31,7 @@
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
-					"width": 880,
+					"width": 960,
 					"height": 20,
 					"visibility": "hidden",
 					"stroke": "#9400d3",
@@ -42,7 +42,7 @@
 					"type": "rectangle",
 					"top": 20,
 					"left": 0,
-					"width": 880,
+					"width": 960,
 					"height": 70,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -372,211 +372,211 @@
 					"type": "radio",
 					"top": 0,
 					"left": 7,
-					"width": 80,
+					"width": 81,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:Home",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Home.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Insert": {
 					"type": "radio",
 					"top": 0,
-					"left": 86,
-					"width": 80,
+					"left": 85,
+					"width": 82,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:insertAndView",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Insert.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Margins": {
 					"type": "radio",
 					"top": 0,
-					"left": 165,
-					"width": 80,
+					"left": 164,
+					"width": 83,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:margins",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Margins.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Printing": {
 					"type": "radio",
 					"top": 0,
-					"left": 402,
-					"width": 80,
+					"left": 401,
+					"width": 83,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:print",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Printing.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Images": {
 					"type": "radio",
 					"top": 0,
-					"left": 323,
-					"width": 80,
+					"left": 322,
+					"width": 82,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:images",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Images.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Borders": {
 					"type": "radio",
 					"top": 0,
-					"left": 244,
-					"width": 80,
+					"left": 242,
+					"width": 83,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:borders",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Borders.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Spell": {
 					"type": "radio",
 					"top": 0,
-					"left": 559,
-					"width": 80,
+					"left": 558,
+					"width": 82,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:spell",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Spell.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Tables": {
 					"type": "radio",
 					"top": 0,
-					"left": 481,
-					"width": 80,
+					"left": 480,
+					"width": 82,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:Tables",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Tables.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_Protection": {
 					"type": "radio",
 					"top": 0,
-					"left": 637,
-					"width": 80,
+					"left": 636,
+					"width": 83,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:protection",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_Protection.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"tabBtn_ImportExport": {
 					"type": "radio",
 					"top": 0,
-					"left": 715,
-					"width": 80,
+					"left": 714,
+					"width": 82,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:importExport",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_ImportExport.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
 				},
 				"Button": {
 					"type": "button",
@@ -600,23 +600,102 @@
 				"tabBtn_FindAndReplace": {
 					"type": "radio",
 					"top": 0,
-					"left": 793,
-					"width": 80,
+					"left": 792,
+					"width": 83,
 					"height": 20,
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
 					"text": ":xliff:FindSlashReplace",
-					"icon": "/RESOURCES/",
-					"iconFrames": 4,
-					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_FindAndReplace.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
+				},
+				"GesteamPicture": {
+					"type": "input",
+					"top": 20,
+					"left": 0,
+					"width": 960,
+					"height": 70,
+					"sizingX": "fixed",
+					"sizingY": "fixed",
+					"dataSource": "vGesteamPicture",
+					"dataSourceTypeHint": "picture",
+					"scrollbarVertical": "hidden",
+					"scrollbarHorizontal": "hidden",
+					"dragging": "custom",
+					"events": [
+						"onLoad"
+					],
+					"pictureFormat": "truncatedTopLeft",
+					"hideFocusRing": true,
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"method": "ObjectMethods/GesteamPicture.4dm",
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"tabBtn_MergeOptions": {
+					"type": "radio",
+					"top": 0,
+					"left": 872,
+					"width": 81,
+					"height": 20,
+					"fontFamily": "System Font Regular",
+					"fontSize": 11,
+					"focusable": false,
+					"text": ":xliff:MergeOptions",
+					"style": "custom",
+					"radioGroup": "Group34",
+					"method": "ObjectMethods/tabBtn_MergeOptions.4dm",
+					"events": [
+						"onClick"
+					],
+					"textPlacement": "center",
+					"iconFrames": 4,
+					"customBackgroundPicture": "/RESOURCES/Images/Toolbar1/Tab.png",
+					"icon": "/RESOURCES/"
+				},
+				"Line69": {
+					"type": "line",
+					"top": -4,
+					"left": 880,
+					"height": 270,
+					"visibility": "hidden",
+					"stroke": "#C0C0C0",
+					"strokeDashArray": "1 1",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"Line70": {
+					"type": "line",
+					"top": -4,
+					"left": 910,
+					"height": 270,
+					"visibility": "hidden",
+					"stroke": "#C0C0C0",
+					"strokeDashArray": "1 1",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"Line71": {
+					"type": "line",
+					"top": -4,
+					"left": 940,
+					"height": 270,
+					"visibility": "hidden",
+					"stroke": "#C0C0C0",
+					"strokeDashArray": "1 1",
+					"width": 0,
+					"startPoint": "topLeft"
 				}
 			}
 		},
@@ -1210,7 +1289,7 @@
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
-					"width": 880,
+					"width": 960,
 					"height": 90,
 					"visibility": "hidden",
 					"fill": "#CCCCCC",
@@ -1220,8 +1299,8 @@
 					"type": "text",
 					"top": 15,
 					"left": 0,
-					"width": 880,
-					"height": 60,
+					"width": 960,
+					"height": 51,
 					"visibility": "hidden",
 					"stroke": "#AAAAAA",
 					"textAlign": "center",
@@ -1272,7 +1351,7 @@
 				},
 				"btn_insertImage": {
 					"type": "button",
-					"top": 35,
+					"top": 40,
 					"left": 455,
 					"width": 40,
 					"height": 40,
@@ -1713,6 +1792,67 @@
 					],
 					"tooltip": ":xliff:RemoveSoftHyphen",
 					"action": "removeSoftHyphens"
+				},
+				"btn_DeleteHeaders": {
+					"type": "button",
+					"top": 40,
+					"left": 730,
+					"width": 40,
+					"height": 40,
+					"tooltip": ":xliff:DeleteHeader",
+					"action": "",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Insert/DeleteHeader_32.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_DeleteHeaders.4dm"
+				},
+				"btn_DeleteFooter": {
+					"type": "button",
+					"top": 40,
+					"left": 770,
+					"width": 40,
+					"height": 40,
+					"tooltip": ":xliff:DeleteFooter",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Insert/DeleteFooter_32.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_DeleteFooter.4dm"
+				},
+				"Line72": {
+					"type": "line",
+					"top": 30,
+					"left": 825,
+					"height": 50,
+					"stroke": "#696969",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"btn_HederFooterAutosize": {
+					"type": "checkbox",
+					"text": "",
+					"top": 40,
+					"left": 840,
+					"width": 40,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"iconFrames": 4,
+					"icon": "/RESOURCES/Images/Toolbar1/View/HeaderFooterAutoSize_32.png",
+					"method": "ObjectMethods/btn_HederFooterAutosize.4dm",
+					"dataSource": "HeaderFooterAutofit",
+					"focusable": false,
+					"dataSourceTypeHint": "boolean",
+					"tooltip": "Agrandir automatiquement les entêtes et les pieds de pages"
 				}
 			},
 			"entryOrder": [
@@ -1743,7 +1883,10 @@
 				"btn_pageModeEmbedded",
 				"btn_showHide4Dexpressions",
 				"btn_insertColumnBreak",
-				"btn_visibleVerticalRuler"
+				"btn_visibleVerticalRuler",
+				"btn_DeleteHeaders",
+				"btn_DeleteFooter",
+				"btn_HederFooterAutosize"
 			]
 		},
 		{
@@ -2394,6 +2537,21 @@
 		},
 		{
 			"objects": {
+				"PL_ImageListInfo": {
+					"type": "dropdown",
+					"left": 610,
+					"top": 30,
+					"width": 20,
+					"height": 50,
+					"events": [
+						"onDataChange"
+					],
+					"focusable": false,
+					"dataSource": "ImagesDocumentInfo",
+					"method": "ObjectMethods/PL_ImageListInfo.4dm",
+					"right": 630,
+					"tooltip": ":xliff:Information"
+				},
 				"btn_imageInline": {
 					"type": "checkbox",
 					"top": 30,
@@ -2523,7 +2681,7 @@
 				"Line44": {
 					"type": "line",
 					"top": 30,
-					"left": 420,
+					"left": 418,
 					"height": 50,
 					"stroke": "#888888",
 					"width": 0,
@@ -2567,7 +2725,7 @@
 				"Line42": {
 					"type": "line",
 					"top": 30,
-					"left": 540,
+					"left": 550,
 					"height": 50,
 					"stroke": "#888888",
 					"width": 0,
@@ -2613,7 +2771,8 @@
 					"style": "toolbar",
 					"icon": "/RESOURCES/Images/Toolbar1/Images/ImageSettings_48.png",
 					"iconFrames": 4,
-					"textPlacement": "center"
+					"textPlacement": "center",
+					"tooltip": ":xliff:Information"
 				},
 				"btn_PictInfo1": {
 					"type": "button",
@@ -2648,6 +2807,40 @@
 					"textPlacement": "center",
 					"tooltip": ":xliff:moveToFront",
 					"action": "moveToFront"
+				},
+				"Line67": {
+					"type": "line",
+					"top": 30,
+					"left": 640,
+					"height": 50,
+					"stroke": "#888888",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"3D Button1": {
+					"type": "button",
+					"top": 30,
+					"left": 650,
+					"width": 30,
+					"height": 24,
+					"tooltip": ":xliff:PicturesList",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/Images/imageList_24.png",
+					"iconFrames": 4,
+					"style": "custom"
+				},
+				"PL_ImageList": {
+					"type": "dropdown",
+					"left": 690,
+					"top": 32,
+					"width": 80,
+					"height": 17,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "ImagesDocument",
+					"focusable": false,
+					"method": "ObjectMethods/PL_ImageList.4dm"
 				}
 			}
 		},
@@ -2672,7 +2865,7 @@
 					"focusable": false,
 					"action": "pageSize"
 				},
-				"btnPrint": {
+				"btnPrintGesteam": {
 					"type": "button",
 					"top": 40,
 					"left": 10,
@@ -2683,23 +2876,27 @@
 					"icon": "/RESOURCES/Images/Toolbar1/File/Print_32.png",
 					"iconFrames": 4,
 					"style": "toolbar",
-					"method": "ObjectMethods/btnPrint.4dm",
+					"method": "ObjectMethods/btnPrintGesteam.4dm",
 					"events": [
 						"onClick"
 					]
 				},
-				"btnPrintPreview": {
+				"btnPrintPreviewGesteam": {
 					"type": "button",
 					"top": 40,
 					"left": 70,
 					"width": 40,
 					"height": 40,
 					"tooltip": ":xliff:preview",
-					"action": "print",
+					"action": "",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Toolbar1/File/PrintPreview_32.png",
 					"iconFrames": 4,
-					"style": "toolbar"
+					"style": "toolbar",
+					"method": "ObjectMethods/btnPrintPreviewGesteam.4dm",
+					"events": [
+						"onClick"
+					]
 				},
 				"Popup_pageOrientation": {
 					"type": "dropdown",
@@ -4062,15 +4259,93 @@
 					"startPoint": "topLeft"
 				}
 			}
+		},
+		{
+			"objects": {
+				"btn_MergeOptions_ProhibitsDifferentSections": {
+					"type": "checkbox",
+					"text": "Autoriser un nombre de section variable",
+					"top": 45,
+					"left": 10,
+					"width": 240,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"focusable": false,
+					"method": "ObjectMethods/btn_MergeOptions_ProhibitsDifferentSections.4dm",
+					"bottom": 65,
+					"tooltip": "Si cette option est désactivée, il faudra nécessairement que tous les documents à fusionner aient le même nombre de section.\rDans le cas contraire la fusion ne sera pas faite et une erreur sera renvoyée.",
+					"dataSource": "MO_AllowSectionsDiff"
+				},
+				"btn_MergeOptions_CopyHeadersFooters": {
+					"type": "checkbox",
+					"text": "Fusionner les entête et pieds de page",
+					"top": 24,
+					"left": 10,
+					"width": 240,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"focusable": false,
+					"method": "ObjectMethods/btn_MergeOptions_CopyHeadersFooters.4dm",
+					"textPlacement": "left",
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "MO_MergeHeadersFooters",
+					"iconFrames": 1,
+					"tooltip": "Si est désactivée alors seul les entêtes et pieds de pages de ce document seront conservés"
+				},
+				"btn_MergeOptions_OptionsHeaderFooter": {
+					"type": "button",
+					"top": 24,
+					"left": 250,
+					"width": 30,
+					"height": 20,
+					"action": "",
+					"focusable": false,
+					"icon": "",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"text": "…",
+					"popupPlacement": "linked",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/btn_MergeOptions_OptionsHeaderFooter.4dm",
+					"tooltip": "Option avancée de la fusion des entêtes et pieds de pages"
+				},
+				"btn_MergeOptions_OptionsSections": {
+					"type": "button",
+					"top": 45,
+					"left": 250,
+					"width": 30,
+					"height": 20,
+					"action": "",
+					"focusable": false,
+					"icon": "",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"events": [
+						"onClick"
+					],
+					"text": "…",
+					"popupPlacement": "linked",
+					"fontWeight": "bold",
+					"method": "ObjectMethods/btn_MergeOptions_OptionsSections.4dm",
+					"tooltip": "Option avancée de la fusion des entêtes et pieds de pages"
+				}
+			}
 		}
 	],
 	"editor": {
 		"groups": {
-			"Group31": [
-				"Stylesheet_Type2",
-				"Stylesheet_Type1"
-			],
-			"Group34": [
+			"Group": [
 				"tabBtn_Home",
 				"tabBtn_Insert",
 				"tabBtn_Margins",
@@ -4081,7 +4356,12 @@
 				"tabBtn_Tables",
 				"tabBtn_Protection",
 				"tabBtn_ImportExport",
-				"tabBtn_FindAndReplace"
+				"tabBtn_FindAndReplace",
+				"tabBtn_MergeOptions"
+			],
+			"Group31": [
+				"Stylesheet_Type2",
+				"Stylesheet_Type1"
 			]
 		},
 		"activeView": "Hidden",
@@ -4090,17 +4370,22 @@
 			"View 1": {},
 			"Hidden": {
 				"objects": [
+					"GesteamPicture",
 					"Rect2",
 					"Text2",
+					"btn_HederFooterAutosize",
+					"PL_ImageListInfo",
+					"PL_ImageList",
 					"tempoMessage",
 					"ReplacementCount",
 					"ReplacementLabel",
 					"OptionRect",
-					"message"
+					"message",
+					"btn_MergeOptions_ProhibitsDifferentSections",
+					"btn_MergeOptions_CopyHeadersFooters"
 				]
 			},
 			"View 3": {
-				"visible": false,
 				"objects": [
 					"win_replaceLeft1",
 					"mac_replaceCenter3",
@@ -4130,5 +4415,5 @@
 			}
 		}
 	},
-	"geometryStamp": 3364
+	"geometryStamp": 3658
 }

@@ -1,4 +1,34 @@
 {
+	"(Dossier)": {},
+	"ButtonMergeSwitch": {
+		"methods": [
+			"btnM_S_AddsHFSection1",
+			"btnM_S_AddsHFSections2toN",
+			"btnM_S_HFAutoHeight",
+			"btnM_S_KeepOnlyAllSectionsExist",
+			"btnM_S_KeepOnlySections1",
+			"btnM_S_MergeHF",
+			"btnM_S_ProhibitsDifferentSectio",
+			"btnM_S_ReverseFootersOrder"
+		]
+	},
+	"Gesteam": {
+		"groups": [
+			"ButtonMergeSwitch"
+		],
+		"methods": [
+			"GetGesteamImage",
+			"ObToolBarToDocument",
+			"ObToolBarToObMergeOptions",
+			"SetMergeOptionFormOb",
+			"UI_MergeOptions",
+			"WP_Print_Gesteam",
+			"WP_Set4Dexpression_Gesteam"
+		],
+		"classes": [
+			"MergeOptions"
+		]
+	},
 	"ImportExport Dialogs": {
 		"forms": [
 			"D_Import"
@@ -51,7 +81,6 @@
 			"WP_Set4Ddate",
 			"WP_Set4Ddisplay",
 			"WP_Set4Dexpression",
-			"WP_Set4Dexpression_Gesteam",
 			"WP_Set4Durl",
 			"WP_SetAlign",
 			"WP_SetBackgroundClip",
@@ -131,7 +160,6 @@
 		],
 		"forms": [
 			"[SAMPLE]InputPalettes",
-			"[SAMPLE]InputToolBar",
 			"[SAMPLE]Output"
 		]
 	},
@@ -196,5 +224,9 @@
 			"WP GTB UpdateWidget"
 		]
 	},
-	"trash": {}
+	"trash": {
+		"groups": [
+			"(Dossier)"
+		]
+	}
 }

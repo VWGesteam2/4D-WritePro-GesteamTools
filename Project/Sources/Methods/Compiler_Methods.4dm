@@ -253,3 +253,28 @@ C_PICTURE:C286(zGetSamplePict; $0)
 
 //WP_Set4Dexpression_Gesteam
 C_TEXT:C284(WP_Set4Dexpression_Gesteam; $1)
+
+//findStrId
+C_OBJECT:C1216(findStrId; $1)
+C_TEXT:C284(findStrId; $2)
+
+//WP_Print_Gesteam
+C_BOOLEAN:C305(WP_Print_Gesteam; $1)
+
+//GetGesteamImage
+C_PICTURE:C286(GetGesteamImage; $0)
+
+//ObToolBarToDocument
+C_OBJECT:C1216(ObToolBarToDocument; $0)
+C_OBJECT:C1216(ObToolBarToDocument; $1)
+
+//ObToolBarToObMergeOptions
+C_OBJECT:C1216(ObToolBarToObMergeOptions; $0)
+C_OBJECT:C1216(ObToolBarToObMergeOptions; $1)
+
+//SetMergeOptionFormOb
+C_OBJECT:C1216(SetMergeOptionFormOb; $1)
+C_OBJECT:C1216(SetMergeOptionFormOb; $2)
+
+//UI_MergeOptions
+C_OBJECT:C1216(UI_MergeOptions; $1)

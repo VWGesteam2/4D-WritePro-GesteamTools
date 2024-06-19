@@ -2,6 +2,7 @@
 
 C_LONGINT:C283($page)
 C_BOOLEAN:C305($protectedDoc)
+var $MergeOption : cs:C1710.MergeOptions
 
 OBJECT SET ENABLED:C1123(*; "@"; False:C215)  //ACI0100560
 OBJECT SET ENTERABLE:C238(*; "@"; False:C215)  //ACI0100560
@@ -10,9 +11,9 @@ OBJECT SET ENTERABLE:C238(*; "@"; False:C215)  //ACI0100560
 If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be an object!")) //ACI0100560
 	
 	// check only on load
-	If (Form event code:C388=On Load:K2:1)
+	If (Form event code:C388=Sur chargement:K2:1)
 		If (Form:C1466.spellCheck#Null:C1517)
-			If (Value type:C1509(Form:C1466.spellCheck)=Is boolean:K8:9)
+			If (Value type:C1509(Form:C1466.spellCheck)=Est un booléen:K8:9)
 				OBJECT SET VISIBLE:C603(*; "tab8"; Form:C1466.spellCheck)  // true or false
 			End if 
 		End if 
@@ -81,6 +82,9 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 							UI_Tables("Toolbar")
 							
 							
+						: ($page=13)
+							
+							UI_MergeOptions()
 					End case 
 					
 				End if 
@@ -97,7 +101,14 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 		WP GET ATTRIBUTES:C1345(Form:C1466.selection.owner; wk protection enabled:K81:307; $protectedDoc)
 		OBJECT SET ENABLED:C1123(*; "btnProtected"; Not:C34($protectedDoc))
 		
+		C_LONGINT:C283($tmpHeaderFooterAutofit)
+		WP GET ATTRIBUTES:C1345(Form:C1466.selection.owner; wk header and footer autofit:K81:303; $tmpHeaderFooterAutofit)
 		
+		If ($tmpHeaderFooterAutofit=wk true:K81:174)
+			HeaderFooterAutofit:=True:C214
+		Else 
+			HeaderFooterAutofit:=False:C215
+		End if 
 	End if 
 	
 End if 

@@ -9,6 +9,9 @@ If (UI_isProtected(False:C215))  // false means do NOT take focus into account
 	
 Else 
 	
+	//Liste des images
+	OBJECT SET ENABLED:C1123(*; "PL_ImageList"; True:C214)
+	OBJECT SET ENABLED:C1123(*; "PL_ImageListInfo"; True:C214)
 	
 	C_OBJECT:C1216($form)
 	
@@ -36,7 +39,6 @@ Else
 	End if 
 	
 End if 
-
 
 // the tab buttons are always enabled
 OBJECT SET ENABLED:C1123(*; "tabBtn_@"; True:C214)

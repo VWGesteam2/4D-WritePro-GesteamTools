@@ -12,7 +12,7 @@ C_OBJECT:C1216(oForm)
 C_POINTER:C301($ptrSource; $ptrTarget)
 
 Case of 
-	: (Form event code:C388=On Load:K2:1)
+	: (Form event code:C388=Sur chargement:K2:1)
 		
 		//If (oForm=Null)
 		
@@ -33,7 +33,8 @@ Case of
 			"tabBtn_Tables"; \
 			"tabBtn_Protection"; \
 			"tabBtn_ImportExport"; \
-			"tabBtn_FindAndReplace")
+			"tabBtn_FindAndReplace"; \
+			"tabBtn_MergeOptions")
 		
 		oForm.SidebarTabs:=cs:C1710.Toolbar.new($_buttonNames; "TabArea")
 		
@@ -70,10 +71,10 @@ Case of
 		
 		SET TIMER:C645(10)
 		
-	: (Form event code:C388=On Resize:K2:27)
+	: (Form event code:C388=Sur redimensionnement:K2:27)
 		UI_Palette
 		
-	: (Form event code:C388=On Bound Variable Change:K2:52)
+	: (Form event code:C388=Sur modif variable liée:K2:52)
 		
 		$setupOK:=SetupLocalVariables
 		
@@ -81,7 +82,7 @@ Case of
 		
 		SET TIMER:C645(-1)
 		
-	: (Form event code:C388=On Timer:K2:25)  //| (Form event=On Outside Call)
+	: (Form event code:C388=Sur minuteur:K2:25)  //| (Form event=On Outside Call)
 		
 		SET TIMER:C645(0)
 		
@@ -91,8 +92,8 @@ Case of
 		
 		//UI_Palette
 		
-		$ptrSource:=OBJECT Get pointer:C1124(Object subform container:K67:4)
-		$ptrTarget:=OBJECT Get pointer:C1124(Object named:K67:5; "PaletteSubform")
+		$ptrSource:=OBJECT Get pointer:C1124(Objet conteneur sous formulaire:K67:4)
+		$ptrTarget:=OBJECT Get pointer:C1124(Objet nommé:K67:5; "PaletteSubform")
 		
 		If (Not:C34(Is nil pointer:C315($ptrSource)))
 			If (Not:C34(Undefined:C82($ptrSource->)))
@@ -113,7 +114,7 @@ Case of
 		//UI_Palette
 		
 		
-	: (Form event code:C388=On Unload:K2:2)
+	: (Form event code:C388=Sur libération:K2:2)
 		
 		CLEAR VARIABLE:C89(oForm)
 		

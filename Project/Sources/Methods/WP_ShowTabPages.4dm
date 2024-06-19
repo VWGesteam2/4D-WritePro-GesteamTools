@@ -16,6 +16,7 @@ Possible values inside collection for sidebar
 "Protection"
 "ImportExport"
 "FindAndReplace"
+"MergeOptions"
 
 Possible values inside collection for toolbar
 
@@ -30,6 +31,7 @@ Possible values inside collection for toolbar
 "Protection"
 "ImportExport"
 "FindAndReplace"
+"MergeOptions"
 
 */
 

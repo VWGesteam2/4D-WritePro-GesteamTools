@@ -1,22 +1,23 @@
-﻿{
+{
 	"First Record": "First Record",
 	"Previous Record": "Previous Record",
 	"Next Record": "Next Record",
-	"Last Record": "Last Record",
 	"Delete Record": "Delete Record",
 	"Cancel": "Cancel",
 	"OK": "Accept",
 	"Record Number": "Record Position within Selection",
-	"FontStyle": ":xliff:FontStyle",
 	"Margins": ":xliff:MarginsAlignments",
 	"Tabulations": ":xliff:Tabulations",
 	"Sizes": ":xliff:Sizes",
 	"Frames": ":xliff:Frames",
 	"Backgrounds": ":xliff:Background",
-	"Information": ":xliff:Information",
 	"Document": ":xliff:Document",
 	"Bookmarks": ":xliff:Bookmarks",
 	"NewBookmark": ":xliff:tipNewBookmark",
 	"NewTabulation": ":xliff:tipNewTab",
-	"DeleteTab": ":xliff:tipDeleteTab"
+	"DeleteTab": ":xliff:tipDeleteTab",
+	"Information": ":xliff:Information",
+	"FontStyle": ":xliff:FontStyle",
+	"Last Record": "Last Record",
+	"InterdiDiffNbSe": "Si est activée, alors seuls les documents avec le même nombre de section pourront être fusionnés avec ce document.\r\rDans le cas contraire une erreur sera envoyée."
 }
