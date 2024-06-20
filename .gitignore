@@ -1,35 +1,58 @@
+#--------------------------------
+# Ignore invisible files/folders
+#--------------------------------
+.*
+!.git*
 
-# ----------------------------------
-# Trouvé sur le net et légérement modifié : ici https://discuss.4d.com/t/project-mode-gitignore/14861/7
-# -------------------
-#Inspired by Tom Benedict's .gitignore
+.git/
 
-# Ignore all at the root.
-/*
+#--------------------------------
+# Ignore data file
+#--------------------------------
+[dD][aA][tT][aA]/
+*.4DD
+*.4DIndx
+*.4DIndy
+*.Match
+*.journal
 
-# Except:
-!.gitignore
-!Resources
-!Project
-!Documentation
-!README.md
-!README/
+#--------------------------------
+# Ignore derived data
+#--------------------------------
+Project/DerivedData/
 
-#Also ignore
-Project/DerivedData
-Resources/Cache
-Resources/Private
-*.sublime*
+#--------------------------------
+# Ignore components
+#--------------------------------
+Components/
+
+#--------------------------------
+# Ignore logs
+#--------------------------------
+Logs/
+
+#--------------------------------
+# Ignore settings & preferences
+#--------------------------------
+Preferences/
+!4DPop AppMaker.*
+
+Settings/
+#!buildApp.4DSettings
+
 userPreferences.*/
-Project/Sources/Classes/Private
-# --> ha si on veux les _*.4dm <--
-# _*.4dm
-Project/Sources/Methods/Private
+
+#--------------------------------
+# Miscellaneous
+#--------------------------------
+*__Orphan__*
+*symbols.txt
+ehthumbs.db
+Thumbs.db
+
+#--------------------------------
+# Added by user
+#--------------------------------
 Project/Trash
-
-# Ignore everywhere.
-__MACOSX
-# ----------------------------------
-
-# Ajout du dossier logs de compilation
-data/Logs/
+Resources/php.ini
+Libraries
