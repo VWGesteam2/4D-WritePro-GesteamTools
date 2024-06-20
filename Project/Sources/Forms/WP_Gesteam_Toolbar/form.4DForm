@@ -652,7 +652,7 @@
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"focusable": false,
-					"text": ":xliff:MergeOptions",
+					"text": ":xliff:MergeAggregate",
 					"style": "custom",
 					"radioGroup": "Group34",
 					"method": "ObjectMethods/tabBtn_MergeOptions.4dm",
@@ -2841,6 +2841,21 @@
 					"dataSource": "ImagesDocument",
 					"focusable": false,
 					"method": "ObjectMethods/PL_ImageList.4dm"
+				},
+				"btn_RenamePicture": {
+					"type": "button",
+					"text": "+",
+					"top": 32,
+					"left": 770,
+					"width": 18,
+					"height": 18,
+					"events": [
+						"onClick"
+					],
+					"focusable": false,
+					"style": "toolbar",
+					"fontWeight": "bold",
+					"tooltip": "Renommer l'image"
 				}
 			}
 		},
@@ -4265,7 +4280,7 @@
 				"btn_MergeOptions_ProhibitsDifferentSections": {
 					"type": "checkbox",
 					"text": "Autoriser un nombre de section variable",
-					"top": 45,
+					"top": 65,
 					"left": 10,
 					"width": 240,
 					"height": 20,
@@ -4275,14 +4290,14 @@
 					"style": "toolbar",
 					"focusable": false,
 					"method": "ObjectMethods/btn_MergeOptions_ProhibitsDifferentSections.4dm",
-					"bottom": 65,
+					"bottom": 85,
 					"tooltip": "Si cette option est désactivée, il faudra nécessairement que tous les documents à fusionner aient le même nombre de section.\rDans le cas contraire la fusion ne sera pas faite et une erreur sera renvoyée.",
 					"dataSource": "MO_AllowSectionsDiff"
 				},
 				"btn_MergeOptions_CopyHeadersFooters": {
 					"type": "checkbox",
 					"text": "Fusionner les entête et pieds de page",
-					"top": 24,
+					"top": 45,
 					"left": 10,
 					"width": 240,
 					"height": 20,
@@ -4300,7 +4315,7 @@
 				},
 				"btn_MergeOptions_OptionsHeaderFooter": {
 					"type": "button",
-					"top": 24,
+					"top": 45,
 					"left": 250,
 					"width": 30,
 					"height": 20,
@@ -4321,7 +4336,7 @@
 				},
 				"btn_MergeOptions_OptionsSections": {
 					"type": "button",
-					"top": 45,
+					"top": 65,
 					"left": 250,
 					"width": 30,
 					"height": 20,
@@ -4339,6 +4354,65 @@
 					"fontWeight": "bold",
 					"method": "ObjectMethods/btn_MergeOptions_OptionsSections.4dm",
 					"tooltip": "Option avancée de la fusion des entêtes et pieds de pages"
+				},
+				"lbl_Merge": {
+					"type": "text",
+					"top": 30,
+					"left": 10,
+					"width": 270,
+					"height": 14,
+					"textAlign": "center",
+					"fontTheme": "additional",
+					"text": "Gestion des fusions",
+					"right": 280
+				},
+				"Line73": {
+					"type": "line",
+					"top": 30,
+					"left": 295,
+					"height": 50,
+					"stroke": "#888888",
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"lbl_Aggregate": {
+					"type": "text",
+					"top": 30,
+					"left": 310,
+					"width": 270,
+					"height": 14,
+					"textAlign": "center",
+					"fontTheme": "additional",
+					"text": "Gestion des liasses",
+					"right": 580
+				},
+				"cb_AggegateRestatNumPages": {
+					"type": "checkbox",
+					"text": "Conserver la numérotation des pages",
+					"top": 45,
+					"left": 310,
+					"width": 270,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"focusable": false,
+					"style": "toolbar",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/RestartNumPage"
+					},
+					"method": "ObjectMethods/cb_AggegateRestatNumPages.4dm",
+					"dataSource": "AggegateRestatNumPages"
+				},
+				"Line74": {
+					"type": "line",
+					"top": 30,
+					"left": 595,
+					"height": 50,
+					"stroke": "#888888",
+					"width": 0,
+					"startPoint": "topLeft"
 				}
 			}
 		}
@@ -4376,13 +4450,15 @@
 					"btn_HederFooterAutosize",
 					"PL_ImageListInfo",
 					"PL_ImageList",
+					"btn_RenamePicture",
 					"tempoMessage",
 					"ReplacementCount",
 					"ReplacementLabel",
 					"OptionRect",
 					"message",
 					"btn_MergeOptions_ProhibitsDifferentSections",
-					"btn_MergeOptions_CopyHeadersFooters"
+					"btn_MergeOptions_CopyHeadersFooters",
+					"cb_AggegateRestatNumPages"
 				]
 			},
 			"View 3": {
@@ -4415,5 +4491,5 @@
 			}
 		}
 	},
-	"geometryStamp": 3658
+	"geometryStamp": 3703
 }

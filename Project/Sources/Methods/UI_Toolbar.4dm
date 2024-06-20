@@ -84,7 +84,7 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 							
 						: ($page=13)
 							
-							UI_MergeOptions()
+							UI_MergeAggregate()
 					End case 
 					
 				End if 

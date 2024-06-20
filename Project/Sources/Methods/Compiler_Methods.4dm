@@ -277,4 +277,4 @@ C_OBJECT:C1216(SetMergeOptionFormOb; $1)
 C_OBJECT:C1216(SetMergeOptionFormOb; $2)
 
 //UI_MergeOptions
-C_OBJECT:C1216(UI_MergeOptions; $1)
+C_OBJECT:C1216(UI_MergeAggregate; $1)

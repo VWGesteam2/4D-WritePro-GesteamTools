@@ -22,7 +22,10 @@ Else
 	
 	If ($range.type=2)
 		$form.picture:=$range
+		OBJECT SET ENABLED:C1123(*; "btn_RenamePicture"; True:C214)
+		
 	Else 
+		OBJECT SET ENABLED:C1123(*; "btn_RenamePicture"; False:C215)
 		
 		$elements:=WP Get elements:C1550($range; wk type image:K81:192)
 		

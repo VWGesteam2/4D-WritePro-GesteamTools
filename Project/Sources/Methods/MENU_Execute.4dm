@@ -42,7 +42,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 						$options.extension:=$extension
 						
 						$form:="D_Import"
-						$win:=Open form window:C675($form; Movable form dialog box:K39:8; Horizontally centered:K39:1; Vertically centered:K39:4)
+						$win:=Open form window:C675($form; Form dialogue modal déplaçable:K39:8; Centrée horizontalement:K39:1; Centrée verticalement:K39:4)
 						DIALOG:C40($form; $options)
 					Else 
 						$options.newDocument:=True:C214
@@ -58,7 +58,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 						
 						If (ok=1)
 							$path:=document
-							$file:=Path to object:C1547($path; fk platform path:K87:2)
+							$file:=Path to object:C1547($path; fk chemin plateforme:K87:2)
 							
 							
 							$memoErrorMethod:=Method called on error:C704
@@ -82,7 +82,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 										CONFIRM:C162(Get localized string:C991("BrowseTheImportLog"); Get localized string:C991("Yes"); Get localized string:C991("No"))
 										
 										If (ok=1)
-											$win:=Open form window:C675("D_LogDisplay"; Movable form dialog box:K39:8; Horizontally centered:K39:1; Vertically centered:K39:4)
+											$win:=Open form window:C675("D_LogDisplay"; Form dialogue modal déplaçable:K39:8; Centrée horizontalement:K39:1; Centrée verticalement:K39:4)
 											DIALOG:C40("D_LogDisplay"; $newDocument.importLog)
 											CLOSE WINDOW:C154($win)
 										End if 
@@ -130,7 +130,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 						: ($action="exportHTML")
 							
 							$extension:="html"
-							$exportType:=wk web page complete:K81:2
+							$exportType:=wk page web complète:K81:2
 							
 							$options:=New object:C1471
 							$options.extra:=New object:C1471
@@ -199,7 +199,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 						$options.extra.defaultScreenDPI:=192
 						
 						$formName:=$options.extra.form
-						$win:=Open form window:C675($formName; Movable form dialog box:K39:8; Horizontally centered:K39:1; Vertically centered:K39:4)
+						$win:=Open form window:C675($formName; Form dialogue modal déplaçable:K39:8; Centrée horizontalement:K39:1; Centrée verticalement:K39:4)
 						DIALOG:C40($options.extra.form; $options)
 						
 						OB REMOVE:C1226($options; "extra")
@@ -209,12 +209,12 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer"))
 					
 					If (ok=1)
 						
-						$path:=Select document:C905(""; ""; ""; File name entry:K24:17)
+						$path:=Select document:C905(""; ".txt"; ""; Saisie nom de fichier:K24:17)
 						
 						If (ok=1) & ($path#"")
 							
 							$path:=document
-							$file:=Path to object:C1547($path; fk platform path:K87:2)
+							$file:=Path to object:C1547($path; fk chemin plateforme:K87:2)
 							$file.extension:=$extension
 							$path:=$file.name+"."+$file.extension
 							

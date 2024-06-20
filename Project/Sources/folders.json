@@ -21,7 +21,7 @@
 			"ObToolBarToDocument",
 			"ObToolBarToObMergeOptions",
 			"SetMergeOptionFormOb",
-			"UI_MergeOptions",
+			"UI_MergeAggregate",
 			"WP_Print_Gesteam",
 			"WP_Set4Dexpression_Gesteam"
 		],

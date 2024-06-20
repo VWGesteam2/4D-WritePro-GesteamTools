@@ -10,6 +10,10 @@ If ($MergeOptions#Null:C1517)
 	
 	$menuRef:=Create menu:C408
 	
+	APPEND MENU ITEM:C411($menuRef; "(<I<B Gestion avancée de fusion des sections")
+	
+	APPEND MENU ITEM:C411($menuRef; "-")
+	
 	APPEND MENU ITEM:C411($menuRef; "Ne fusionner que les sections existantes dans ce document")
 	SET MENU ITEM METHOD:C982($menuRef; -1; "btnM_S_KeepOnlySections1")
 	If ($MergeOptions.Get_KeepOnlySections1())

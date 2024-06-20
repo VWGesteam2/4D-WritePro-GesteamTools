@@ -1758,10 +1758,10 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
           <target>Tamanho original</target>
         </trans-unit>
       </group>
-      <group resname="PaletteMergeOption">
-	    <trans-unit id="Gesteam_MergeOptions" resname="MergeOptions">
+      <group resname="PaletteMergeAggregate">
+	    <trans-unit id="Gesteam_MergeAggregate" resname="MergeAggregate">
           <source>Merge options</source>
-          <target>(FR) Options de fusion</target>
+          <target>(FR) Fusion / Agrégation</target>
         </trans-unit>
       </group>
     </body>

@@ -26,3 +26,6 @@ Else
 	MO_ReverseFootersOrder:=$MergeOption.Get_ReverseFootersOrder()
 	MO_AllowSectionsDiff:=Not:C34($MergeOption.Get_ProhibitsDifferentSections())
 End if 
+
+OBJECT SET ENABLED:C1123(*; "lbl_Aggregate"; False:C215)
+OBJECT SET ENABLED:C1123(*; "cb_AggegateRestatNumPages"; False:C215)

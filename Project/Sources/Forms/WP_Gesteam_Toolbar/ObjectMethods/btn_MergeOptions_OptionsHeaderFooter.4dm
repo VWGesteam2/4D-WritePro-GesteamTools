@@ -10,6 +10,10 @@ If ($MergeOptions#Null:C1517)
 	
 	$menuRef:=Create menu:C408
 	
+	APPEND MENU ITEM:C411($menuRef; "(<I<B Gestion avancée des entêtes et pieds de pages")
+	
+	APPEND MENU ITEM:C411($menuRef; "-")
+	
 	APPEND MENU ITEM:C411($menuRef; "Activer le redimensionnement automatique des entêtes et des pieds")
 	SET MENU ITEM METHOD:C982($menuRef; -1; "btnM_S_HFAutoHeight")
 	If ($MergeOptions.Get_HeaderFooterAutoHeight())
@@ -41,7 +45,7 @@ If ($MergeOptions#Null:C1517)
 	Else 
 		SET MENU ITEM ICON:C984($menuRef; -1; $cheminImage{1})
 	End if 
-	If ($MergeOptions.Get_ProhibitsDifferentSections())
+	If ($MergeOptions.Get_ProhibitsDifferentSections() | $MergeOptions.Get_KeepOnlyAllSectionsExist())
 		DISABLE MENU ITEM:C150($menuRef; -1)
 	End if 
 	
@@ -53,7 +57,7 @@ If ($MergeOptions#Null:C1517)
 	Else 
 		SET MENU ITEM ICON:C984($menuRef; -1; $cheminImage{1})
 	End if 
-	If ($MergeOptions.Get_ProhibitsDifferentSections() | Not:C34($MergeOptions.Get_MergeHeadersFooters()))
+	If ($MergeOptions.Get_ProhibitsDifferentSections() | Not:C34($MergeOptions.Get_MergeHeadersFooters() | $MergeOptions.Get_KeepOnlyAllSectionsExist()))
 		DISABLE MENU ITEM:C150($menuRef; -1)
 	End if 
 	
