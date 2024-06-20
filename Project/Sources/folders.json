@@ -1,4 +1,9 @@
 {
+	"CLASSES": {
+		"classes": [
+			"Toolbar"
+		]
+	},
 	"ImportExport Dialogs": {
 		"forms": [
 			"D_Import"
@@ -15,50 +20,28 @@
 			"UI_Palette",
 			"UI_PaletteAlignments",
 			"UI_PaletteFonts",
-			"UI_PaletteFrames",
 			"UI_PaletteInfos",
 			"UI_PaletteSizes",
 			"UI_PaletteTabulations",
 			"UI_Selector",
-			"WP_4DexpressionCompute",
-			"WP_4DexpressionFreeze",
 			"WP_CopyPasteMenu",
 			"WP_FillCurrent",
-			"WP_GetBackgroundClip",
 			"WP_GetBackgroundColor",
-			"WP_GetBackgroundOrigin",
-			"WP_GetBackgroundPosition",
-			"WP_GetBackgroundRepeat",
 			"WP_GetBackgroundSize",
 			"WP_GetBackgroundURL",
 			"WP_GetDecoInfo",
-			"WP_GetExpressions",
 			"WP_GetFontInfo",
 			"WP_GetFontVertAlign",
-			"WP_GetFrame",
-			"WP_GetImageUrl",
-			"WP_GetListStyle",
-			"WP_GetMargins",
-			"WP_GetParagraphVertAlign",
 			"WP_GetSizes",
 			"WP_GetTabInfo",
-			"WP_GetTextAlign",
 			"WP_GetTextIndent",
 			"WP_GetTextLineHeight",
 			"WP_GetTextTransform",
 			"WP_GetTextUnderline",
-			"WP_GetUserUnit",
 			"WP_Set4Ddate",
-			"WP_Set4Ddisplay",
-			"WP_Set4Dexpression",
-			"WP_Set4Durl",
 			"WP_SetAlign",
-			"WP_SetBackgroundClip",
 			"WP_SetBackgroundColor",
-			"WP_SetBackgroundOrigin",
 			"WP_SetBackgroundPicture",
-			"WP_SetBackgroundPosition",
-			"WP_SetBackgroundRepeat",
 			"WP_SetBackgroundSize",
 			"WP_SetDocInfos",
 			"WP_SetFontBold",
@@ -66,10 +49,6 @@
 			"WP_SetFontItalic",
 			"WP_SetFontSize",
 			"WP_SetFontVertAlign",
-			"WP_SetFrame",
-			"WP_SetListStyle",
-			"WP_SetMargins",
-			"WP_SetParagraphVertAlign",
 			"WP_SetSizes",
 			"WP_SetTabIndent",
 			"WP_SetTabInfos",
@@ -80,8 +59,7 @@
 			"WP_SetTextLinetrough",
 			"WP_SetTextShadow",
 			"WP_SetTextTransform",
-			"WP_SetTextUnderline",
-			"WP_SetUserUnit"
+			"WP_SetTextUnderline"
 		]
 	},
 	"PaletteForms": {
@@ -122,6 +100,9 @@
 			"WP_GetTextShadow",
 			"WP_SelectBookmark",
 			"WP_SetFont"
+		],
+		"forms": [
+			"WP_Palette_FindAndReplace"
 		]
 	},
 	"Table Forms": {
@@ -129,7 +110,6 @@
 			"SAMPLE"
 		],
 		"forms": [
-			"[SAMPLE]InputPalettes",
 			"[SAMPLE]InputToolBar",
 			"[SAMPLE]Output"
 		]
@@ -140,22 +120,33 @@
 			"TB_GotoPage",
 			"TB_setAutomaticActions",
 			"TB_SwitchSkin"
+		],
+		"forms": [
+			"D_FindOptions"
 		]
 	},
 	"WP_Private": {
 		"methods": [
+			"_and",
+			"_bool",
+			"_or",
 			"MENU_Display",
 			"MENU_Execute",
 			"UI_isProtected",
 			"UI_PaletteFindAndReplace",
+			"UI_PaletteImage",
 			"UI_PaletteImportExport",
 			"UI_PaletteProtect",
 			"UI_PaletteStylesheets",
+			"UI_PictureSettings",
 			"UI_Tables",
 			"UI_Toolbar",
 			"UI_ToolbarStylesheets",
 			"UI_TranslateConstant",
+			"WP_ApplyPictureSettings",
 			"WP_BorderMenu",
+			"WP_FR_InitOptions",
+			"WP_GetPictureSettings",
 			"WP_GetProtections",
 			"WP_GetStyleAttributesByGroup",
 			"WP_GetStyleAttributesByType",
@@ -164,11 +155,13 @@
 			"WP_GetStylesheetType",
 			"WP_IgnoreError",
 			"WP_InsertSoftHyphen",
+			"WP_PictureSaveSettings",
 			"WP_RemoveSoftHyphen",
 			"WP_Request",
+			"WP_Ruler",
+			"WP_SelectText",
 			"WP_SetCellProtection",
 			"WP_SetDocumentProtection",
-			"WP_SetImageUrl",
 			"WP_SetParagraphProtection",
 			"WP_SetRowProtection",
 			"WP_SetTableProtection",
@@ -190,9 +183,11 @@
 	},
 	"WP_Public": {
 		"methods": [
+			"WP RemoveDocumentIndex",
+			"WP SetDocumentIndex",
 			"WP ShowTabPages",
 			"WP SwitchToolbar",
-			"WP UpdateWidget"
+			"WP UpdateWidget_OLD"
 		]
 	},
 	"trash": {}

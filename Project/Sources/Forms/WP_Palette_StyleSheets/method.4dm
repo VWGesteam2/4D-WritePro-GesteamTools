@@ -32,23 +32,23 @@ Case of
 		//WP_GetStyleSheets
 		//End if 
 		
-		
 		//OBJECT SET STYLE SHEET(*;"@";Automatic style sheet_additional)
 		
-		skinAppliedSub:=UI_ApplySkin
-		SET TIMER:C645(-1)
+		oForm.skinAppliedSub:=UI_ApplySkin
 		
-		//SetupLocalVariables    // ACI0101427  (removed here…)
-		
-	: (Form event code:C388=On Bound Variable Change:K2:52) | (Form event code:C388=On Timer:K2:25)
-		SET TIMER:C645(0)
-		
-		$setupOK:=SetupLocalVariables  // ACI0101427  (…reactivated here)
-		
-		If (Not:C34(skinAppliedSub))  // 2nd chance
-			skinAppliedSub:=UI_ApplySkin
+		If (Form:C1466#Null:C1517)
+			SET TIMER:C645(-1)  // IF events are NOT managed in the area, then Form will be null (ACI0102661)
 		End if 
 		
+	: (Form event code:C388=On Bound Variable Change:K2:52) | (Form event code:C388=On Timer:K2:25)
+		
+		SET TIMER:C645(0)
+		
+		$setupOK:=SetupLocalVariables
+		
+		If (oForm.skinAppliedSub=False:C215)  // may have changed on bound variable change
+			oForm.skinAppliedSub:=UI_ApplySkin
+		End if 
 		
 		If (Form:C1466.selection.type=2)
 			// static pict selected
