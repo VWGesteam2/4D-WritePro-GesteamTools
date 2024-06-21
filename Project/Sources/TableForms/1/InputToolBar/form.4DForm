@@ -5,7 +5,8 @@
 	"markerBreak": 217,
 	"markerFooter": 227,
 	"events": [
-		"onLoad"
+		"onLoad",
+		"onDoubleClick"
 	],
 	"pageFormat": {
 		"paperName": "A4",
@@ -72,7 +73,8 @@
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "move"
 				},
 				"Button4": {
 					"type": "button",
@@ -86,7 +88,8 @@
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "move"
 				},
 				"Button": {
 					"type": "button",
@@ -130,7 +133,7 @@
 				"Button9": {
 					"type": "button",
 					"top": 110,
-					"left": 954,
+					"left": 957,
 					"width": 127,
 					"height": 21,
 					"sizingY": "fixed",
@@ -187,10 +190,10 @@
 				},
 				"Variable": {
 					"type": "input",
-					"top": 722,
-					"left": 533,
+					"top": 726,
+					"left": 558,
 					"width": 147,
-					"height": 131,
+					"height": 129,
 					"sizingY": "move",
 					"dataSource": "vSVG",
 					"dataSourceTypeHint": "picture",
@@ -231,8 +234,8 @@
 				},
 				"Button12": {
 					"type": "button",
-					"top": 819,
-					"left": 245,
+					"top": 771,
+					"left": 190,
 					"width": 147,
 					"height": 21,
 					"sizingY": "move",
@@ -245,8 +248,8 @@
 				},
 				"Variable1": {
 					"type": "input",
-					"top": 823,
-					"left": 437,
+					"top": 827,
+					"left": 256,
 					"width": 73,
 					"height": 17,
 					"sizingY": "move",
@@ -271,7 +274,8 @@
 					"method": "ObjectMethods/Button16.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "move"
 				},
 				"Button8": {
 					"type": "button",
@@ -285,7 +289,8 @@
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "move"
 				},
 				"Button15": {
 					"type": "button",
@@ -299,11 +304,12 @@
 					"method": "ObjectMethods/Button15.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"sizingX": "move"
 				},
 				"Button17": {
 					"type": "button",
-					"top": 823,
+					"top": 839,
 					"left": 740,
 					"width": 136,
 					"height": 20,
@@ -326,7 +332,7 @@
 					"sizingY": "grow",
 					"dataSource": "[SAMPLE:1]WP:2",
 					"hideFocusRing": true,
-					"spellcheck": true,
+					"spellcheck": false,
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
 					"dpi": 0,
@@ -335,22 +341,23 @@
 					"method": "ObjectMethods/WParea.4dm",
 					"events": [
 						"onLoad",
+						"onClick",
+						"onDoubleClick",
 						"onLosingFocus",
 						"onGettingFocus",
-						"onBeforeKeystroke",
-						"onAfterKeystroke",
 						"onSelectionChange",
 						"onAfterEdit"
 					],
 					"enterable": true,
 					"showSelection": true,
-					"keyboardDialect": "fr-be"
+					"keyboardDialect": "fr-be",
+					"contextMenu": "none"
 				},
 				"Button11": {
 					"type": "button",
 					"text": "SET EXPRESSION",
-					"top": 239,
-					"left": 944,
+					"top": 172,
+					"left": 957,
 					"width": 137,
 					"height": 28,
 					"events": [
@@ -359,13 +366,14 @@
 					"method": "ObjectMethods/Button11.4dm",
 					"sizingX": "move",
 					"focusable": false,
-					"stroke": "#da70d6"
+					"stroke": "#da70d6",
+					"sizingY": "fixed"
 				},
 				"Button18": {
 					"type": "button",
 					"text": "SET URL",
-					"top": 307,
-					"left": 944,
+					"top": 220,
+					"left": 957,
 					"width": 137,
 					"height": 28,
 					"events": [
@@ -374,13 +382,14 @@
 					"method": "ObjectMethods/Button18.4dm",
 					"sizingX": "move",
 					"focusable": false,
-					"stroke": "#da70d6"
+					"stroke": "#da70d6",
+					"sizingY": "fixed"
 				},
 				"Button19": {
 					"type": "button",
-					"text": "BLUE+YELLOW",
-					"top": 482,
-					"left": 944,
+					"text": "PICT SETTINGS",
+					"top": 268,
+					"left": 957,
 					"width": 137,
 					"height": 28,
 					"events": [
@@ -389,22 +398,267 @@
 					"method": "ObjectMethods/Button19.4dm",
 					"sizingX": "move",
 					"focusable": false,
-					"stroke": "#da70d6"
+					"stroke": "#9400d3",
+					"fontWeight": "bold",
+					"sizingY": "fixed"
 				},
 				"Button20": {
 					"type": "button",
 					"text": "Import Write Pro Doc",
 					"top": 47,
-					"left": 961,
+					"left": 957,
 					"width": 187,
 					"height": 37,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button20.4dm",
-					"focusable": true
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button21": {
+					"type": "button",
+					"text": "Create preview",
+					"top": 353,
+					"left": 1226,
+					"width": 180,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button21.4dm",
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Input": {
+					"type": "input",
+					"left": 964,
+					"top": 395,
+					"width": 442,
+					"height": 305,
+					"dataSource": "svgPict",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "proportionalCenter",
+					"sizingX": "move",
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fill": "automatic",
+					"sizingY": "fixed"
+				},
+				"Button22": {
+					"type": "button",
+					"text": "Create preview (no param)",
+					"top": 353,
+					"left": 964,
+					"width": 180,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button22.4dm",
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button23": {
+					"type": "button",
+					"text": "Skin",
+					"top": 798,
+					"left": 964,
+					"width": 148,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move",
+					"sizingY": "fixed",
+					"method": "ObjectMethods/Button23.4dm",
+					"focusable": false
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 730,
+					"left": 1331,
+					"width": 58,
+					"height": 26,
+					"fill": "#434343",
+					"sizingX": "move"
+				},
+				"Radio Button": {
+					"type": "radio",
+					"text": "Radio",
+					"top": 464,
+					"left": 964,
+					"width": 158,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"radioGroup": "XXX",
+					"sizingX": "move"
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"text": "Radio",
+					"top": 501,
+					"left": 964,
+					"width": 158,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"radioGroup": "XXX",
+					"sizingX": "move"
+				},
+				"Radio Button2": {
+					"type": "radio",
+					"text": "Radio",
+					"top": 538,
+					"left": 964,
+					"width": 158,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"radioGroup": "XXX",
+					"sizingX": "move"
+				},
+				"Radio Button3": {
+					"type": "radio",
+					"text": "Radio",
+					"top": 575,
+					"left": 964,
+					"width": 158,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"style": "custom",
+					"radioGroup": "XXX",
+					"sizingX": "move"
+				},
+				"Popup Liste déroulante": {
+					"type": "dropdown",
+					"left": 1213,
+					"top": 56,
+					"width": 176,
+					"height": 28,
+					"events": [
+						"onDataChange"
+					],
+					"action": "pageSize",
+					"sizingX": "move"
+				},
+				"Ligne": {
+					"type": "line",
+					"top": -2,
+					"left": 930,
+					"width": 1,
+					"height": 943,
+					"stroke": "#ff0000",
+					"sizingX": "move"
+				},
+				"Button24": {
+					"type": "button",
+					"text": "preview",
+					"top": 871,
+					"left": 964,
+					"width": 130,
+					"height": 28,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button24.4dm",
+					"sizingX": "move"
+				},
+				"Button25": {
+					"type": "button",
+					"top": 797,
+					"left": 190,
+					"width": 147,
+					"height": 21,
+					"sizingY": "move",
+					"text": "Modify Normal",
+					"focusable": false,
+					"method": "ObjectMethods/Button25.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button26": {
+					"type": "button",
+					"top": 785,
+					"left": 388,
+					"width": 84,
+					"height": 26,
+					"sizingY": "move",
+					"text": "CONTEXT",
+					"focusable": false,
+					"method": "ObjectMethods/Button26.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button27": {
+					"type": "button",
+					"text": "Portrait / Landscape",
+					"top": 172,
+					"left": 1226,
+					"width": 137,
+					"height": 28,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button27.4dm",
+					"sizingX": "move",
+					"focusable": false,
+					"stroke": "#da70d6",
+					"sizingY": "fixed"
 				}
-			}
+			},
+			"entryOrder": [
+				"Button20",
+				"Popup Liste déroulante",
+				"Button9",
+				"Button11",
+				"Button18",
+				"Button19",
+				"Button22",
+				"Button21",
+				"Input",
+				"Radio Button",
+				"Radio Button1",
+				"Radio Button2",
+				"Radio Button3",
+				"Button6",
+				"Button7",
+				"Button2",
+				"Button3",
+				"Button10",
+				"Variable",
+				"Button",
+				"Button1",
+				"Button16",
+				"Button8",
+				"Button15",
+				"Button13",
+				"Button12",
+				"Button26",
+				"Button14",
+				"Button25",
+				"Button5",
+				"Button4",
+				"Button23",
+				"Variable1",
+				"Button17",
+				"Button24",
+				"WParea",
+				"WPtoolbar",
+				"Button27"
+			]
 		},
 		{
 			"objects": {}
@@ -415,14 +669,14 @@
 		"kind": "form"
 	},
 	"method": "method.4dm",
-	"geometryStamp": 57,
-	"rightMargin": 20,
-	"bottomMargin": 20,
+	"geometryStamp": 364,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
 		"views": {
 			"View 1": {}
 		}
-	}
+	},
+	"width": 1500,
+	"height": 961
 }

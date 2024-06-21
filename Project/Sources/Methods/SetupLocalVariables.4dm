@@ -6,7 +6,7 @@ C_LONGINT:C283($typeSelection)
 
 C_OBJECT:C1216(oTempArea)
 
-C_OBJECT:C1216(skin)
+//C_OBJECT(skin)
 
 C_TEXT:C284(userUnit)  //•
 C_TEXT:C284(numFormat)  //•
@@ -23,13 +23,20 @@ End if
 maxTabValue:=138  // inches (value will change if any other unit)
 
 If (Form:C1466.skin#Null:C1517)
-	skin:=Form:C1466.skin
-Else 
-	CLEAR VARIABLE:C89(skin)
+	oForm.skin:=Form:C1466.skin
+	oForm.skinAppliedMain:=False:C215  // will force skin to apply again
+	oForm.skinAppliedSub:=False:C215  // will force skin to apply again
+End if 
+
+//ACI0103661 report to v19R7
+If (Not:C34(Undefined:C82(Form:C1466.eventCode)))  //2023/01/25 by RL
+	oForm.eventCode:=Form:C1466.eventCode
 End if 
 
 If (Form:C1466.selection#Null:C1517)
 	
+	
+	Form:C1466.document:=Form:C1466.selection.owner
 	$typeSelection:=Form:C1466.selection.type
 	
 	Case of 
@@ -93,6 +100,9 @@ If (Form:C1466.selection#Null:C1517)
 	
 	$ok:=True:C214
 	
+	
+Else 
+	Form:C1466.document:=Null:C1517
 End if 
 
 

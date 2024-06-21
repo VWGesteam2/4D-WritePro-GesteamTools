@@ -1,111 +1,123 @@
 {
 	"forms": {
+		"D_DocInfo": {
+			"timeStamp": "2024-06-20T14:59:17.021Z",
+			"destination": "detailScreen"
+		},
 		"D_Export": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.630Z",
 			"destination": "detailScreen"
 		},
 		"D_FindOptions": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.027Z",
 			"destination": "detailScreen"
 		},
 		"D_Import": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.032Z",
 			"destination": "detailScreen"
 		},
 		"D_LogDisplay": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.033Z",
+			"destination": "detailScreen"
+		},
+		"D_PictureSettings": {
+			"timeStamp": "2024-06-20T15:00:03.633Z",
 			"destination": "detailScreen"
 		},
 		"D_Request": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.041Z",
+			"destination": "detailScreen"
+		},
+		"D_TableSettings": {
+			"timeStamp": "2024-06-20T15:00:03.634Z",
 			"destination": "detailScreen"
 		},
 		"IconTest": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.635Z",
 			"destination": "detailScreen"
 		},
 		"WP_CustomColors": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.635Z",
 			"destination": "detailScreen"
 		},
-		"WP_Gesteam_Toolbar": {
-			"timeStamp": "2024-05-29T11:35:17.869Z",
-			"destination": "detailScreen",
-			"shared": true
-		},
 		"WP_Palette": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.637Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Alignments": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.637Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Backgrounds": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.640Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_BookMarks": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.090Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Expressions": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.642Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_FindAndReplace": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.644Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Fonts": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.104Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Frames": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.106Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_ImportExport": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.109Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Protection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.649Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Sizes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.114Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_StyleSheets": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.118Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Tables": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.650Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_Palette_Tabulations": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.125Z",
 			"destination": "detailScreen",
 			"shared": true
 		},
 		"WP_StyleSheetEdit": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.126Z",
 			"destination": "detailScreen"
+		},
+		"WP_Toolbar": {
+			"timeStamp": "2024-06-20T15:00:03.657Z",
+			"destination": "detailScreen",
+			"shared": true
 		}
 	}
 }

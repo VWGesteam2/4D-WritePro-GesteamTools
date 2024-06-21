@@ -1,23 +1,23 @@
 {
 	"forms": {
-		"InputPalettes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"InputBothBars": {
+			"timeStamp": "2024-06-20T14:59:17.223Z",
+			"destination": "detailScreen"
+		},
+		"InputSideBar": {
+			"timeStamp": "2024-06-20T15:00:03.677Z",
 			"destination": "detailScreen"
 		},
 		"InputToolBar": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"destination": "detailScreen"
-		},
-		"InputToolBarORDA": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.679Z",
 			"destination": "detailScreen"
 		},
 		"Input_ALL_Palettes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.241Z",
 			"destination": "detailScreen"
 		},
 		"Output": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.680Z",
 			"destination": "listScreen"
 		}
 	}

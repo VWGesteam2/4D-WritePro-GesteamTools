@@ -1,10 +1,11 @@
 
-C_LONGINT:C283($paletteID)
+var $paletteID; $typeSelection : Integer
+var $setupOK : Boolean
+var $info : Object
+
+//var $p1; $p2 : Pointer
+
 $paletteID:=4
-
-C_BOOLEAN:C305($setupOK)
-
-C_LONGINT:C283($typeSelection)
 $typeSelection:=Form:C1466.selection.type
 
 Case of 
@@ -14,12 +15,11 @@ Case of
 			oForm:=New object:C1471
 		End if 
 		
-		(OBJECT Get pointer:C1124(Object named:K67:5; "rbValues"))->:=1
-		(OBJECT Get pointer:C1124(Object named:K67:5; "rbExpressions"))->:=0
-		(OBJECT Get pointer:C1124(Object named:K67:5; "rbScopeSelection"))->:=0
+		oForm.skinAppliedSub:=UI_ApplySkin
 		
-		skinAppliedSub:=UI_ApplySkin
-		SET TIMER:C645(-1)
+		If (Form:C1466#Null:C1517)
+			SET TIMER:C645(-1)  // IF events are NOT managed in the area, then Form will be null (ACI0102661)
+		End if 
 		
 	: (Form event code:C388=On Bound Variable Change:K2:52) | (Form event code:C388=On Timer:K2:25)
 		
@@ -27,15 +27,16 @@ Case of
 		
 		$setupOK:=SetupLocalVariables
 		
-		If (Not:C34(skinAppliedSub))  // 2nd chance
-			skinAppliedSub:=UI_ApplySkin
+		If (oForm.skinAppliedSub=False:C215)  // may have changed on bound variable change
+			oForm.skinAppliedSub:=UI_ApplySkin
 		End if 
 		
 		UI_PaletteInfos
 		
 		If ($setupOK) & ($typeSelection#2)
 			WP_GetDocInfos(Form:C1466.selection[wk owner:K81:168])
-			WP_GetExpressions
+			WP_GetURL
+			WP_GetFormulas
 		End if 
 		
 	: (Form event code:C388=On Data Change:K2:15)

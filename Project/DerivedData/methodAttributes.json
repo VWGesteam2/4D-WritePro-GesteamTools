@@ -1,973 +1,954 @@
 {
 	"methods": {
 		"4D_Licence": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.176Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
+		"Absolute": {
+			"timeStamp": "2024-06-20T14:59:17.176Z"
+		},
 		"Call_CustomColorPalette": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.657Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"CheckAutomaticAction": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.176Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"Compiler_Arrays": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.657Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"Compiler_Methods": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.658Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"Compiler_Variables": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.659Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"debug_ReformatButtons": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.676Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"distinctKeepOrder": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.221Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"FR_Script": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.177Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"getIcon": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.221Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"gotoArea": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.676Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"InitButtons": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"InitButtons_old": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
+		"HighlightAll": {
+			"timeStamp": "2024-06-20T14:59:17.177Z"
 		},
 		"InitFontLists": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.177Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"MENU_Display": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.659Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"MENU_Execute": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.660Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"ResetIfMixed": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.178Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"RndRGB": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.179Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"SetupLocalVariables": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.660Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"StyleSheetBuildSample": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.180Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"StylesheetEditMeta": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.180Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TB_GotoPage": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.180Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TB_setAutomaticActions": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.660Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TB_SwitchSkin": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.181Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_ColorRgbLongToColorRgbText": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.181Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_ColorRgbTextToColorRgbLong": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.182Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_HLStoRGB": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.182Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_IncrementString": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.182Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_RGBtoHLS": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.183Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TOOL_WPIAlignButtons": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.661Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"TrapError": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.183Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_ApplySkin": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.184Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_GetApplyTo": {
+			"timeStamp": "2024-06-20T14:59:17.185Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_isProtected": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.190Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_Palette": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.661Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteAlignments": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.185Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteBackgrounds": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.662Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteBookMarks": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.186Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteFindAndReplace": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.663Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteFonts": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"UI_PaletteFrames": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.186Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteImage": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
+			"timeStamp": "2024-06-20T14:59:17.187Z",
+			"attributes": {
+				"invisible": true
+			}
 		},
 		"UI_PaletteImportExport": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.187Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteInfos": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.663Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteProtect": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.187Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteSizes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.188Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteStylesheets": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.188Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PaletteTabulations": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.188Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_PictureSettings": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.664Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_Selector": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.189Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_setApplyTo": {
+			"timeStamp": "2024-06-20T14:59:17.190Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_Tables": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.189Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_Toolbar": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.665Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_ToolbarStylesheets": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.190Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"UI_TranslateConstant": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.190Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP IntersectRanges": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP ContextualMenu": {
+			"timeStamp": "2024-06-20T15:00:03.665Z",
 			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP CreatePreview": {
+			"timeStamp": "2024-06-20T14:59:17.191Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP FormulaSettings": {
+			"timeStamp": "2024-06-20T15:00:03.665Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP PictureSettings": {
+			"timeStamp": "2024-06-20T15:00:03.667Z",
+			"attributes": {
+				"shared": true,
 				"invisible": true
 			}
 		},
 		"WP RemoveDocumentIndex": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
-		},
-		"WP SetDocumentIndex": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
-		},
-		"WP ShowTabPages": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true,
-				"shared": true
-			}
-		},
-		"WP SwitchToolbar": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true,
-				"shared": true
-			}
-		},
-		"WP UpdateWidget": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true,
-				"shared": true
-			}
-		},
-		"WP_4DexpressionCompute": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.192Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_4DexpressionFreeze": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP SetDocumentIndex": {
+			"timeStamp": "2024-06-20T14:59:17.192Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP ShowTabPages": {
+			"timeStamp": "2024-06-20T14:59:17.192Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP SwitchToolbar": {
+			"timeStamp": "2024-06-20T14:59:17.193Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP TableSettings": {
+			"timeStamp": "2024-06-20T15:00:03.667Z"
+		},
+		"WP UpdateWidget": {
+			"timeStamp": "2024-06-20T15:00:03.668Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP UpdateWidget_OLD": {
+			"timeStamp": "2024-06-20T15:00:03.668Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP_ApplyPictureSettings": {
+			"timeStamp": "2024-06-20T14:59:17.193Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_BackToArea": {
+			"timeStamp": "2024-06-20T14:59:17.193Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_BorderMenu": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.668Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ComputeFormulas": {
+			"timeStamp": "2024-06-20T14:59:17.194Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_Convert": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.669Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_CopyPasteMenu": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.669Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_FillCurrent": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.670Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_FreezeFormulas": {
+			"timeStamp": "2024-06-20T14:59:17.196Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_FR_InitOptions": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetBackgroundClip": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.195Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetBackgroundColor": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetBackgroundOrigin": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetBackgroundPosition": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetBackgroundRepeat": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.197Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetBackgroundSize": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.670Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetBackgroundURL": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.671Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetBookmarks": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.197Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetDecoInfo": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.671Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetDocInfos": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.198Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_GetExpressions": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_GetExpressions_Unused": {
+			"timeStamp": "2024-06-20T15:00:03.672Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetFontInfo": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.672Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetFontVertAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.199Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_GetFrame": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_GetFormulas": {
+			"timeStamp": "2024-06-20T15:00:03.672Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_GetImageUrl": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetListStyle": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetMargins": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_GetParagraphVertAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_GetPictureSettings": {
+			"timeStamp": "2024-06-20T14:59:17.200Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetProtections": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.200Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetSizes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.201Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetStyleAttributesByGroup": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.201Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetStyleAttributesByType": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.673Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetStyleSheet": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.202Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetStyleSheets": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.202Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetStylesheetType": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.202Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTabInfo": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.203Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_GetTextAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_GetTablesWithDataSource": {
+			"timeStamp": "2024-06-20T14:59:17.203Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTextIndent": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.203Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTextLineHeight": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.203Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTextShadow": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.204Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTextTransform": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.204Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_GetTextUnderline": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.204Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_GetUserUnit": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_GetURL": {
+			"timeStamp": "2024-06-20T14:59:17.205Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_IgnoreError": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.205Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_InsertSoftHyphen": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.205Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_PictureSaveSettings": {
+			"timeStamp": "2024-06-20T14:59:17.206Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ReadPreferences": {
+			"timeStamp": "2024-06-20T15:00:03.673Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_RemoveSoftHyphen": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.206Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_Request": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.206Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_Ruler": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.206Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SelectBookmark": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.207Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SelectText": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.673Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_Set4Ddate": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_Set4Ddisplay": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.207Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_Set4Dexpression": {
-			"timeStamp": "2024-05-29T13:50:46.236Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_Set4Durl": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.673Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetBackgroundClip": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.207Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetBackgroundColor": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetBackgroundOrigin": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.207Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetBackgroundPicture": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetBackgroundPosition": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetBackgroundRepeat": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.207Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetBackgroundSize": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.674Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetCellProtection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.208Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetDocInfos": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.208Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetDocumentProtection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.208Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFont": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.208Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFontBold": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.208Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFontFamily": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.209Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFontItalic": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.209Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFontSize": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.209Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetFontVertAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.209Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_SetFrame": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_SetFormula": {
+			"timeStamp": "2024-06-20T15:00:03.674Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_SetImageUrl": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetListStyle": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetMargins": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_SetListFont": {
+			"timeStamp": "2024-06-20T15:00:03.675Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetParagraphProtection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"WP_SetParagraphVertAlign": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.210Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetRowProtection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.211Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetSizes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.211Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTabIndent": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.211Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTabInfos": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.211Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTableProtection": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.212Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTabType": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.212Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
+		"WP_SetTextboxProtection": {
+			"timeStamp": "2024-06-20T15:00:03.675Z"
+		},
 		"WP_SetTextColor": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.212Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextIndent": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.213Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextLineHeight": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.213Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextLinetrough": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.213Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextShadow": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.213Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextTransform": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.214Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SetTextUnderline": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.214Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"WP_SetUserUnit": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+		"WP_SetURL": {
+			"timeStamp": "2024-06-20T14:59:17.214Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_ShiftIndent": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.214Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_ShowTabPages": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.215Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StyleFillEditLB": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.675Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetAdd": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.215Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetCopyAttributes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.216Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetEdit": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.216Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetRemove": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.216Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetSetAttributes": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.217Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_StylesheetUpdate": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.218Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_SwitchToolbar": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.218Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP_TableMenu": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T15:00:03.676Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
-		"z": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
+		"zGetEmptyPict": {
+			"timeStamp": "2024-06-20T14:59:17.222Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"zGetLabels": {
+			"timeStamp": "2024-06-20T15:00:03.676Z"
 		},
 		"zGetSamplePict": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
+			"timeStamp": "2024-06-20T14:59:17.222Z",
+			"attributes": {
+				"invisible": true
+			}
 		},
 		"zGetSamplePictBW": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
+			"timeStamp": "2024-06-20T14:59:17.222Z",
+			"attributes": {
+				"invisible": true
+			}
 		},
 		"zXliff": {
-			"timeStamp": "2022-12-16T08:05:47.000Z"
+			"timeStamp": "2024-06-20T15:00:03.677Z"
 		},
 		"_and": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.220Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"_bool": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.220Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"_or": {
-			"timeStamp": "2022-12-16T08:05:47.000Z",
+			"timeStamp": "2024-06-20T14:59:17.220Z",
 			"attributes": {
 				"invisible": true
 			}
