@@ -28,13 +28,13 @@
 		null,
 		{
 			"objects": {
-				"Rect": {
+				"background": {
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
 					"width": 260,
 					"height": 29,
-					"fill": "#CCCCCC",
+					"fill": "#D7DDD7",
 					"stroke": "transparent",
 					"borderRadius": 0
 				},
@@ -87,18 +87,16 @@
 					"left": 22,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Margins"
-					},
+					"tooltip": ":xliff:MarginsAlignments",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/margins.png",
+					"icon": "/RESOURCES/Images/Sidebar/margins.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Alignments.4dm",
 					"events": [
@@ -118,11 +116,11 @@
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/fontStyle.png",
+					"icon": "/RESOURCES/Images/Sidebar/fontStyle.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Fonts.4dm",
 					"events": [
@@ -135,18 +133,16 @@
 					"left": 122,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Information"
-					},
+					"tooltip": ":xliff:formulaInfo",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/expressions.png",
+					"icon": "/RESOURCES/Images/Sidebar/expressions.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Expressions.4dm",
 					"events": [
@@ -159,18 +155,16 @@
 					"left": 82,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Frames"
-					},
+					"tooltip": ":xliff:borders",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/frames.png",
+					"icon": "/RESOURCES/Images/Sidebar/frames.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Frames.4dm",
 					"events": [
@@ -183,18 +177,16 @@
 					"left": 42,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Tabulations"
-					},
+					"tooltip": ":xliff:tabulations",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/tabulations.png",
+					"icon": "/RESOURCES/Images/Sidebar/tabulations.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Tabulations.4dm",
 					"events": [
@@ -207,18 +199,16 @@
 					"left": 62,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Sizes"
-					},
+					"tooltip": ":xliff:unitsAndSizes",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/units.png",
+					"icon": "/RESOURCES/Images/Sidebar/units.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Sizes.4dm",
 					"events": [
@@ -231,16 +221,16 @@
 					"left": 102,
 					"width": 20,
 					"height": 20,
-					"tooltip": "Picture",
+					"tooltip": ":xliff:background",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/Background.png",
+					"icon": "/RESOURCES/Images/Sidebar/Background.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Backgrounds.4dm",
 					"events": [
@@ -253,18 +243,16 @@
 					"left": 142,
 					"width": 20,
 					"height": 20,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Bookmarks"
-					},
+					"tooltip": ":xliff:bookmarks",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/bookmarks.png",
+					"icon": "/RESOURCES/Images/Sidebar/bookmarks.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Bookmarks.4dm",
 					"events": [
@@ -282,11 +270,11 @@
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/stylesheets.png",
+					"icon": "/RESOURCES/Images/Sidebar/stylesheets.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Stylesheets.4dm",
 					"events": [
@@ -304,11 +292,11 @@
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/tables.png",
+					"icon": "/RESOURCES/Images/Sidebar/tables.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Tables.4dm",
 					"events": [
@@ -326,11 +314,11 @@
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/find.png",
+					"icon": "/RESOURCES/Images/Sidebar/find.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"method": "ObjectMethods/tabBtn_FindAndReplace.4dm",
 					"events": [
 						"onClick"
@@ -342,16 +330,16 @@
 					"left": 199,
 					"width": 20,
 					"height": 20,
-					"tooltip": ":xliff:stylesheets",
+					"tooltip": ":xliff:protection",
 					"fontFamily": "System Font Regular",
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/protection.png",
+					"icon": "/RESOURCES/Images/Sidebar/protection.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_Protection.4dm",
 					"events": [
@@ -369,41 +357,16 @@
 					"fontSize": 11,
 					"stroke": "#FFFFFF",
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/file.png",
+					"icon": "/RESOURCES/Images/Sidebar/file.png",
 					"iconFrames": 4,
 					"textPlacement": "center",
 					"style": "custom",
-					"customBackgroundPicture": "/RESOURCES/Images/Light/selector.png",
+					"customBackgroundPicture": "/RESOURCES/Images/Sidebar/selector.png",
 					"radioGroup": "GR_Top",
 					"method": "ObjectMethods/tabBtn_ImportExport.4dm",
 					"events": [
 						"onClick"
 					]
-				},
-				"Rect1": {
-					"type": "rectangle",
-					"top": 0,
-					"left": 0,
-					"width": 260,
-					"height": 680,
-					"visibility": "hidden",
-					"fill": "#CCCCCC",
-					"stroke": "transparent",
-					"borderRadius": 8
-				},
-				"Text": {
-					"type": "text",
-					"top": 0,
-					"left": 10,
-					"width": 60,
-					"height": 680,
-					"visibility": "hidden",
-					"stroke": "#AAAAAA",
-					"textAlign": "center",
-					"fontFamily": ".Helvetica Neue DeskInterface",
-					"fontSize": 50,
-					"textAngle": 270,
-					"text": "4D WritePro Widget"
 				},
 				"Button": {
 					"type": "button",
@@ -496,7 +459,32 @@
 					"left": 0,
 					"width": 260,
 					"height": 0,
-					"stroke": "#808080"
+					"stroke": "#434343"
+				},
+				"Rect1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 260,
+					"height": 650,
+					"visibility": "hidden",
+					"fill": "#CCCCCC",
+					"stroke": "transparent",
+					"borderRadius": 0
+				},
+				"Text": {
+					"type": "text",
+					"top": 0,
+					"left": 10,
+					"width": 60,
+					"height": 650,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontFamily": ".Helvetica Neue DeskInterface",
+					"fontSize": 50,
+					"textAngle": 270,
+					"text": "4D WritePro Widget"
 				}
 			}
 		}
@@ -508,7 +496,7 @@
 			"View 1": {},
 			"View 2": {
 				"objects": [
-					"Rect"
+					"background"
 				]
 			},
 			"View 3": {},
@@ -526,5 +514,5 @@
 			}
 		}
 	},
-	"geometryStamp": 502
+	"geometryStamp": 522
 }

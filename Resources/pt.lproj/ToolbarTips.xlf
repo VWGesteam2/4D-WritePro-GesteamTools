@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!--
 Translation file.
 This file is distributed under the same license as the product package.-->
@@ -217,7 +217,7 @@ This file is distributed under the same license as the product package.-->
           <target>Inserir número de página</target>
         </trans-unit>
         <trans-unit id="55" resname="insertPicture">
-          <source>Insert picture‚Ä¶</source>
+          <source>Insert picture…</source>
           <target>Inserir uma imagem...</target>
         </trans-unit>
         <trans-unit id="54" resname="insertSectionbreak">
@@ -444,6 +444,38 @@ This file is distributed under the same license as the product package.-->
           <source>Remove soft hyphen</source>
           <target>Remover o hífen de separação</target>
         </trans-unit>
+        <trans-unit id="nkUFnYv0Dk1wv6yHCjjgqQ" resname="insertContinuousPageBreak">
+          <source>Insert continuous page break</source>
+          <target>Insira uma quebra contínua da página</target>
+        </trans-unit>
+        <trans-unit id="4CkYikT+ULlL5PCYMO32fA" resname="edit">
+          <source>Edit</source>
+          <target>Editar</target>
+        </trans-unit>
+        <trans-unit id="QOb/KgQRLtlJ9bxSHsL+hQ" resname="paragraphSettings">
+          <source>Paragraph settings</source>
+          <target>Opções de parágrafo</target>
+        </trans-unit>
+        <trans-unit id="qVqquxTVolQoqo/2HDQchQ" resname="DocumentInfo">
+          <source>Document information</source>
+          <target>Informações do documento</target>
+        </trans-unit>
+        <trans-unit id="xB2/MofqT/+E9+utQApmQA" resname="MoreTextSettings">
+          <source>More text settings</source>
+          <target>Outros atributos de texto</target>
+        </trans-unit>
+        <trans-unit id="usmFit13wk3qE3iKTaF/YA" resname="Radius">
+          <source>Radius</source>
+          <target>Rádio</target>
+        </trans-unit>
+        <trans-unit id="YHVwqX8XI8m8DMYdgvHX3Q" resname="InsertDocumentInfo">
+          <source>Insert document information</source>
+          <target>Inserir informações do documento</target>
+        </trans-unit>
+        <trans-unit id="hnQ1aCT77wrAYUrIuNJaDg" resname="ColumnSettings">
+          <source>Column settings</source>
+          <target>Opções de coluna</target>
+        </trans-unit>
         <trans-unit id="Gesteam_DeleteHeaders" resname="DeleteHeader">
           <source>Delete header</source>
           <target>Supprimer les entêtes des sections actives</target>
@@ -490,6 +522,26 @@ This file is distributed under the same license as the product package.-->
           <source>Import Export</source>
           <target>Importar Exportar</target>
         </trans-unit>
+        <trans-unit id="TklbnlJH6IlPhKZlBsEMkg" resname="bookmarks">
+          <source>Bookmarks</source>
+          <target>Marcadores</target>
+        </trans-unit>
+        <trans-unit id="jommi73R0Dp87QF5h4UANw" resname="formulaInfo">
+          <source>Formulas and information</source>
+          <target>Fórmulas e informações</target>
+        </trans-unit>
+        <trans-unit id="NKCIqThMk09ZY+qSWR4zRw" resname="background">
+          <source>Background</source>
+          <target>Fundo</target>
+        </trans-unit>
+        <trans-unit id="sFQsGsLwXPZnU/DjSqlmsw" resname="unitsAndSizes">
+          <source>Units and sizes</source>
+          <target>Unidades e dimensões</target>
+        </trans-unit>
+        <trans-unit id="27FB4/hz8xoNjYSQHbk5cg" resname="tabulations">
+          <source>Tabulations</source>
+          <target>Tabulações</target>
+        </trans-unit>
       </group>
       <group resname="Labels">
         <trans-unit id="57" resname="applyMarginsTo">
@@ -507,6 +559,18 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="74" resname="applyBordersTo">
           <source>Apply borders to…</source>
           <target>Aplicam-se as bordas para...</target>
+        </trans-unit>
+        <trans-unit id="zBez708L9OKugb+NacL/wg" resname="document">
+          <source>Document</source>
+          <target>Documento</target>
+        </trans-unit>
+        <trans-unit id="6XaBEYjv65KnAQo0lgIBJA" resname="headers">
+          <source>Headers</source>
+          <target>Cabeçalhos</target>
+        </trans-unit>
+        <trans-unit id="vAD0jkGO0raw8N6nPnTvpA" resname="footers">
+          <source>Footers</source>
+          <target>Rodapés</target>
         </trans-unit>
       </group>
     </body>

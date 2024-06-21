@@ -1,12 +1,8 @@
-C_BOOLEAN:C305($check)
-
 C_COLLECTION:C1488($_buttonNames)
 
 C_LONGINT:C283($typeSelection)
 C_LONGINT:C283($page)
-C_BOOLEAN:C305($page_3_4)
-C_BOOLEAN:C305($areaPointerOk)
-C_LONGINT:C283($indexSelection)
+C_LONGINT:C283($indexPictureSelect)
 
 C_OBJECT:C1216($param)
 C_COLLECTION:C1488($collection)
@@ -23,48 +19,39 @@ Case of
 		$param:=New object:C1471
 		$param.formName:="toolbar"
 		
-		//APPEND TO ARRAY(WP_applyTo;".tables")
-		//APPEND TO ARRAY(WP_applyTo;".cells")
-		
-		//If (Is Windows)
-		//OBJECT SET VISIBLE(*; "btn_mac_@"; False)
-		//Else 
-		//OBJECT SET VISIBLE(*; "btn_win_@"; False)
-		//End if 
-		
-		// style sheets
-		
 		If (oForm=Null:C1517)
 			oForm:=New object:C1471
 		End if 
 		
+		// WITHOUT PREFIX !!! (tabBtn_ or tabRect_" managed in class)
 		$_buttonNames:=New collection:C1472(\
-			"tabBtn_Home"; \
-			"tabBtn_Insert"; \
-			"tabBtn_Margins"; \
-			"tabBtn_Borders"; \
-			"tabBtn_Images"; \
-			"tabBtn_Printing"; \
-			"tabBtn_Tables"; \
-			"tabBtn_Spell"; \
-			"tabBtn_Protection"; \
-			"tabBtn_ImportExport"; \
-			"tabBtn_FindAndReplace"; \
-			"tabBtn_MergeOptions")
+			"Home"; \
+			"Insert"; \
+			"Margins"; \
+			"Borders"; \
+			"Images"; \
+			"Printing"; \
+			"Tables"; \
+			"Spell"; \
+			"Protection"; \
+			"ImportExport"; \
+			"FindAndReplace"; \
+			"MergeAggregate")
 		
 		For each ($buttonName; $_buttonNames)
-			OBJECT SET FONT STYLE:C166(*; $buttonName; Gras:K14:2)  // Temporary to be sure they fit in space
+			OBJECT SET FONT STYLE:C166(*; "tabBtn_"+$buttonName; Gras:K14:2)  // Temporary to be sure they fit in space
 		End for each 
 		
-		oForm.ToolbarTabs:=cs:C1710.Toolbar.new($_buttonNames; "TabArea")
+		oForm.ToolbarTabs:=cs:C1710.Toolbar.new($_buttonNames; "TabArea")  // create CLASS
 		
-		oForm.ToolbarTabs.setButtonSizes(100; 20)  // height (temp) and height (fixed)
-		oForm.ToolbarTabs.setLabelMargins(2; 2)  //2px label margins
-		oForm.ToolbarTabs.setButtonMargins(2; 0; 2; 0)  // left - top - right - bottom
-		oForm.ToolbarTabs.pageIndexes:=New collection:C1472(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13)
+		//oForm.ToolbarTabs.setButtonSizes(50; 20)  // width (temp) and height (fixed)
+		oForm.ToolbarTabs.setLabelMargins(6; 6)  //2px label margins
+		oForm.ToolbarTabs.setButtonMargins(0; 0; 3; 0)  // left - top - right - bottom
+		oForm.ToolbarTabs.pageIndexes:=New collection:C1472(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12)
+		
+		oForm.ToolbarTabs.activate($_buttonNames[0])
 		
 		TB_GotoPage(oForm.ToolbarTabs.buttonNames[0])
-		
 		
 		oForm.styleSheet:=New object:C1471
 		oForm.styleSheet.btnType:=New collection:C1472(1; 0; 0; 0; 0; 0)  // buttons (1 : pushed)
@@ -81,11 +68,17 @@ Case of
 		// ++see on timer
 		
 		
+		//ACI0103661 report to v19R7
+		oForm.eventCode:=-1  //  no need to test "undefined" see WP_SetListFont
+		oForm.eventForcedCode:=-1  //  no need to test "undefined" see WP_SetListFont
+		
+		
 		// temporarly
 		OBJECT SET ENABLED:C1123(*; "ssType3"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "ssType4"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "ssType5"; False:C215)
 		OBJECT SET ENABLED:C1123(*; "ssType6"; False:C215)
+		
 		If (Is macOS:C1572)
 			OBJECT SET VISIBLE:C603(*; "mac_@"; True:C214)
 		Else 
@@ -93,34 +86,37 @@ Case of
 		End if 
 		
 		
-		SET TIMER:C645(-1)
+		oForm.skinAppliedMain:=UI_ApplySkin
+		oForm.redrawTabs:=True:C214
 		
-	: (Form event code:C388=Sur changement de page:K2:54)
-		$page:=FORM Get current page:C276(*)
-		$page_3_4:=False:C215
-		Case of 
-			: ($page=3)
-				$page_3_4:=True:C214
-			: ($page=4)
-				$page_3_4:=True:C214
-			: ($page=5)
-				SET TIMER:C645(-1)
-		End case 
-		ARRAY TEXT:C222(WP_applyTo; 0)
-		If ($page_3_4)
-			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("sections"))  //1
-			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("paragraphs"))  //2
-			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("pictures"))  //3
-			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Table"))  //4
-			APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Cell"))  //5
-			If ($page=4)
-				APPEND TO ARRAY:C911(WP_applyTo; Get localized string:C991("Row"))  //6
-			End if 
-			WP_applyTo:=2
+		//Show empty or unsupported images.
+		//Montrer les images vides ou non prises en charge.
+		
+		//tips
+		OBJECT SET HELP TIP:C1181(*; "btn_visibleEmptyImages"; Get action info:C1442("visibleEmptyImages").title)
+		OBJECT SET HELP TIP:C1181(*; "btn_displayAsSymbol"; Get action info:C1442("displayFormulaAsSymbol").title)
+		
+		If (Form:C1466#Null:C1517)
+			SET TIMER:C645(-1)  // IF events are NOT managed in the area, then Form will be null (ACI0102661)
 		End if 
 		
-	: (Form event code:C388=Sur modif variable liée:K2:52) | (Form event code:C388=Sur minuteur:K2:25)
+	: (Form event code:C388=Sur changement de page:K2:54)
 		
+		UI_setApplyTo
+		
+		//SET TIMER(-1)
+		
+	: (Form event code:C388=Sur redimensionnement:K2:27)
+		oForm.redrawTabs:=True:C214
+		SET TIMER:C645(-1)
+		
+	: (Form event code:C388=Sur modif variable liée:K2:52)
+		
+		SET TIMER:C645(-1)
+		
+	: (Form event code:C388=Sur minuteur:K2:25)
+		
+		//oForm.ToolbarTabs.redraw()
 		SET TIMER:C645(0)
 		
 		If (Form:C1466#Null:C1517)  //ACI0100560
@@ -131,14 +127,62 @@ Case of
 						$typeSelection:=Form:C1466.selection.type
 						SetupLocalVariables  // in this widget, mainly for areaName and masterTable
 						
-						If ($typeSelection#2)
-							WP_GetExpressions
-							WP_GetFontInfo(Form:C1466.selection)  // font, size, weight, textcolor  (common method with font palette)
+						If (Not:C34(oForm.skinAppliedMain))
+							oForm.skinAppliedMain:=UI_ApplySkin
 						End if 
 						
-						$page:=FORM Get current page:C276(*)
-						Case of 
-							: ($page=5)  //  Images
+						
+						If ($typeSelection#2)  // anchored picture
+							
+							WP_GetFormulas
+							WP_GetFontInfo(Form:C1466.selection)  // font, size, weight, textcolor  (common method with font palette)
+							
+							
+							$page:=FORM Get current page:C276(*)
+							Case of 
+									
+								: ($page=1)
+									WP_SetListFont(Form:C1466.selection)
+									
+								: ($page=5)  //  Images
+									$param:=ObToolBarToDocument(Form:C1466)
+									
+									If ($param=Null:C1517)
+										//-> par sécurité on vide le tableau
+										ARRAY TEXT:C222(ImagesDocument; 0)
+										ARRAY TEXT:C222(ImagesDocumentInfo; 0)
+									Else 
+										$collection:=WP Get elements:C1550($param; wk type image anchored:K81:248).extract("id")
+										ARRAY TEXT:C222(ImagesDocument; $collection.length)
+										ARRAY TEXT:C222(ImagesDocumentInfo; $collection.length)
+										
+										For ($cpt; 1; $collection.length)
+											ImagesDocument{$cpt}:=$collection[$cpt-1]
+											ImagesDocumentInfo{$cpt}:=$collection[$cpt-1]
+										End for 
+									End if 
+									//Ce n'est pas une image qui est séléctionnée (donc rien de séléction dans la liste des images)
+									ImagesDocument:=-1
+									
+								: ($page=9)
+									WP_GetProtections(Form:C1466.selection)
+									
+								: ($page=11)  //  find & replace
+									
+									//UI_PaletteFindAndReplace
+									WP_FR_InitOptions("toolbar")
+									
+									
+									If (Length:C16(oForm.FR.find)>0)  //
+										oForm.FR.occurences:=FR_Script("findAll")  //; oForm.FR.find)
+									Else 
+										oForm.FR.occurences:=-1
+									End if 
+									
+									
+							End case 
+						Else   //$typeSelection=2 // anchored picture
+							If (FORM Get current page:C276(*)=5)  //  Images (sinon c'est inutile de faire le job)
 								$param:=ObToolBarToDocument(Form:C1466)
 								
 								If ($param=Null:C1517)
@@ -156,36 +200,22 @@ Case of
 									End for 
 								End if 
 								If ($typeSelection=2)
-									$indexSelection:=Find in array:C230(ImagesDocument; Form:C1466.selection.id)
+									$indexPictureSelect:=Find in array:C230(ImagesDocument; Form:C1466.selection.id)
 									
-									If ($indexSelection>0)
-										ImagesDocument:=$indexSelection
+									If ($indexPictureSelect>0)
+										ImagesDocument:=$indexPictureSelect
 									Else 
 										ALERT:C41("L'image id=["+Form:C1466.selection.id+"] n'a pas été trouvée dans la liste des images")
 									End if 
 								Else 
 									ImagesDocument:=-1
 								End if 
-								
-							: ($page=9)
-								WP_GetProtections(Form:C1466.selection)
-								
-							: ($page=11)  //  find & replace
-								
-								//UI_PaletteFindAndReplace
-								WP_FR_InitOptions("toolbar")
-								
-								
-								If (Length:C16(oForm.FR.find)>0)  //
-									oForm.FR.occurences:=FR_Script("findAll")  //; oForm.FR.find)
-								Else 
-									oForm.FR.occurences:=-1
-								End if 
-								
-						End case 
-						// WP_GetProtection  // page 2
+							End if 
+							
+						End if 
 					Else 
 						ImagesDocument:=-1
+						// WP_GetProtection  // page 2
 					End if 
 				Else 
 					ImagesDocument:=-1

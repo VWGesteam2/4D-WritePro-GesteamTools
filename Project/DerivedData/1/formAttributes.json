@@ -1,0 +1,24 @@
+{
+	"forms": {
+		"InputBothBars": {
+			"timeStamp": "2024-06-21T08:23:13.546Z",
+			"destination": "detailScreen"
+		},
+		"InputSideBar": {
+			"timeStamp": "2024-06-21T08:23:13.551Z",
+			"destination": "detailScreen"
+		},
+		"InputToolBarGesteam": {
+			"timeStamp": "2024-06-21T14:22:05.858Z",
+			"destination": "detailScreen"
+		},
+		"Input_ALL_Palettes": {
+			"timeStamp": "2024-06-20T14:59:17.241Z",
+			"destination": "detailScreen"
+		},
+		"Output": {
+			"timeStamp": "2024-06-21T08:20:14.368Z",
+			"destination": "listScreen"
+		}
+	}
+}

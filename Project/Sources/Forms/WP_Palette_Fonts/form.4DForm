@@ -27,35 +27,35 @@
 		null,
 		{
 			"objects": {
-				"Rect1": {
+				"background": {
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
 					"width": 260,
 					"height": 570,
-					"fill": "#CCCCCC",
+					"fill": "#D6D6D6",
 					"stroke": "transparent",
 					"borderRadius": 0
 				},
-				"Round Rectangle1": {
+				"IconBgnd2": {
 					"type": "rectangle",
-					"top": 540,
+					"top": 538,
 					"left": 210,
 					"width": 40,
-					"height": 18,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"height": 22,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
-				"Round Rectangle3": {
+				"IconBgnd1": {
 					"type": "rectangle",
-					"top": 540,
+					"top": 538,
 					"left": 160,
 					"width": 40,
-					"height": 18,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"height": 22,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
 				"fontFamilly": {
 					"type": "dropdown",
@@ -169,15 +169,13 @@
 					"class": "Palette",
 					"focusable": false,
 					"threeState": true,
-					"method": "ObjectMethods/cbBold.4dm",
-					"events": [
-						"onClick"
-					],
+					"events": [],
 					"shortcutAccel": true,
 					"shortcutControl": false,
 					"shortcutShift": false,
 					"shortcutAlt": false,
-					"shortcutKey": "b"
+					"shortcutKey": "b",
+					"action": "fontBold"
 				},
 				"cbItalic": {
 					"type": "checkbox",
@@ -190,15 +188,13 @@
 					"class": "Palette",
 					"focusable": false,
 					"threeState": true,
-					"method": "ObjectMethods/cbItalic.4dm",
-					"events": [
-						"onClick"
-					],
+					"events": [],
 					"shortcutAccel": true,
 					"shortcutControl": false,
 					"shortcutShift": false,
 					"shortcutAlt": false,
-					"shortcutKey": "i"
+					"shortcutKey": "i",
+					"action": "fontItalic"
 				},
 				"cbLinethrough": {
 					"type": "checkbox",
@@ -210,23 +206,8 @@
 					"class": "Palette",
 					"focusable": false,
 					"threeState": true,
-					"method": "ObjectMethods/cbLinethrough.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"linethroughStylesNames": {
-					"type": "dropdown",
-					"top": 210,
-					"left": 135,
-					"width": 90,
-					"height": 18,
-					"focusable": false,
-					"class": "Palette",
-					"method": "ObjectMethods/linethroughStylesNames.4dm",
-					"events": [
-						"onDataChange"
-					]
+					"events": [],
+					"action": "fontLinethrough"
 				},
 				"LinethroughColor": {
 					"type": "input",
@@ -259,28 +240,13 @@
 					"class": "Palette",
 					"focusable": false,
 					"threeState": true,
-					"method": "ObjectMethods/cbUnderline.4dm",
-					"events": [
-						"onClick"
-					],
+					"events": [],
 					"shortcutAccel": true,
 					"shortcutControl": false,
 					"shortcutShift": false,
 					"shortcutAlt": false,
-					"shortcutKey": "u"
-				},
-				"underlineStylesNames": {
-					"type": "dropdown",
-					"top": 280,
-					"left": 135,
-					"width": 90,
-					"height": 18,
-					"focusable": false,
-					"class": "Palette",
-					"method": "ObjectMethods/underlineStylesNames.4dm",
-					"events": [
-						"onDataChange"
-					]
+					"shortcutKey": "u",
+					"action": "fontUnderline"
 				},
 				"UnderlineColor": {
 					"type": "input",
@@ -304,48 +270,6 @@
 					],
 					"fontFamily": "Arial",
 					"fontSize": 2
-				},
-				"verticalAlignNames": {
-					"type": "dropdown",
-					"top": 340,
-					"left": 85,
-					"width": 140,
-					"height": 18,
-					"focusable": false,
-					"class": "Palette",
-					"method": "ObjectMethods/verticalAlignNames.4dm",
-					"events": [
-						"onDataChange"
-					]
-				},
-				"textTransformNames": {
-					"type": "dropdown",
-					"top": 365,
-					"left": 85,
-					"width": 140,
-					"height": 18,
-					"focusable": false,
-					"class": "Palette",
-					"method": "ObjectMethods/textTransformNames.4dm",
-					"events": [
-						"onDataChange"
-					]
-				},
-				"cbShadow": {
-					"type": "checkbox",
-					"top": 422,
-					"left": 85,
-					"width": 140,
-					"height": 16,
-					"dataSource": "oForm.cbShadow",
-					"text": ":xliff:Shadow",
-					"class": "Palette",
-					"focusable": false,
-					"threeState": true,
-					"method": "ObjectMethods/cbShadow.4dm",
-					"events": [
-						"onClick"
-					]
 				},
 				"shadowOffsetRuler": {
 					"type": "ruler",
@@ -401,7 +325,7 @@
 					"left": 5,
 					"width": 250,
 					"height": 15,
-					"fill": "#777777",
+					"fill": "#929292",
 					"stroke": "transparent",
 					"borderRadius": 4
 				},
@@ -411,7 +335,7 @@
 					"left": 25,
 					"width": 210,
 					"height": 13,
-					"stroke": "#FFFFFF",
+					"stroke": "#c0c0c0",
 					"class": "Palette",
 					"textAlign": "center",
 					"text": ":xliff:Shadows",
@@ -563,39 +487,6 @@
 					"textAlign": "right",
 					"text": ":xliff:TransformColon"
 				},
-				"underlineStylesValues": {
-					"type": "dropdown",
-					"top": 280,
-					"left": 305,
-					"width": 190,
-					"height": 18,
-					"focusable": false,
-					"events": [
-						"onDataChange"
-					]
-				},
-				"verticalAlignValues": {
-					"type": "dropdown",
-					"top": 340,
-					"left": 305,
-					"width": 56,
-					"height": 19,
-					"focusable": false,
-					"events": [
-						"onDataChange"
-					]
-				},
-				"textTransformValues": {
-					"type": "dropdown",
-					"top": 363,
-					"left": 305,
-					"width": 56,
-					"height": 18,
-					"focusable": false,
-					"events": [
-						"onDataChange"
-					]
-				},
 				"btnAction": {
 					"type": "button",
 					"top": 465,
@@ -603,7 +494,7 @@
 					"width": 30,
 					"height": 30,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/burger.png",
+					"icon": "/RESOURCES/Images/Sidebar/burger.png",
 					"iconFrames": 4,
 					"popupPlacement": "linked",
 					"style": "custom",
@@ -849,24 +740,13 @@
 						"onClick"
 					]
 				},
-				"linethroughStylesValues": {
-					"type": "dropdown",
-					"top": 210,
-					"left": 305,
-					"width": 190,
-					"height": 18,
-					"focusable": false,
-					"events": [
-						"onDataChange"
-					]
-				},
 				"Separator2": {
 					"type": "rectangle",
 					"top": 510,
 					"left": 5,
 					"width": 250,
 					"height": 15,
-					"fill": "#777777",
+					"fill": "#929292",
 					"stroke": "transparent",
 					"borderRadius": 4
 				},
@@ -876,7 +756,7 @@
 					"left": 25,
 					"width": 210,
 					"height": 13,
-					"stroke": "#FFFFFF",
+					"stroke": "#c0c0c0",
 					"class": "Palette",
 					"textAlign": "center",
 					"text": ":xliff:SpecialCharacters",
@@ -925,14 +805,78 @@
 					"tooltip": ":xliff:RemoveSoftHyphen",
 					"action": "removeSoftHyphens"
 				},
-				"Rect2": {
+				"STD_underlineStyles": {
+					"type": "dropdown",
+					"top": 280,
+					"left": 136,
+					"width": 90,
+					"height": 18,
+					"focusable": false,
+					"class": "Palette",
+					"events": [],
+					"action": "textUnderlineStyle"
+				},
+				"STD_LinethroughStyle": {
+					"type": "dropdown",
+					"top": 210,
+					"left": 136,
+					"width": 90,
+					"height": 18,
+					"focusable": false,
+					"class": "Palette",
+					"events": [],
+					"action": "textLinethroughStyle"
+				},
+				"STD_verticalAlign": {
+					"type": "dropdown",
+					"top": 340,
+					"left": 85,
+					"width": 140,
+					"height": 18,
+					"focusable": false,
+					"class": "Palette",
+					"events": [
+						"onDataChange"
+					],
+					"action": "verticalAlign"
+				},
+				"STD_textTransform": {
+					"type": "dropdown",
+					"top": 365,
+					"left": 85,
+					"width": 140,
+					"height": 18,
+					"focusable": false,
+					"class": "Palette",
+					"events": [
+						"onDataChange"
+					],
+					"action": "textTransform"
+				},
+				"cbShadow1": {
+					"type": "checkbox",
+					"top": 422,
+					"left": 85,
+					"width": 140,
+					"height": 16,
+					"dataSource": "oForm.cbShadow",
+					"text": ":xliff:Shadow",
+					"class": "Palette",
+					"focusable": false,
+					"threeState": true,
+					"method": "ObjectMethods/cbShadow1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"background1": {
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
 					"width": 260,
 					"height": 570,
 					"visibility": "hidden",
-					"fill": "#CCCCCC",
+					"fill": "#CBCBCB",
 					"stroke": "transparent",
 					"borderRadius": 8
 				},
@@ -961,24 +905,20 @@
 				"cbBold",
 				"cbItalic",
 				"cbLinethrough",
-				"linethroughStylesNames",
 				"LinethroughColor",
 				"cbUnderline",
-				"underlineStylesNames",
 				"UnderlineColor",
-				"verticalAlignNames",
-				"textTransformNames",
-				"cbShadow",
 				"shadowOffsetRuler",
 				"ColorShadow",
-				"underlineStylesValues",
-				"verticalAlignValues",
-				"textTransformValues",
-				"linethroughStylesValues",
 				"btn_InsertSH",
 				"btn_RemoveSH",
 				"fontSizeInput",
-				"shadowOffsetInput"
+				"shadowOffsetInput",
+				"STD_underlineStyles",
+				"STD_LinethroughStyle",
+				"STD_verticalAlign",
+				"STD_textTransform",
+				"cbShadow1"
 			]
 		}
 	],
@@ -997,7 +937,7 @@
 			"View 9": {
 				"visible": false,
 				"objects": [
-					"Rect2",
+					"background1",
 					"Text"
 				]
 			}
@@ -1007,5 +947,5 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 499
+	"geometryStamp": 815
 }

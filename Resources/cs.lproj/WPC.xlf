@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!--
 Translation file.
 This file is distributed under the same license as the product package.-->
@@ -67,8 +67,8 @@ This file is distributed under the same license as the product package.-->
           <target>Svis. zarov.:</target>
         </trans-unit>
         <trans-unit id="11" resname="FirstIndentationColon">
-          <source>1st indentation:</source>
-          <target>1.odsazení:</target>
+          <source>1st indent.:</source>
+          <target>1.odsaz.:</target>
         </trans-unit>
         <trans-unit id="13" resname="BackgroundColon">
           <source>Background:</source>
@@ -118,6 +118,18 @@ This file is distributed under the same license as the product package.-->
           <source>Decrease indent</source>
           <target>Zmenšit odsazení</target>
         </trans-unit>
+        <trans-unit id="jOdgvUoCqlAAvJ9MNLCnTQ" resname="insert">
+          <source>Insert</source>
+          <target>Vložit</target>
+        </trans-unit>
+        <trans-unit id="f1S2oecx6Pl/gFkJV86S4A" resname="columns">
+          <source>Columns</source>
+          <target>Sloupce</target>
+        </trans-unit>
+        <trans-unit id="VmvGVTTjR+qrSCge2mVPfw" resname="numberHiphen">
+          <source>Number:</source>
+          <target>Číslo:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteBackgrounds">
         <trans-unit id="18" resname="BackgroundPicture">
@@ -164,7 +176,7 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="33fb+8NhEANEWmPAFLSQjg" resname="SectionHyphen">
           <source>Section:</source>
-          <target>Paragrqf:</target>
+          <target>Paragraf:</target>
         </trans-unit>
         <trans-unit id="tYGw5/ib9qWg+J1BxQyfBw" resname="Picture">
           <source>Picture</source>
@@ -308,10 +320,6 @@ This file is distributed under the same license as the product package.-->
           <source>Expression:</source>
           <target>Výraz:</target>
         </trans-unit>
-        <trans-unit id="50" resname="DisplayCollon">
-          <source>Display:</source>
-          <target>Zobrazit:</target>
-        </trans-unit>
         <trans-unit id="51" resname="LabelColon">
           <source>Label:</source>
           <target>Popiska:</target>
@@ -352,10 +360,6 @@ This file is distributed under the same license as the product package.-->
           <source>Modified:</source>
           <target>Upraveno:</target>
         </trans-unit>
-        <trans-unit id="58" resname="ActionsColon">
-          <source>Actions:</source>
-          <target>Akce:</target>
-        </trans-unit>
         <trans-unit id="60" resname="Compute">
           <source>Compute</source>
           <target>Počítat</target>
@@ -371,15 +375,7 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="64" resname="Expression">
           <source>Expression</source>
           <target>Výraz</target>
-        </trans-unit>
-        <trans-unit id="65" resname="Values">
-          <source>Values</source>
-          <target>Hodnoty</target>
-        </trans-unit>
-        <trans-unit id="66" resname="Expressions">
-          <source>Expressions</source>
-          <target>Výrazy</target>
-        </trans-unit>
+        </trans-unit>    
         <trans-unit id="67" resname="Set">
           <source>Set</source>
           <target>Nastavit</target>
@@ -392,15 +388,23 @@ This file is distributed under the same license as the product package.-->
           <source>No table available. The formula editor can not be open.</source>
           <target>Žádná dostupná tabulka. Editor výrazů nemůže být otevřen.</target>
         </trans-unit>
+        <trans-unit id="BTTvdZt/pKnIFwe7yAa5iQ" resname="DisplayExpressions">
+          <source>Display expressions</source>
+          <target>Zobrazit výrazy</target>
+        </trans-unit>
+        <trans-unit id="HJEapLue/aA7XG3UPAUXjw" resname="DisplayColon">
+          <source>Display:</source>
+          <target>Zobrazit:</target>
+        </trans-unit>
+        <trans-unit id="Qx7gCjGjc14eNrDImk5B/A" resname="FormulasColon">
+          <source>Formulas:</source>
+          <target>Vzorce:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteSizes">
         <trans-unit id="68" resname="Paragraph">
           <source>Paragraph</source>
           <target>Odstavec</target>
-        </trans-unit>
-        <trans-unit id="69" resname="Picture">
-          <source>Picture</source>
-          <target>Obrázek</target>
         </trans-unit>
         <trans-unit id="70" resname="SetWidth">
           <source>Set width</source>
@@ -422,17 +426,13 @@ This file is distributed under the same license as the product package.-->
           <source>Width:</source>
           <target>Šířka:</target>
         </trans-unit>
-        <trans-unit id="77" resname="AltTextColon">
-          <source>Alt. Text</source>
-          <target>Stříd.txt</target>
-        </trans-unit>
         <trans-unit id="74" resname="HeightColon">
           <source>Height:</source>
           <target>Výška:</target>
         </trans-unit>
-        <trans-unit id="75" resname="AltText">
-          <source>Alternate text</source>
-          <target>Střídavý text</target>
+        <trans-unit id="75" resname="AltTextColon">
+          <source>Alternate text:</source>
+          <target>Střídavý text:</target>
         </trans-unit>
         <trans-unit id="76" resname="ZeroAuto">
           <source>(0 = Auto)</source>
@@ -441,6 +441,22 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="83" resname="UnitColon">
           <source>Unit:</source>
           <target>Jedn:</target>
+        </trans-unit>
+        <trans-unit id="Ozjo60l1QOY5Jt3l4nm2BA" resname="display">
+          <source>Display</source>
+          <target>Zobrazit</target>
+        </trans-unit>
+        <trans-unit id="6mdklHugZWAmT19d8JTRBQ" resname="modeHyphen">
+          <source>Mode:</source>
+          <target>Režim:</target>
+        </trans-unit>
+        <trans-unit id="aP7rDxq6XdlIr1OxlgkisQ" resname="elementsHyphen">
+          <source>Elements:</source>
+          <target>Prvky:</target>
+        </trans-unit>
+        <trans-unit id="g85MxHB982KewW/4nsfyrA" resname="zoomHyphen">
+          <source>Zoom:</source>
+          <target>Zvětšení:</target>
         </trans-unit>
       </group>
       <group resname="PaletteTabulations">
@@ -469,12 +485,12 @@ This file is distributed under the same license as the product package.-->
           <target>Nové tabelátory</target>
         </trans-unit>
         <trans-unit id="84" resname="DefaultLeadingChar">
-          <source>Default leading char.</source>
-          <target>Výchozí vedoucí znak.</target>
+          <source>Default leading char.:</source>
+          <target>Výchozí vedoucí znak:</target>
         </trans-unit>
         <trans-unit id="85" resname="LeadingChar">
           <source>Leading char.</source>
-          <target>Vedoucí znak.</target>
+          <target>Vedoucí znak</target>
         </trans-unit>
       </group>
       <group resname="PaletteBookmarks">
@@ -607,56 +623,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="104" resname="SelectADestination">
           <source>Select a destination.</source>
           <target>Vybrat cílení.</target>
-        </trans-unit>
-      </group>
-      <group resname="ListStyleNames">
-        <trans-unit id="1" resname="None">
-          <source>None</source>
-          <target>Žádný</target>
-        </trans-unit>
-        <trans-unit id="2" resname="Disc">
-          <source>Disc</source>
-          <target>Ovál</target>
-        </trans-unit>
-        <trans-unit id="3" resname="Circle">
-          <source>Circle</source>
-          <target>Kruh</target>
-        </trans-unit>
-        <trans-unit id="4" resname="Square">
-          <source>Square</source>
-          <target>Čverec</target>
-        </trans-unit>
-        <trans-unit id="5" resname="HollowSquare">
-          <source>Hollow square</source>
-          <target>Dutý čtverec</target>
-        </trans-unit>
-        <trans-unit id="6" resname="Diamond">
-          <source>Diamond</source>
-          <target>Diamant</target>
-        </trans-unit>
-        <trans-unit id="7" resname="Club">
-          <source>Club</source>
-          <target>Křížky</target>
-        </trans-unit>
-        <trans-unit id="8" resname="123">
-          <source>1 2 3</source>
-          <target>1 2 3</target>
-        </trans-unit>
-        <trans-unit id="9" resname="010203">
-          <source>01 02 03</source>
-          <target>01 02 03</target>
-        </trans-unit>
-        <trans-unit id="10" resname="abcLow">
-          <source>a b c</source>
-          <target>a b c</target>
-        </trans-unit>
-        <trans-unit id="11" resname="abcCAP">
-          <source>A B C</source>
-          <target>A B C</target>
-        </trans-unit>
-        <trans-unit id="12" resname="Roman">
-          <source>I II III</source>
-          <target>I II III</target>
         </trans-unit>
       </group>
       <group resname="ListUnits">
@@ -1232,13 +1198,13 @@ This file is distributed under the same license as the product package.-->
           <source>Previous</source>
           <target>Předchozí</target>
         </trans-unit>
-        <trans-unit id="262" resname="FindSlashReplace">
-          <source>Find/Replace</source>
-          <target>Nalézt/nahradit</target>
+        <trans-unit id="262" resname="FindElipsis">
+          <source>Find…</source>
+          <target>Nalézt…</target>
         </trans-unit>
         <trans-unit id="260" resname="FullWord">
           <source>Full word</source>
-          <target>Pouze celá slova (Full words)</target>
+          <target>Pouze celá slova (Full word)</target>
         </trans-unit>
         <trans-unit id="259" resname="KeepCharStyle">
           <source>Keep each character style</source>
@@ -1286,7 +1252,7 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="MXimbql17Fcbqrr2WKgPsg" resname="WidthSensitive">
           <source>Width sensitive</source>
-          <target>Citlivé na šířku</target>
+          <target>Ciktlivé na šířku</target>
         </trans-unit>
         <trans-unit id="msIfGk9Zlbu60aimbEHQOw" resname="OccurrencesReplaced">
           <source>&lt;x&gt; occurrences have been replaced.</source>
@@ -1312,7 +1278,7 @@ This file is distributed under the same license as the product package.-->
           <source>Search based on '&lt;1&gt;' keyboard </source>
         	<target>Hledání založené na '&lt;1&gt;' klávesnici </target>
         </trans-unit>
-      <trans-unit id="4TFSNZU8Z6IMoq+NekNNIg" resname="OccurencesColon">
+        <trans-unit id="4TFSNZU8Z6IMoq+NekNNIg" resname="OccurencesColon">
           <source>Occurences:</source>
           <target>Výskyty:</target>
         </trans-unit>
@@ -1442,6 +1408,10 @@ This file is distributed under the same license as the product package.-->
           <source>Properties</source>
           <target>Vlastnosti</target>
         </trans-unit>
+        <trans-unit id="CBa5QNoUGYvlYOhE9ONZzg" resname="SetDatasourceEllipsis">
+          <source>Set datasource…</source>
+          <target>Nastavit zdroj dat…</target>
+        </trans-unit>
       </group>
       <group resname="PaletteProtect">
         <trans-unit id="QRCHOUVOvU1y6dkzlbGq5A" resname="protectParagraphs">
@@ -1488,8 +1458,8 @@ This file is distributed under the same license as the product package.-->
           <source>PDF Export</source>
           <target>PDF Export</target>
         </trans-unit>
-        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="background">
-          <source>Background</source>
+        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="backgrounds">
+          <source>Backgrounds</source>
           <target>Pozadí</target>
         </trans-unit>
         <trans-unit id="2zaxAplGAgJvGg5f+KnwOA" resname="headers">
@@ -1503,10 +1473,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="tMZO5KyH1Qe77I7HSLR6og" resname="htmlWysiwyg">
           <source>HTML "WYSIWIG"</source>
           <target>HTML "WYSIWIG"</target>
-        </trans-unit>
-        <trans-unit id="th+uJGqJE/aRdxxSHhxRlg" resname="htmlPrettyPrint">
-          <source>"Pretty print"</source>
-          <target>"Pěkný tisk"</target>
         </trans-unit>
         <trans-unit id="7yp1Rkz6KWEs2pehpSqJoA" resname="recomputeFormulas">
           <source>Recompute formulas</source>
@@ -1556,21 +1522,93 @@ When not selected, only formulas that have never been evaluated will be computed
             
 Pokud toto nezvolíte, budou vypočítány pouze výrazy, jež ještě nebyly vyhodnoceny.</target>
         </trans-unit>
-        <trans-unit id="DpRVy4keJdQU2SqZwEacYg" resname="FormulasComma">
-          <source>Formulas:</source>
-          <target>Výrazy:</target>
-        </trans-unit>
-        <trans-unit id="TLfxhPbY2ZRWaf3J3RyOcw" resname="htmlEllipsis">
-          <source>HTML…</source>
-          <target>HTML…</target>
-        </trans-unit>
-        <trans-unit id="jqxt3L4zVABvifyA9e+8sA" resname="InfoPrettyPrint">
-          <source>This option generates a document with more human-readable source code and increases document size.</source>
-          <target>Tato možnost generuje dokument s lidsky čitelnějším zdrojovým kódem a zvýší velikost dokumentu.</target>
-        </trans-unit>
         <trans-unit id="6LkWY9PvfM8ea1sA6vSrBw" resname="ExportComma">
           <source>Export:</source>
           <target>Export:</target>
+        </trans-unit>
+        <trans-unit id="caQYk8btXcl+pUBojuXPoQ" resname="InfoEmbedPictures">
+          <source>With this option, the generated SVG document will be standalone but its size will increase</source>
+          <target>Pomocí této možnosti bude generovaný dokument SVG samostatný, ale jeho velikost se zvýší</target>
+        </trans-unit>
+        <trans-unit id="Jm3zqgXEMB//3tACqAcZ0A" resname="InfoExportPictures">
+          <source>This option allows you to export the images of your document to an external "images" folder. The SVG file will be lighter.</source>
+          <target>Tato možnost vám umožňuje exportovat obrázky vašeho dokumentu do externí složky „images“. Soubor SVG bude světlejší.</target>
+        </trans-unit>
+        <trans-unit id="l5yK2FqhagnuTfX+7DfKjA" resname="InfoCreateFolder">
+          <source>A folder will be created and will contain the SVG file and the pictures folder if needed.</source>
+          <target>Vytvoří se složka, která bude v případě potřeby obsahovat soubor SVG a složku obrázků.</target>
+        </trans-unit>
+        <trans-unit id="h60zhveTCxSBSmc8ly911Q" resname="EmbedImages">
+          <source>Embed document pictures</source>
+          <target>Vložit obrázky dokumentu</target>
+        </trans-unit>
+        <trans-unit id="EyvZbU4fegiD39MW7BvMNQ" resname="ExportImages">
+          <source>Export images from document</source>
+          <target>Export obrázků z dokumentu</target>
+        </trans-unit>
+        <trans-unit id="ftw1H7xGhhRTkqQ2O2LLGg" resname="EnableGoogleFonts">
+          <source>Enable Google fonts substitution</source>
+          <target>Povolit nahrazování písem Google</target>
+        </trans-unit>
+        <trans-unit id="NqxkQgc34W90eQYBmYkkvg" resname="InfoGoogleFonts">
+          <source>This option adds a Google font import directive.
+ Use this option if the fonts in your document are not cross-platform.</source>
+          <target>Tato možnost přidává pokyn pro import písem Google.
+Tuto možnost použijte, pokud písma v dokumentu nejsou meziplatformová.</target>
+        </trans-unit>
+        <trans-unit id="KRk/LGj7Cj0IKqbAD1+m2Q" resname="PagesComma">
+          <source>Pages:</source>
+          <target>Stránky:</target>
+        </trans-unit>
+        <trans-unit id="9rxyF4rWKl6cSTgcq13Plw" resname="ConfirmImageFolder">
+          <source>An "Images" folder already exists there!
+Would you like to replace it?</source>
+          <target>Složka "Images" již existuje!
+Chcete ji nahradit?</target>
+        </trans-unit>
+        <trans-unit id="ZYahIeSDiz5Tz/hjbW8C2A" resname="Overwrite">
+          <source>Overwrite</source>
+          <target>Přepsat</target>
+        </trans-unit>
+        <trans-unit id="gJPawW7rsig8FtISvxRypw" resname="All">
+          <source>All</source>
+          <target>Vše</target>
+        </trans-unit>
+        <trans-unit id="JYFMlsryz/0iGg7gUz7AUA" resname="FromComma">
+          <source>From:</source>
+          <target>Z:</target>
+        </trans-unit>
+        <trans-unit id="vcXBxWYL/WBWSqCP8bp63A" resname="ToComma">
+          <source>to:</source>
+          <target>do:</target>
+        </trans-unit>
+        <trans-unit id="RMDC+cSZBoQl5t/kVyWSGg" resname="svgEllipsis">
+          <source>SVG…</source>
+          <target>SVG…</target>
+        </trans-unit>
+        <trans-unit id="yXC6rMdaGMCwbJsOKcSU+Q" resname="htmlEllipsis">
+          <source>HTML…</source>
+          <target>HTML…</target>
+        </trans-unit>
+        <trans-unit id="DlMn8kPNE6u2c2tRr8jppA" resname="FileNamePrompt">
+          <source>Name of the file to be created</source>
+          <target>Název vytvářeného souboru</target>
+        </trans-unit>
+        <trans-unit id="9AHHUOIbvZ1JaXXlXU4VWQ" resname="FolderNamePrompt">
+          <source>Name of the folder to be created</source>
+          <target>Název vytvářené složky</target>
+        </trans-unit>
+        <trans-unit id="y32E8D1pr6wrutx/5zbK/A" resname="infoEmptyPictures">
+          <source>Check this box if you want to export empty pictures returned by formulas.</source>
+          <target>Zaškrtněte toto políčko, pokud chcete exportovat prázdné obrázky vrácené výrazem.</target>
+        </trans-unit>
+        <trans-unit id="gzqU0lQaIqbShE0dEr/AwA" resname="optionsComma">
+          <source>Options:</source>
+          <target>Možnosti:</target>
+        </trans-unit>
+        <trans-unit id="ILaNpHjjQPifHiTlQjUIGg" resname="blackFrame">
+          <source>Black frame for empty pictures</source>
+          <target>Černý rámeček pro prázdné obrázky</target>
         </trans-unit>
       </group>
       <group resname="PaletteImportExport"/>
@@ -1675,11 +1713,11 @@ Pokud toto nezvolíte, budou vypočítány pouze výrazy, jež ještě nebyly vy
         </trans-unit>
       </group>
       <group resname="DialogPictureSettings">
-        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="Margins">
+        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="MarginsHyphen">
           <source>Margins:</source>
           <target>Okraje:</target>
         </trans-unit>
-        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="Padding">
+        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="PaddingHyphen">
           <source>Padding:</source>
           <target>Vyplnění:</target>
         </trans-unit>
@@ -1695,7 +1733,7 @@ Pokud toto nezvolíte, budou vypočítány pouze výrazy, jež ještě nebyly vy
           <source>URL:</source>
           <target>URL:</target>
         </trans-unit>
-        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateText">
+        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateTextHyphen">
           <source>Alternate text:</source>
           <target>Alternativní text:</target>
         </trans-unit>
@@ -1782,6 +1820,98 @@ Pokud toto nezvolíte, budou vypočítány pouze výrazy, jež ještě nebyly vy
         <trans-unit id="QR7rFC0zJIwfzEn9E+IYRA" resname="PageNumber">
           <source>Page number</source>
           <target>Číslo stránky</target>
+        </trans-unit>
+        <trans-unit id="ynXAPxhJMkNpcwRliQMXvg" resname="insertImageURL">
+          <source>Insert an image URL…</source>
+          <target>Vložit URL obrázku…</target>
+        </trans-unit>
+        <trans-unit id="m3a/CgZ8NS600XAnT/CuFA" resname="insertImageFormula">
+          <source>Insert an image formula…</source>
+          <target>Vložit vzorec obrázku…</target>
+        </trans-unit>
+        <trans-unit id="PkaSe6J+O4IfvlHou7auvA" resname="editImageURL">
+          <source>Edit image URL…</source>
+          <target>Upravit URL obrázku…</target>
+        </trans-unit>
+        <trans-unit id="00lbTfGC7req5VFUsKJClQ" resname="editImageFormula">
+          <source>Edit image formula</source>
+          <target>EUpravit vzorec obrázku</target>
+        </trans-unit>
+        <trans-unit id="fol28Q4W1QaiCmasz8InLQ" resname="WidthColon">
+          <source>Width:</source>
+          <target>Šířka:</target>
+        </trans-unit>
+        <trans-unit id="gRUAqvqF/1uDA6gPAG35KQ" resname="HeightColon">
+          <source>Height:</source>
+          <target>Výška:</target>
+        </trans-unit>
+        <trans-unit id="kTXJQBET6xQGp0xvCmrDSg" resname="Propagate">
+          <source>Propagate</source>
+          <target>Rozšířit</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Paragraph">
+        <trans-unit id="OBu9prb/tV2ysSeEdfq4GQ" resname="resetFontAttributes">
+          <source>Reset paragraph font attributes</source>
+          <target>Obnovit atributy písma odstavce</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_DocInfo">
+        <trans-unit id="KIsUNyYrj7evpWMAyBfemg" resname="title">
+          <source>Title</source>
+          <target>Název</target>
+        </trans-unit>
+        <trans-unit id="O3s/HchQTWSZ/UcjrtMpWg" resname="author">
+          <source>author</source>
+          <target>Autor</target>
+        </trans-unit>
+        <trans-unit id="Au2W7hEQE5ZfKI1rvAnUww" resname="subject">
+          <source>Subject</source>
+          <target>Předmět</target>
+        </trans-unit>
+        <trans-unit id="s9AD0G6fIMkDCStHS2ysnw" resname="company">
+          <source>Company</source>
+          <target>Společnost</target>
+        </trans-unit>
+        <trans-unit id="QBkunZ9iy6al8OgBj45hjQ" resname="notes">
+          <source>Notes</source>
+          <target>Poznámka</target>
+        </trans-unit>
+        <trans-unit id="+/lt/JavD2HppAAJysR5rg" resname="creationDate">
+          <source>Creation date</source>
+          <target>Datum vzniku</target>
+        </trans-unit>
+        <trans-unit id="wqkPw22mAeFQtMi7rOGTuA" resname="modificationDate">
+          <source>Modification date</source>
+          <target>Datum úpravy</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Freeze">
+        <trans-unit id="YJ8st5NVYk9iAGILx5O23A" resname="FreezeDocument">
+          <source>Freeze document</source>
+          <target>Zmrazit dokument</target>
+        </trans-unit>
+        <trans-unit id="BsGWfaI7WPuzFCPnZEPaog" resname="FreezeSelection">
+          <source>Freeze selection</source>
+          <target>Zmrazit výběr</target>
+        </trans-unit>
+        <trans-unit id="a21/ILiIHT15NrT6WxTPpA" resname="FreezeTables">
+          <source>Freeze tables</source>
+          <target>Zmrazit tabulky</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Compute">
+        <trans-unit id="G1qriI3TB4C8on9assC28g" resname="ComputeSelection">
+          <source>Compute selection</source>
+          <target>Vypočítat výběr</target>
+        </trans-unit>
+        <trans-unit id="X0cFWvYLS2IWq/9nLRCxPg" resname="ComputeDocument">
+          <source>Compute document</source>
+          <target>Vypočítat dokument</target>
+        </trans-unit>
+        <trans-unit id="bK4KIBvTGBVXEffFIfIYkg" resname="ComputeTables">
+          <source>Compute tables</source>
+          <target>Vypočítat tabulky</target>
         </trans-unit>
       </group>
       <group resname="PaletteMergeAggregate">

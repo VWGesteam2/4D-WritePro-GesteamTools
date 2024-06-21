@@ -2,7 +2,7 @@
 	"destination": "detailScreen",
 	"shared": true,
 	"windowTitle": "Tabulations",
-	"inheritedForm": "WP_Z_Common",
+	"inheritedForm": "",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
 	"width": 260,
@@ -27,7 +27,7 @@
 		null,
 		{
 			"objects": {
-				"Rect1": {
+				"Background": {
 					"type": "rectangle",
 					"top": 0,
 					"left": 0,
@@ -47,66 +47,66 @@
 					"textAlign": "right",
 					"text": ":xliff:TypeColon"
 				},
-				"Round Rectangle6": {
+				"IconBgnd2": {
 					"type": "rectangle",
-					"top": 40,
-					"left": 115,
-					"width": 23,
-					"height": 20,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"top": 37,
+					"left": 355,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
-				"Round Rectangle7": {
+				"IconBgnd3": {
 					"type": "rectangle",
-					"top": 40,
-					"left": 144,
-					"width": 23,
-					"height": 20,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"top": 37,
+					"left": 384,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
-				"Round Rectangle8": {
+				"IconBgnd4": {
 					"type": "rectangle",
-					"top": 40,
-					"left": 173,
-					"width": 23,
-					"height": 20,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"top": 37,
+					"left": 413,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
-				"Round Rectangle5": {
+				"IconBgnd1": {
 					"type": "rectangle",
-					"top": 40,
-					"left": 85,
-					"width": 23,
-					"height": 20,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"top": 37,
+					"left": 325,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
-				"Round Rectangle1": {
+				"IconBgnd5": {
 					"type": "rectangle",
-					"top": 40,
-					"left": 202,
-					"width": 23,
-					"height": 20,
-					"fill": "#DDDDDD",
-					"stroke": "transparent",
-					"borderRadius": 4
+					"top": 37,
+					"left": 442,
+					"width": 24,
+					"height": 24,
+					"fill": "#FFFFFF",
+					"stroke": "#c0c0c0",
+					"borderRadius": 0
 				},
 				"bTabType0": {
 					"type": "radio",
-					"top": 43,
+					"top": 37,
 					"left": 85,
-					"width": 23,
-					"height": 14,
+					"width": 24,
+					"height": 24,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Buttons/Icon_TabLeft.png",
+					"icon": "/RESOURCES/Images/Sidebar/TabLeft_24.png",
 					"iconFrames": 4,
-					"style": "custom",
+					"style": "toolbar",
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/bTabType0.4dm",
 					"events": [
@@ -115,14 +115,14 @@
 				},
 				"bTabType1": {
 					"type": "radio",
-					"top": 43,
+					"top": 37,
 					"left": 115,
-					"width": 23,
-					"height": 14,
+					"width": 24,
+					"height": 24,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Buttons/Icon_TabRight.png",
+					"icon": "/RESOURCES/Images/Sidebar/TabRight_24.png",
 					"iconFrames": 4,
-					"style": "custom",
+					"style": "toolbar",
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/bTabType1.4dm",
 					"events": [
@@ -131,14 +131,14 @@
 				},
 				"bTabType2": {
 					"type": "radio",
-					"top": 43,
+					"top": 37,
 					"left": 144,
-					"width": 23,
-					"height": 14,
+					"width": 24,
+					"height": 24,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Buttons/Icon_TabCenter.png",
+					"icon": "/RESOURCES/Images/Sidebar/TabCenter_24.png",
 					"iconFrames": 4,
-					"style": "custom",
+					"style": "toolbar",
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/bTabType2.4dm",
 					"events": [
@@ -147,14 +147,14 @@
 				},
 				"bTabType3": {
 					"type": "radio",
-					"top": 43,
+					"top": 37,
 					"left": 173,
-					"width": 23,
-					"height": 14,
+					"width": 24,
+					"height": 24,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Buttons/Icon_TabDecimal.png",
+					"icon": "/RESOURCES/Images/Sidebar/TabDecimal_24.png",
 					"iconFrames": 4,
-					"style": "custom",
+					"style": "toolbar",
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/bTabType3.4dm",
 					"events": [
@@ -163,14 +163,14 @@
 				},
 				"bTabType4": {
 					"type": "radio",
-					"top": 43,
+					"top": 37,
 					"left": 202,
-					"width": 23,
-					"height": 14,
+					"width": 24,
+					"height": 24,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Buttons/Icon_TabBar.png",
+					"icon": "/RESOURCES/Images/Sidebar/TabBar_24.png",
 					"iconFrames": 4,
-					"style": "custom",
+					"style": "toolbar",
 					"radioGroup": "Group2",
 					"method": "ObjectMethods/bTabType4.4dm",
 					"events": [
@@ -344,7 +344,7 @@
 					"width": 30,
 					"height": 30,
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/burger.png",
+					"icon": "/RESOURCES/Images/Sidebar/burger.png",
 					"iconFrames": 4,
 					"popupPlacement": "linked",
 					"style": "custom",
@@ -363,7 +363,7 @@
 						"$ref": "/SOURCES/tips.json#/NewTabulation"
 					},
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/Icon_Plus.png",
+					"icon": "/RESOURCES/Images/Sidebar/plus.png",
 					"iconFrames": 4,
 					"style": "custom",
 					"method": "ObjectMethods/btnAdd.4dm",
@@ -381,7 +381,7 @@
 						"$ref": "/SOURCES/tips.json#/DeleteTab"
 					},
 					"focusable": false,
-					"icon": "/RESOURCES/Images/Light/Icon_Minus.png",
+					"icon": "/RESOURCES/Images/Sidebar/minus.png",
 					"iconFrames": 4,
 					"style": "custom",
 					"method": "ObjectMethods/btnRemove.4dm",
@@ -482,12 +482,12 @@
 			"View 1": {},
 			"View 2": {
 				"objects": [
-					"Rect1",
+					"Background",
 					"lbl_type",
-					"Round Rectangle6",
-					"Round Rectangle7",
-					"Round Rectangle8",
-					"Round Rectangle5",
+					"IconBgnd2",
+					"IconBgnd3",
+					"IconBgnd4",
+					"IconBgnd1",
 					"tabIndentRuler",
 					"lbl_Indentation",
 					"tabIndentInput"
@@ -513,5 +513,5 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 2
+	"geometryStamp": 103
 }

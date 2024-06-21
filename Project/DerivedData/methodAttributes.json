@@ -1,0 +1,1098 @@
+{
+	"methods": {
+		"4D_Licence": {
+			"timeStamp": "2024-06-20T14:59:17.176Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"btnM_S_AddsHFSection1": {
+			"timeStamp": "2024-06-21T08:22:49.233Z"
+		},
+		"btnM_S_AddsHFSections2toN": {
+			"timeStamp": "2024-06-21T08:22:49.233Z"
+		},
+		"btnM_S_HFAutoHeight": {
+			"timeStamp": "2024-06-21T08:22:49.233Z"
+		},
+		"btnM_S_KeepOnlyAllSectionsExist": {
+			"timeStamp": "2024-06-21T08:22:49.233Z"
+		},
+		"btnM_S_KeepOnlySections1": {
+			"timeStamp": "2024-06-21T08:22:49.234Z"
+		},
+		"btnM_S_MergeHF": {
+			"timeStamp": "2024-06-21T08:22:49.234Z"
+		},
+		"btnM_S_ProhibitsDifferentSectio": {
+			"timeStamp": "2024-06-21T08:22:49.234Z"
+		},
+		"btnM_S_ReverseFootersOrder": {
+			"timeStamp": "2024-06-21T08:22:49.234Z"
+		},
+		"Call_CustomColorPalette": {
+			"timeStamp": "2024-06-20T15:00:03.657Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"CheckAutomaticAction": {
+			"timeStamp": "2024-06-20T14:59:17.176Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Arrays": {
+			"timeStamp": "2024-06-21T13:12:57.593Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2024-06-21T13:12:57.739Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Compiler_Variables": {
+			"timeStamp": "2024-06-21T13:17:46.119Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"debug_ReformatButtons": {
+			"timeStamp": "2024-06-21T08:23:13.544Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"distinctKeepOrder": {
+			"timeStamp": "2024-06-20T14:59:17.221Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"findStrId": {
+			"timeStamp": "2024-06-21T08:22:49.235Z"
+		},
+		"FR_Script": {
+			"timeStamp": "2024-06-21T08:23:13.520Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GetGesteamImage": {
+			"timeStamp": "2024-06-21T08:22:49.211Z"
+		},
+		"getIcon": {
+			"timeStamp": "2024-06-20T14:59:17.221Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"gotoArea": {
+			"timeStamp": "2024-06-21T08:23:13.544Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"InitFontLists": {
+			"timeStamp": "2024-06-21T08:23:13.520Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"MENU_Display": {
+			"timeStamp": "2024-06-21T08:23:13.521Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"MENU_Execute": {
+			"timeStamp": "2024-06-21T10:33:20.451Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"ObToolBarToDocument": {
+			"timeStamp": "2024-06-21T08:22:49.213Z"
+		},
+		"ObToolBarToObMergeOptions": {
+			"timeStamp": "2024-06-21T08:22:49.214Z"
+		},
+		"ResetIfMixed": {
+			"timeStamp": "2024-06-20T14:59:17.178Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"RndRGB": {
+			"timeStamp": "2024-06-20T14:59:17.179Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"SetMergeOptionFormOb": {
+			"timeStamp": "2024-06-21T08:22:49.214Z"
+		},
+		"SetupLocalVariables": {
+			"timeStamp": "2024-06-21T08:23:13.522Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"StyleSheetBuildSample": {
+			"timeStamp": "2024-06-20T14:59:17.180Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"StylesheetEditMeta": {
+			"timeStamp": "2024-06-20T14:59:17.180Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TB_GotoPage": {
+			"timeStamp": "2024-06-21T08:23:13.522Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TB_setAutomaticActions": {
+			"timeStamp": "2024-06-21T08:23:13.523Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TB_SwitchSkin": {
+			"timeStamp": "2024-06-20T14:59:17.181Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_ColorRgbLongToColorRgbText": {
+			"timeStamp": "2024-06-20T14:59:17.181Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_ColorRgbTextToColorRgbLong": {
+			"timeStamp": "2024-06-20T14:59:17.182Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_HLStoRGB": {
+			"timeStamp": "2024-06-20T14:59:17.182Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_IncrementString": {
+			"timeStamp": "2024-06-20T14:59:17.182Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_RGBtoHLS": {
+			"timeStamp": "2024-06-20T14:59:17.183Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TOOL_WPIAlignButtons": {
+			"timeStamp": "2024-06-20T15:00:03.661Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"TrapError": {
+			"timeStamp": "2024-06-20T14:59:17.183Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_ApplySkin": {
+			"timeStamp": "2024-06-21T08:53:09.099Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_GetApplyTo": {
+			"timeStamp": "2024-06-21T08:23:13.524Z"
+		},
+		"UI_isProtected": {
+			"timeStamp": "2024-06-20T14:59:17.190Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_MergeAggregate": {
+			"timeStamp": "2024-06-21T08:22:49.216Z"
+		},
+		"UI_Palette": {
+			"timeStamp": "2024-06-21T08:23:13.524Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteAlignments": {
+			"timeStamp": "2024-06-21T08:23:13.525Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteBackgrounds": {
+			"timeStamp": "2024-06-21T08:20:14.356Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteBookMarks": {
+			"timeStamp": "2024-06-21T08:23:13.525Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteFindAndReplace": {
+			"timeStamp": "2024-06-21T08:20:14.356Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteFonts": {
+			"timeStamp": "2024-06-21T08:23:13.526Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteFrames": {
+			"timeStamp": "2024-06-21T08:23:13.526Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteImage": {
+			"timeStamp": "2024-06-21T08:23:13.527Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteImportExport": {
+			"timeStamp": "2024-06-21T08:23:13.527Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteInfos": {
+			"timeStamp": "2024-06-21T08:23:13.527Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteProtect": {
+			"timeStamp": "2024-06-21T08:23:13.528Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteSizes": {
+			"timeStamp": "2024-06-20T14:59:17.188Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteStylesheets": {
+			"timeStamp": "2024-06-20T14:59:17.188Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PaletteTabulations": {
+			"timeStamp": "2024-06-20T14:59:17.188Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_PictureSettings": {
+			"timeStamp": "2024-06-21T08:23:13.528Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_Selector": {
+			"timeStamp": "2024-06-21T08:23:13.528Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_setApplyTo": {
+			"timeStamp": "2024-06-21T08:23:13.529Z"
+		},
+		"UI_Tables": {
+			"timeStamp": "2024-06-20T14:59:17.189Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_Toolbar": {
+			"timeStamp": "2024-06-21T13:30:03.982Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_ToolbarStylesheets": {
+			"timeStamp": "2024-06-21T08:20:14.358Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"UI_TranslateConstant": {
+			"timeStamp": "2024-06-20T14:59:17.190Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP ContextualMenu": {
+			"timeStamp": "2024-06-21T13:14:32.827Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP CreatePreview": {
+			"timeStamp": "2024-06-21T13:14:54.928Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP FormulaSettings": {
+			"timeStamp": "2024-06-21T13:15:13.439Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP GTB ShowTabPages": {
+			"timeStamp": "2024-06-21T08:23:13.530Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP GTB SwitchToolbar": {
+			"timeStamp": "2024-06-21T08:23:13.530Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP GTB UpdateWidget": {
+			"timeStamp": "2024-06-21T13:15:22.502Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP PictureSettings": {
+			"timeStamp": "2024-06-21T13:15:29.978Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP RemoveDocumentIndex": {
+			"timeStamp": "2024-06-21T08:23:13.531Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP SetDocumentIndex": {
+			"timeStamp": "2024-06-21T08:23:13.531Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP UpdateWidget_OLD": {
+			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"attributes": {
+				"shared": true,
+				"invisible": true
+			}
+		},
+		"WP_ApplyPictureSettings": {
+			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_BorderMenu": {
+			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ComputeFormulas": {
+			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Convert": {
+			"timeStamp": "2024-06-20T15:00:03.669Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_CopyPasteMenu": {
+			"timeStamp": "2024-06-21T08:20:14.360Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_FillCurrent": {
+			"timeStamp": "2024-06-21T08:20:14.361Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_FreezeFormulas": {
+			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_FR_InitOptions": {
+			"timeStamp": "2024-06-20T14:59:17.195Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundClip": {
+			"timeStamp": "2024-06-21T08:20:14.361Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundColor": {
+			"timeStamp": "2024-06-20T14:59:17.197Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundOrigin": {
+			"timeStamp": "2024-06-21T08:20:14.361Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundPosition": {
+			"timeStamp": "2024-06-21T08:20:14.361Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundRepeat": {
+			"timeStamp": "2024-06-21T08:20:14.362Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundSize": {
+			"timeStamp": "2024-06-20T15:00:03.670Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBackgroundURL": {
+			"timeStamp": "2024-06-20T15:00:03.671Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetBookmarks": {
+			"timeStamp": "2024-06-20T14:59:17.197Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetDecoInfo": {
+			"timeStamp": "2024-06-20T15:00:03.671Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetDocInfos": {
+			"timeStamp": "2024-06-20T14:59:17.198Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetExpressions_Unused": {
+			"timeStamp": "2024-06-21T08:23:13.533Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetFontInfo": {
+			"timeStamp": "2024-06-21T08:23:13.533Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetFontVertAlign": {
+			"timeStamp": "2024-06-20T14:59:17.199Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetFormulas": {
+			"timeStamp": "2024-06-21T08:23:13.533Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetFrame": {
+			"timeStamp": "2024-06-21T08:20:14.362Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetMargins": {
+			"timeStamp": "2024-06-21T08:23:13.533Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetParagraphVertAlign": {
+			"timeStamp": "2024-06-21T08:20:14.363Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetPictureSettings": {
+			"timeStamp": "2024-06-21T08:23:13.534Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetProtections": {
+			"timeStamp": "2024-06-21T08:20:14.363Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetSizes": {
+			"timeStamp": "2024-06-21T08:23:13.534Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetStyleAttributesByGroup": {
+			"timeStamp": "2024-06-20T14:59:17.201Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetStyleAttributesByType": {
+			"timeStamp": "2024-06-21T13:15:47.415Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetStyleSheet": {
+			"timeStamp": "2024-06-20T14:59:17.202Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetStyleSheets": {
+			"timeStamp": "2024-06-20T14:59:17.202Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetStylesheetType": {
+			"timeStamp": "2024-06-20T14:59:17.202Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTabInfo": {
+			"timeStamp": "2024-06-20T14:59:17.203Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTablesWithDataSource": {
+			"timeStamp": "2024-06-21T08:23:13.534Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextAlign": {
+			"timeStamp": "2024-06-21T08:23:13.535Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextIndent": {
+			"timeStamp": "2024-06-20T14:59:17.203Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextLineHeight": {
+			"timeStamp": "2024-06-21T08:23:13.535Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextShadow": {
+			"timeStamp": "2024-06-20T14:59:17.204Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextTransform": {
+			"timeStamp": "2024-06-20T14:59:17.204Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetTextUnderline": {
+			"timeStamp": "2024-06-21T08:23:13.535Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetURL": {
+			"timeStamp": "2024-06-21T08:23:13.535Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_GetUserUnit": {
+			"timeStamp": "2024-06-21T08:20:14.363Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_IgnoreError": {
+			"timeStamp": "2024-06-20T14:59:17.205Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_InsertSoftHyphen": {
+			"timeStamp": "2024-06-21T08:23:13.536Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_PictureSaveSettings": {
+			"timeStamp": "2024-06-21T08:23:13.536Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Print_Gesteam": {
+			"timeStamp": "2024-06-21T08:22:49.225Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ReadPreferences": {
+			"timeStamp": "2024-06-21T08:23:13.536Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_RemoveSoftHyphen": {
+			"timeStamp": "2024-06-21T08:23:13.536Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Request": {
+			"timeStamp": "2024-06-20T14:59:17.206Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Ruler": {
+			"timeStamp": "2024-06-20T14:59:17.206Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SelectBookmark": {
+			"timeStamp": "2024-06-20T14:59:17.207Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SelectText": {
+			"timeStamp": "2024-06-20T15:00:03.673Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Set4Ddate": {
+			"timeStamp": "2024-06-20T14:59:17.207Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Set4Dexpression": {
+			"timeStamp": "2024-06-21T08:56:11.032Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_Set4Dexpression_Gesteam": {
+			"timeStamp": "2024-06-21T08:22:49.227Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetAlign": {
+			"timeStamp": "2024-06-20T14:59:17.207Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundClip": {
+			"timeStamp": "2024-06-21T08:20:14.363Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundColor": {
+			"timeStamp": "2024-06-20T14:59:17.207Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundOrigin": {
+			"timeStamp": "2024-06-21T08:20:14.364Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundPicture": {
+			"timeStamp": "2024-06-21T08:20:14.364Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundPosition": {
+			"timeStamp": "2024-06-21T08:20:14.364Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundRepeat": {
+			"timeStamp": "2024-06-21T08:20:14.364Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetBackgroundSize": {
+			"timeStamp": "2024-06-20T15:00:03.674Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetCellProtection": {
+			"timeStamp": "2024-06-21T08:23:13.537Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetDocInfos": {
+			"timeStamp": "2024-06-20T14:59:17.208Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetDocumentProtection": {
+			"timeStamp": "2024-06-20T14:59:17.208Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFont": {
+			"timeStamp": "2024-06-21T08:23:13.537Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFontBold": {
+			"timeStamp": "2024-06-21T08:23:13.537Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFontFamily": {
+			"timeStamp": "2024-06-21T08:23:13.538Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFontItalic": {
+			"timeStamp": "2024-06-21T08:23:13.538Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFontSize": {
+			"timeStamp": "2024-06-21T08:20:14.364Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFontVertAlign": {
+			"timeStamp": "2024-06-20T14:59:17.209Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFormula": {
+			"timeStamp": "2024-06-21T08:23:13.538Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetFrame": {
+			"timeStamp": "2024-06-21T08:20:14.365Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetListFont": {
+			"timeStamp": "2024-06-21T13:23:48.691Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetMargins": {
+			"timeStamp": "2024-06-21T08:20:14.365Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetParagraphProtection": {
+			"timeStamp": "2024-06-20T14:59:17.210Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetParagraphVertAlign": {
+			"timeStamp": "2024-06-21T08:20:14.366Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetRowProtection": {
+			"timeStamp": "2024-06-21T08:23:13.539Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetSizes": {
+			"timeStamp": "2024-06-20T14:59:17.211Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTabIndent": {
+			"timeStamp": "2024-06-20T14:59:17.211Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTabInfos": {
+			"timeStamp": "2024-06-20T14:59:17.211Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTableProtection": {
+			"timeStamp": "2024-06-20T14:59:17.212Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTabType": {
+			"timeStamp": "2024-06-20T14:59:17.212Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextColor": {
+			"timeStamp": "2024-06-20T14:59:17.212Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextIndent": {
+			"timeStamp": "2024-06-20T14:59:17.213Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextLineHeight": {
+			"timeStamp": "2024-06-21T08:23:13.540Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextLinetrough": {
+			"timeStamp": "2024-06-21T08:23:13.540Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextShadow": {
+			"timeStamp": "2024-06-20T14:59:17.213Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextTransform": {
+			"timeStamp": "2024-06-20T14:59:17.214Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetTextUnderline": {
+			"timeStamp": "2024-06-21T08:23:13.540Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetURL": {
+			"timeStamp": "2024-06-21T08:23:13.540Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SetUserUnit": {
+			"timeStamp": "2024-06-21T08:20:14.366Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ShiftIndent": {
+			"timeStamp": "2024-06-20T14:59:17.214Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_ShowTabPages": {
+			"timeStamp": "2024-06-21T13:26:37.440Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StyleFillEditLB": {
+			"timeStamp": "2024-06-20T15:00:03.675Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetAdd": {
+			"timeStamp": "2024-06-20T14:59:17.215Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetCopyAttributes": {
+			"timeStamp": "2024-06-20T14:59:17.216Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetEdit": {
+			"timeStamp": "2024-06-20T14:59:17.216Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetRemove": {
+			"timeStamp": "2024-06-20T14:59:17.216Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetSetAttributes": {
+			"timeStamp": "2024-06-21T08:23:13.541Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_StylesheetUpdate": {
+			"timeStamp": "2024-06-21T08:23:13.542Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_SwitchToolbar": {
+			"timeStamp": "2024-06-21T08:23:13.542Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"WP_TableMenu": {
+			"timeStamp": "2024-06-21T13:16:29.526Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"z": {
+			"timeStamp": "2024-06-21T08:23:13.544Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"zGetEmptyPict": {
+			"timeStamp": "2024-06-21T08:23:13.545Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"zGetSamplePict": {
+			"timeStamp": "2024-06-21T08:23:13.545Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"zGetSamplePictBW": {
+			"timeStamp": "2024-06-21T08:23:13.545Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"zXliff": {
+			"timeStamp": "2024-06-20T15:00:03.677Z"
+		},
+		"_and": {
+			"timeStamp": "2024-06-20T14:59:17.220Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"_bool": {
+			"timeStamp": "2024-06-20T14:59:17.220Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"_or": {
+			"timeStamp": "2024-06-20T14:59:17.220Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}

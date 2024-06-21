@@ -7,6 +7,13 @@ var $MergeOption : cs:C1710.MergeOptions
 OBJECT SET ENABLED:C1123(*; "@"; False:C215)  //ACI0100560
 OBJECT SET ENTERABLE:C238(*; "@"; False:C215)  //ACI0100560
 
+
+If (oForm.redrawTabs)
+	oForm.ToolbarTabs.redraw()
+	oForm.redrawTabs:=False:C215
+End if 
+
+
 //If (Asserted(Form#Null;"The variable associated to the toolbar should be an object!")) // before ACI0100560
 If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be an object!")) //ACI0100560
 	
@@ -14,7 +21,7 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 	If (Form event code:C388=Sur chargement:K2:1)
 		If (Form:C1466.spellCheck#Null:C1517)
 			If (Value type:C1509(Form:C1466.spellCheck)=Est un booléen:K8:9)
-				OBJECT SET VISIBLE:C603(*; "tab8"; Form:C1466.spellCheck)  // true or false
+				OBJECT SET VISIBLE:C603(*; "tabBtn_Spell"; Form:C1466.spellCheck)  // true or false
 			End if 
 		End if 
 	End if 
@@ -34,7 +41,8 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 				
 			: ($page=10)  // page 10 is also special case
 				
-				UI_PaletteImportExport
+				UI_PaletteImportExport  //
+				
 			: ($page=11)  // page 11 find and replace
 				
 				UI_PaletteFindAndReplace
@@ -71,6 +79,7 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 					OBJECT SET ENABLED:C1123(*; "@"; True:C214)
 					OBJECT SET ENTERABLE:C238(*; "@"; True:C214)
 					
+					//Erreur volontaire : remettre à la bonne valeur
 					Case of 
 						: ($page=1)
 							If (Form:C1466.selection.type#wk type image:K81:192)
@@ -81,8 +90,7 @@ If (Form:C1466#Null:C1517)  //;"The variable associated to the toolbar should be
 						: ($page=7)
 							UI_Tables("Toolbar")
 							
-							
-						: ($page=13)
+						: ($page=12)
 							
 							UI_MergeAggregate()
 					End case 

@@ -22,3 +22,15 @@ If ($WpDocument#Null:C1517)
 		//: (WP Plage selection($WpDocument) ... VW : Ici on devrait être en capacité de tester les images "inline" mais je n'arrive pas à faire fonctionner cette partie :'(
 	End if 
 End if 
+
+//WP PictureSettings(Form.selection)
+
+
+
+//$pictCol:=WP Get elements($range; wk type image)
+//If ($pictCol.length>=1)
+//$picture:=$pictCol[0]
+//$form:=New object("picture"; $picture)
+//$win:=Open form window("D_pictureSettings"; Movable form dialog box; Horizontally centered; Vertically centered)
+//DIALOG("D_pictureSettings"; $form)
+//End if 
