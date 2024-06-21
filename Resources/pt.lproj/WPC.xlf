@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!--
 Translation file.
 This file is distributed under the same license as the product package.-->
@@ -67,7 +67,7 @@ This file is distributed under the same license as the product package.-->
           <target>Alin. Vert.: </target>
         </trans-unit>
         <trans-unit id="11" resname="FirstIndentationColon">
-          <source>1st indentation:</source>
+          <source>1st indent.:</source>
           <target>1º travessão:</target>
         </trans-unit>
         <trans-unit id="13" resname="BackgroundColon">
@@ -118,6 +118,18 @@ This file is distributed under the same license as the product package.-->
           <source>Decrease indent</source>
           <target>Diminuir o recuo</target>
         </trans-unit>
+        <trans-unit id="jOdgvUoCqlAAvJ9MNLCnTQ" resname="insert">
+          <source>Insert</source>
+          <target>Inserir</target>
+        </trans-unit>
+        <trans-unit id="f1S2oecx6Pl/gFkJV86S4A" resname="columns">
+          <source>Columns</source>
+          <target>Colunas</target>
+        </trans-unit>
+        <trans-unit id="VmvGVTTjR+qrSCge2mVPfw" resname="numberHiphen">
+          <source>Number:</source>
+          <target>Número:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteBackgrounds">
         <trans-unit id="18" resname="BackgroundPicture">
@@ -136,7 +148,7 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="21" resname="Clip">
           <source>Clip:</source>
-          <target>Clip:</target>
+          <target>Aparar:</target>
         </trans-unit>
         <trans-unit id="22" resname="Origin">
           <source>Origin:</source>
@@ -174,6 +186,10 @@ This file is distributed under the same license as the product package.-->
           <source>Advanced settings…</source>
           <target>Configurações avançadas...</target>
         </trans-unit>
+        <trans-unit id="dOtz4kYVKAUCtHPmPtDbdw" resname="PictureAndTextboxes">
+          <source>Picture &amp; textboxes</source>
+          <target state="new">Picture &amp; textboxes</target>
+        </trans-unit>
       </group>
       <group resname="PaletteFonts">
         <trans-unit id="26" resname="FontColon">
@@ -210,7 +226,7 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="35" resname="ColorColon:">
           <source>Color:</source>
-          <target>Color:</target>
+          <target>Cor:</target>
         </trans-unit>
         <trans-unit id="36" resname="Shadows">
           <source>Shadows</source>
@@ -230,7 +246,7 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="96" resname="TransformColon">
           <source>Transform:</source>
-          <target>Transform:</target>
+          <target>Transformar:</target>
         </trans-unit>
         <trans-unit id="U+//oc3/u1IXrlP6L4mWAQ" resname="SpecialCharacters">
           <source>Special characters</source>
@@ -308,10 +324,6 @@ This file is distributed under the same license as the product package.-->
           <source>Expression:</source>
           <target>Expressão:</target>
         </trans-unit>
-        <trans-unit id="50" resname="DisplayCollon">
-          <source>Display:</source>
-          <target>Mostrar:</target>
-        </trans-unit>
         <trans-unit id="51" resname="LabelColon">
           <source>Label:</source>
           <target>Etiqueta:</target>
@@ -352,10 +364,6 @@ This file is distributed under the same license as the product package.-->
           <source>Modified:</source>
           <target>Modificado:</target>
         </trans-unit>
-        <trans-unit id="58" resname="ActionsColon">
-          <source>Actions:</source>
-          <target>Ações:</target>
-        </trans-unit>
         <trans-unit id="60" resname="Compute">
           <source>Compute</source>
           <target>Calcular</target>
@@ -372,14 +380,6 @@ This file is distributed under the same license as the product package.-->
           <source>Expression</source>
           <target>Expressão</target>
         </trans-unit>
-        <trans-unit id="65" resname="Values">
-          <source>Values</source>
-          <target>Valores</target>
-        </trans-unit>
-        <trans-unit id="66" resname="Expressions">
-          <source>Expressions</source>
-          <target>Expressões</target>
-        </trans-unit>
         <trans-unit id="67" resname="Set">
           <source>Set</source>
           <target>Aplicam-se</target>
@@ -392,15 +392,23 @@ This file is distributed under the same license as the product package.-->
           <source>No table available. The formula editor can not be open.</source>
           <target>Não há tabela disponível. O editor de fórmula sem poder estar aberto.</target>
         </trans-unit>
+        <trans-unit id="BTTvdZt/pKnIFwe7yAa5iQ" resname="DisplayExpressions">
+          <source>Display expressions</source>
+          <target>Mostrar expressões</target>
+        </trans-unit>
+        <trans-unit id="HJEapLue/aA7XG3UPAUXjw" resname="DisplayColon">
+          <source>Display:</source>
+          <target>Mostrar:</target>
+        </trans-unit>
+        <trans-unit id="Qx7gCjGjc14eNrDImk5B/A" resname="FormulasColon">
+          <source>Formulas:</source>
+          <target>Fórmulas:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteSizes">
         <trans-unit id="68" resname="Paragraph">
           <source>Paragraph</source>
           <target>Parágrafo</target>
-        </trans-unit>
-        <trans-unit id="69" resname="Picture">
-          <source>Picture</source>
-          <target>Imagem</target>
         </trans-unit>
         <trans-unit id="70" resname="SetWidth">
           <source>Set width</source>
@@ -422,17 +430,13 @@ This file is distributed under the same license as the product package.-->
           <source>Width:</source>
           <target>Largura:</target>
         </trans-unit>
-        <trans-unit id="77" resname="AltTextColon">
-          <source>Alt. Text</source>
-          <target>Alt. Texto</target>
-        </trans-unit>
         <trans-unit id="74" resname="HeightColon">
           <source>Height:</source>
           <target>Altura:</target>
         </trans-unit>
-        <trans-unit id="75" resname="AltText">
-          <source>Alternate text</source>
-          <target>Texto alternativo</target>
+        <trans-unit id="75" resname="AltTextColon">
+          <source>Alternate text:</source>
+          <target>Texto alternativo:</target>
         </trans-unit>
         <trans-unit id="76" resname="ZeroAuto">
           <source>(0 = Auto)</source>
@@ -441,6 +445,22 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="83" resname="UnitColon">
           <source>Unit:</source>
           <target>Unidade:</target>
+        </trans-unit>
+        <trans-unit id="Ozjo60l1QOY5Jt3l4nm2BA" resname="display">
+          <source>Display</source>
+          <target>Monitor</target>
+        </trans-unit>
+        <trans-unit id="6mdklHugZWAmT19d8JTRBQ" resname="modeHyphen">
+          <source>Mode:</source>
+          <target>Modo:</target>
+        </trans-unit>
+        <trans-unit id="aP7rDxq6XdlIr1OxlgkisQ" resname="elementsHyphen">
+          <source>Elements:</source>
+          <target>Elementos:</target>
+        </trans-unit>
+        <trans-unit id="g85MxHB982KewW/4nsfyrA" resname="pictures">
+          <source>Zoom:</source>
+          <target>Zoom:</target>
         </trans-unit>
       </group>
       <group resname="PaletteTabulations">
@@ -469,7 +489,7 @@ This file is distributed under the same license as the product package.-->
           <target>Nova tabulação</target>
         </trans-unit>
         <trans-unit id="84" resname="DefaultLeadingChar">
-          <source>Default leading char.</source>
+          <source>Default leading char.:</source>
           <target>Caractere inicial padrão:</target>
         </trans-unit>
         <trans-unit id="85" resname="LeadingChar">
@@ -607,82 +627,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="104" resname="SelectADestination">
           <source>Select a destination.</source>
           <target>Selecione um destino.</target>
-        </trans-unit>
-      </group>
-      <group resname="ListStyleNames">
-        <trans-unit id="1" resname="None">
-          <source>None</source>
-          <target>Nenhum</target>
-        </trans-unit>
-        <trans-unit id="2" resname="Disc">
-          <source>Disc</source>
-          <target>Disco</target>
-        </trans-unit>
-        <trans-unit id="3" resname="Circle">
-          <source>Circle</source>
-          <target>Círculo</target>
-        </trans-unit>
-        <trans-unit id="4" resname="Square">
-          <source>Square</source>
-          <target>Quadrado</target>
-        </trans-unit>
-        <trans-unit id="5" resname="HollowSquare">
-          <source>Hollow square</source>
-          <target>Quadrado oco</target>
-        </trans-unit>
-        <trans-unit id="6" resname="Diamond">
-          <source>Diamond</source>
-          <target>Diamante</target>
-        </trans-unit>
-        <trans-unit id="7" resname="Club">
-          <source>Club</source>
-          <target>Trevo</target>
-        </trans-unit>
-        <trans-unit id="8" resname="123">
-          <source>1 2 3</source>
-          <target>1 2 3</target>
-        </trans-unit>
-        <trans-unit id="9" resname="010203">
-          <source>01 02 03</source>
-          <target>01 02 03</target>
-        </trans-unit>
-        <trans-unit id="10" resname="abcLow">
-          <source>a b c</source>
-          <target>a b c</target>
-        </trans-unit>
-        <trans-unit id="11" resname="abcCAP">
-          <source>A B C</source>
-          <target>A B C</target>
-        </trans-unit>
-        <trans-unit id="12" resname="Roman">
-          <source>I II III</source>
-          <target>I II III</target>
-        </trans-unit>
-      </group>
-      <group resname="ListUnits">
-        <trans-unit id="1" resname="cm">
-          <source>cm</source>
-          <target>cm</target>
-        </trans-unit>
-        <trans-unit id="2" resname="mm">
-          <source>mm</source>
-          <target>mm</target>
-        </trans-unit>
-        <trans-unit id="3" resname="inches">
-          <source>inches</source>
-          <target>polegadas</target>
-        </trans-unit>
-        <trans-unit id="4" resname="pt">
-          <source>pt</source>
-          <target>pt</target>
-        </trans-unit>
-        <trans-unit id="5" resname="auto">
-          <source>auto</source>
-          <target>Auto</target>
-        </trans-unit>
-        <trans-unit id="6" resname="pct">
-          <source>%</source>
-          <target>%</target>
         </trans-unit>
       </group>
       <group resname="borderStyleNames">
@@ -1148,7 +1092,15 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="algTRD9sqjDsayCBIx1jig" resname="No">
           <source>No</source>
-          <target>No</target>
+          <target>Não</target>
+        </trans-unit>
+        <trans-unit id="4Z4RwzyWeP/Lva2PJqZkIw" resname="detailsColon">
+          <source>Details:</source>
+          <target state="new">Details:</target>
+        </trans-unit>
+        <trans-unit id="KNV1Z0ClwSorv7H0yJnEIQ" resname="globalColon">
+          <source>Global:</source>
+          <target state="new">Global:</target>
         </trans-unit>
       </group>
       <group resname="PaletteFindReplace">
@@ -1232,9 +1184,9 @@ This file is distributed under the same license as the product package.-->
           <source>Previous</source>
           <target>Anterior</target>
         </trans-unit>
-        <trans-unit id="262" resname="FindSlashReplace">
-          <source>Find/Replace</source>
-          <target>Pesquisar/substituir</target>
+        <trans-unit id="262" resname="FindElipsis">
+          <source>Find…</source>
+          <target>Pesquisar...</target>
         </trans-unit>
         <trans-unit id="260" resname="FullWord">
           <source>Full words only</source>
@@ -1281,7 +1233,7 @@ This file is distributed under the same license as the product package.-->
           <target>Sensível aos sotaques</target>
         </trans-unit>
         <trans-unit id="mWfZe71n2prS1bwT5Kl/7Q" resname="KanaSensitive">
-          <source>kana sensitive</source>
+          <source>Kana sensitive</source>
           <target>Sensível a kana</target>
         </trans-unit>
         <trans-unit id="MXimbql17Fcbqrr2WKgPsg" resname="WidthSensitive">
@@ -1315,6 +1267,10 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="4TFSNZU8Z6IMoq+NekNNIg" resname="OccurencesColon">
           <source>Occurences:</source>
           <target>Ocorrências:</target>
+        </trans-unit>
+        <trans-unit id="Q8D13uFpth/PNUBxsK/oVw" resname="ReplacementsColon">
+          <source>Replacements:</source>
+          <target>Substituições:</target>
         </trans-unit>
       </group>
       <group resname="PaletteTables">
@@ -1438,6 +1394,10 @@ This file is distributed under the same license as the product package.-->
           <source>Properties</source>
           <target>Propriedades</target>
         </trans-unit>
+        <trans-unit id="CBa5QNoUGYvlYOhE9ONZzg" resname="SetDatasourceEllipsis">
+          <source>Set datasource…</source>
+          <target>Defina a fonte...</target>
+        </trans-unit>
       </group>
       <group resname="PaletteProtect">
         <trans-unit id="QRCHOUVOvU1y6dkzlbGq5A" resname="protectParagraphs">
@@ -1484,9 +1444,9 @@ This file is distributed under the same license as the product package.-->
           <source>PDF Export</source>
           <target>Exportar PDF</target>
         </trans-unit>
-        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="background">
-          <source>Background</source>
-          <target>Fundo</target>
+        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="backgrounds">
+          <source>Backgrounds</source>
+          <target>Fundos</target>
         </trans-unit>
         <trans-unit id="2zaxAplGAgJvGg5f+KnwOA" resname="headers">
           <source>Headers</source>
@@ -1499,10 +1459,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="tMZO5KyH1Qe77I7HSLR6og" resname="htmlWysiwyg">
           <source>HTML "WYSIWYG"</source>
           <target>HTML "WYSIWIG"</target>
-        </trans-unit>
-        <trans-unit id="th+uJGqJE/aRdxxSHhxRlg" resname="htmlPrettyPrint">
-          <source>"Pretty print"</source>
-          <target>"Pretty print"</target>
         </trans-unit>
         <trans-unit id="7yp1Rkz6KWEs2pehpSqJoA" resname="recomputeFormulas">
           <source>Recompute formulas</source>
@@ -1548,31 +1504,101 @@ This file is distributed under the same license as the product package.-->
           <source>When selected, all formulas will be recomputed before export.
 
 When not selected, only formulas that have never been evaluated will be computed.</source>
-          <target>Esta opção força o cálculo da fórmula antes da exportação.
+          <target>Quando selecionados, todas as fórmulas serão recomputadas antes da exportação.
 
-Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
-
-</target>
-        </trans-unit>
-        <trans-unit id="DpRVy4keJdQU2SqZwEacYg" resname="FormulasComma">
-          <source>Formulas:</source>
-          <target>Fórmulas:</target>
-        </trans-unit>
-        <trans-unit id="TLfxhPbY2ZRWaf3J3RyOcw" resname="htmlEllipsis">
-          <source>HTML…</source>
-          <target>HTML…</target>
-        </trans-unit>
-        <trans-unit id="jqxt3L4zVABvifyA9e+8sA" resname="InfoPrettyPrint">
-          <source>This option generates a document with more human-readable source code and increases document size.</source>
-          <target>Essa opção gera documentos com um código-fonte mais legível. Isso aumenta significativamente o tamanho dos documentos.</target>
+Quando não selecionadas, serão computadas apenas fórmulas que nunca foram avaliadas.</target>
         </trans-unit>
         <trans-unit id="6LkWY9PvfM8ea1sA6vSrBw" resname="ExportComma">
           <source>Export:</source>
           <target>Export:</target>
         </trans-unit>
+        <trans-unit id="caQYk8btXcl+pUBojuXPoQ" resname="InfoEmbedPictures">
+          <source>With this option, the generated SVG document will be standalone but its size will increase</source>
+          <target>Com esta opção, o documento SVG gerado será autónomo para seu tamanho aumentará</target>
+        </trans-unit>
+        <trans-unit id="Jm3zqgXEMB//3tACqAcZ0A" resname="InfoExportPictures">
+          <source>This option allows you to export the images of your document to an external "images" folder. The SVG file will be lighter.</source>
+          <target>Esta opção permite exportar as imagens de seu documento a uma carpeta "imagens" externas. O arquivo SVG será más ligero.</target>
+        </trans-unit>
+        <trans-unit id="l5yK2FqhagnuTfX+7DfKjA" resname="InfoCreateFolder">
+          <source>A folder will be created and will contain the SVG file and the pictures folder if needed.</source>
+          <target>Se criar uma carpeta que contendrá el arquivo SVG e la carpeta "imagens" si es necesario.</target>
+        </trans-unit>
+        <trans-unit id="h60zhveTCxSBSmc8ly911Q" resname="EmbedImages">
+          <source>Embed document pictures</source>
+          <target>Insertar imagens de documentos</target>
+        </trans-unit>
+        <trans-unit id="EyvZbU4fegiD39MW7BvMNQ" resname="ExportImages">
+          <source>Export images from document</source>
+          <target>Exportar imagens do documento</target>
+        </trans-unit>
+        <trans-unit id="ftw1H7xGhhRTkqQ2O2LLGg" resname="EnableGoogleFonts">
+          <source>Enable Google fonts substitution</source>
+          <target>Ativar a substituição Google fonts</target>
+        </trans-unit>
+        <trans-unit id="NqxkQgc34W90eQYBmYkkvg" resname="InfoGoogleFonts">
+          <source>This option adds a Google font import directive.
+Use this option if the fonts in your document are not cross-platform.</source>
+          <target>Essa opção adiciona uma política de importação de fontes do Google.
+Use esta opção se as fontes do documento não forem multiplataformas.</target>
+        </trans-unit>
+        <trans-unit id="KRk/LGj7Cj0IKqbAD1+m2Q" resname="PagesComma">
+          <source>Pages:</source>
+          <target>Páginas:</target>
+        </trans-unit>
+        <trans-unit id="9rxyF4rWKl6cSTgcq13Plw" resname="ConfirmImageFolder">
+          <source>An "Images" folder already exists there!
+Would you like to replace it?</source>
+          <target>Uma pasta "Images" já existe 
+Gostaria de substituí-la?</target>
+        </trans-unit>
+        <trans-unit id="ZYahIeSDiz5Tz/hjbW8C2A" resname="Overwrite">
+          <source>Overwrite</source>
+          <target>Sobrescrever</target>
+        </trans-unit>
+        <trans-unit id="gJPawW7rsig8FtISvxRypw" resname="All">
+          <source>All</source>
+          <target>Todos</target>
+        </trans-unit>
+        <trans-unit id="JYFMlsryz/0iGg7gUz7AUA" resname="FromComma">
+          <source>From:</source>
+          <target>De:</target>
+        </trans-unit>
+        <trans-unit id="vcXBxWYL/WBWSqCP8bp63A" resname="ToComma">
+          <source>to:</source>
+          <target>Até:</target>
+        </trans-unit>
+        <trans-unit id="RMDC+cSZBoQl5t/kVyWSGg" resname="svgEllipsis">
+          <source>SVG…</source>
+          <target>SVG…</target>
+        </trans-unit>
+        <trans-unit id="yXC6rMdaGMCwbJsOKcSU+Q" resname="htmlEllipsis">
+          <source>HTML…</source>
+          <target>HTML…</target>
+        </trans-unit>
+        <trans-unit id="DlMn8kPNE6u2c2tRr8jppA" resname="FileNamePrompt">
+          <source>Name of the file to be created</source>
+          <target>Nome do arquivo a ser criado</target>
+        </trans-unit>
+        <trans-unit id="9AHHUOIbvZ1JaXXlXU4VWQ" resname="FolderNamePrompt">
+          <source>Name of the folder to be created</source>
+          <target>Nome da pasta a ser criado</target>
+        </trans-unit>
+        <trans-unit id="y32E8D1pr6wrutx/5zbK/A" resname="infoEmptyPictures">
+          <source>Check this box if you want to export empty pictures returned by formulas.</source>
+          <target>Selecione esta caixa de seleção se quiser exportar as imagens vazias devolvidas pelas fórmulas.</target>
+        </trans-unit>
+        <trans-unit id="gzqU0lQaIqbShE0dEr/AwA" resname="optionsComma">
+          <source>Options:</source>
+          <target>Opções:</target>
+        </trans-unit>
+        <trans-unit id="ILaNpHjjQPifHiTlQjUIGg" resname="blackFrame">
+          <source>Black frame for empty pictures</source>
+          <target>Quadro preto para imagens vazias</target>
+        </trans-unit>
       </group>
       <group resname="PaletteImportExport"/>
-      <group resname="DialogImport">
+      <group resname="textArea">
         <trans-unit id="35LPRJSfvhoZuOyzHa/LXw" resname="EraseDocument">
           <source>Erase the document</source>
           <target>Apaguei o documento</target>
@@ -1611,7 +1637,7 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
         </trans-unit>
         <trans-unit id="fUY1y/mfq8YIayhWmfKZeg" resname="SelectFile">
           <source>Select file to import…</source>
-          <target>Select file to import…</target>
+          <target>Selecione o arquivo para importar...</target>
         </trans-unit>
         <trans-unit id="ceXUiqKwcVAUS6ay3ug5xQ" resname="ReplaceDocument">
           <source>Replace the current document</source>
@@ -1619,7 +1645,7 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
         </trans-unit>
         <trans-unit id="NFtFcqXg4EZ1lxL/0wtdpw" resname="InfoReplaceDocument">
           <source>The full document will be replaced including headers and footers.</source>
-          <target>The full document will be replaced including headers and footers.</target>
+          <target>Todo o documento será substituído incluindo os cabeçalhos e rodapés.</target>
         </trans-unit>
         <trans-unit id="V9QRc48mupZaPsRVherBRQ" resname="InfoNotImported">
           <source>The headers, footers and anchored pictures will not be imported.</source>
@@ -1649,6 +1675,10 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
           <source/>
           <target/>
         </trans-unit>
+        <trans-unit id="3KMV7oT2tuLS05721O0Waw" resname="SectionNumber">
+          <source>Section number</source>
+          <target>Número da seção</target>
+        </trans-unit>
       </group>
       <group resname="DialogImportLog">
         <trans-unit id="A4sgoBTWcmhTBII7qTJgAQ" resname="HeaderInfo">
@@ -1669,13 +1699,13 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
         </trans-unit>
       </group>
       <group resname="DialogPictureSettings">
-        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="Margins">
-          <source>Margins</source>
-          <target>Margens</target>
+        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="MarginsHyphen">
+          <source>Margins:</source>
+          <target>Margens:</target>
         </trans-unit>
-        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="Padding">
-          <source>Padding</source>
-          <target>Margens internas</target>
+        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="PaddingHyphen">
+          <source>Padding:</source>
+          <target>Recheio:</target>
         </trans-unit>
         <trans-unit id="PiyV+E6B2BOy4GNsS6PbpQ" resname="FormulaAndURL">
           <source>Formula and URL</source>
@@ -1689,9 +1719,9 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
           <source>URL:</source>
           <target>URL:</target>
         </trans-unit>
-        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateText">
-          <source>Alternate text</source>
-          <target>Texto alternativo</target>
+        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateTextHyphen">
+          <source>Alternate text:</source>
+          <target>Texto alternativo:</target>
         </trans-unit>
         <trans-unit id="lUrF6H2gRySYCSMqQIxzdA" resname="PagesAndSections">
           <source>Pages and sections</source>
@@ -1702,12 +1732,12 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
           <target>Alinhamentos</target>
         </trans-unit>
         <trans-unit id="zRIujmEncGp6o57fw558gQ" resname="HorizontalHyphen">
-          <source>Horizontal:</source>
-          <target>Horizontal:</target>
+          <source>Horizontal alignment:</source>
+          <target>Alinhamento horizontal:</target>
         </trans-unit>
         <trans-unit id="8LsAUIhSSfbN0OJ6Lw53Tg" resname="VerticalHyphen">
-          <source>Vertical:</source>
-          <target>Vertical:</target>
+          <source>Vertical alignment:</source>
+          <target>Alinhamento vertical:</target>
         </trans-unit>
         <trans-unit id="OeBtEIyH9SPbvssc58l4CQ" resname="OriginHyphen">
           <source>Origin:</source>
@@ -1756,6 +1786,118 @@ Caso contrário, serão calculadas apenas fórmulas que nunca foram calculadas.
         <trans-unit id="lP5Wk5MEdkpNOiSJgn9p8A" resname="OriginalSize">
           <source>Original size</source>
           <target>Tamanho original</target>
+        </trans-unit>
+        <trans-unit id="Qk23GVWVSIVC55yKGMhYaQ" resname="PictureFormat">
+          <source>Picture format:</source>
+          <target>Formato da imagem:</target>
+        </trans-unit>
+        <trans-unit id="fBvnMsjh2EReTO1gRxu7sw" resname="LeftPages">
+          <source>Left pages</source>
+          <target>Páginas esquerdas</target>
+        </trans-unit>
+        <trans-unit id="mFFDsjPq2TAu2gzl5XM0mQ" resname="FirstPage">
+          <source>First page</source>
+          <target>Primeira Página</target>
+        </trans-unit>
+        <trans-unit id="khX9wIKnpJFDIWvtbHJpCg" resname="RightPages">
+          <source>Right pages</source>
+          <target>Páginas certas</target>
+        </trans-unit>
+        <trans-unit id="QR7rFC0zJIwfzEn9E+IYRA" resname="PageNumber">
+          <source>Page number</source>
+          <target>Número da página</target>
+        </trans-unit>
+        <trans-unit id="ynXAPxhJMkNpcwRliQMXvg" resname="insertImageURL">
+          <source>Insert an image URL…</source>
+          <target>Insira URL de uma imagem...</target>
+        </trans-unit>
+        <trans-unit id="m3a/CgZ8NS600XAnT/CuFA" resname="insertImageFormula">
+          <source>Insert an image formula…</source>
+          <target>Insira uma imagem fórmula...</target>
+        </trans-unit>
+        <trans-unit id="PkaSe6J+O4IfvlHou7auvA" resname="editImageURL">
+          <source>Edit image URL…</source>
+          <target>Editar a URL da imagem...</target>
+        </trans-unit>
+        <trans-unit id="00lbTfGC7req5VFUsKJClQ" resname="editImageFormula">
+          <source>Edit image formula</source>
+          <target>Editar a fórmula de imagem</target>
+        </trans-unit>
+        <trans-unit id="fol28Q4W1QaiCmasz8InLQ" resname="WidthColon">
+          <source>Width:</source>
+          <target>Largura:</target>
+        </trans-unit>
+        <trans-unit id="gRUAqvqF/1uDA6gPAG35KQ" resname="HeightColon">
+          <source>Height:</source>
+          <target>Altura:</target>
+        </trans-unit>
+        <trans-unit id="kTXJQBET6xQGp0xvCmrDSg" resname="Propagate">
+          <source>Propagate</source>
+          <target>Propagar</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Paragraph">
+        <trans-unit id="OBu9prb/tV2ysSeEdfq4GQ" resname="resetFontAttributes">
+          <source>Reset paragraph font attributes</source>
+          <target>Reinicializar atributos de fonte de parágrafo</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_DocInfo">
+        <trans-unit id="KIsUNyYrj7evpWMAyBfemg" resname="title">
+          <source>Title</source>
+          <target>Título</target>
+        </trans-unit>
+        <trans-unit id="O3s/HchQTWSZ/UcjrtMpWg" resname="author">
+          <source>author</source>
+          <target>Autor</target>
+        </trans-unit>
+        <trans-unit id="Au2W7hEQE5ZfKI1rvAnUww" resname="subject">
+          <source>Subject</source>
+          <target>Assunto</target>
+        </trans-unit>
+        <trans-unit id="s9AD0G6fIMkDCStHS2ysnw" resname="company">
+          <source>Company</source>
+          <target>Empresa</target>
+        </trans-unit>
+        <trans-unit id="QBkunZ9iy6al8OgBj45hjQ" resname="notes">
+          <source>Notes</source>
+          <target>Anotações</target>
+        </trans-unit>
+        <trans-unit id="+/lt/JavD2HppAAJysR5rg" resname="creationDate">
+          <source>Creation date</source>
+          <target>Data de criação</target>
+        </trans-unit>
+        <trans-unit id="wqkPw22mAeFQtMi7rOGTuA" resname="modificationDate">
+          <source>Modification date</source>
+          <target>Data de modificação</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Freeze">
+        <trans-unit id="YJ8st5NVYk9iAGILx5O23A" resname="FreezeDocument">
+          <source>Freeze document</source>
+          <target>Congelar o documento</target>
+        </trans-unit>
+        <trans-unit id="BsGWfaI7WPuzFCPnZEPaog" resname="FreezeSelection">
+          <source>Freeze selection</source>
+          <target>Congelar a seleção</target>
+        </trans-unit>
+        <trans-unit id="a21/ILiIHT15NrT6WxTPpA" resname="FreezeTables">
+          <source>Freeze tables</source>
+          <target>Congelar tabelas</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Compute">
+        <trans-unit id="G1qriI3TB4C8on9assC28g" resname="ComputeSelection">
+          <source>Compute selection</source>
+          <target>Avalie a seleção</target>
+        </trans-unit>
+        <trans-unit id="X0cFWvYLS2IWq/9nLRCxPg" resname="ComputeDocument">
+          <source>Compute document</source>
+          <target>Avalie o documento</target>
+        </trans-unit>
+        <trans-unit id="bK4KIBvTGBVXEffFIfIYkg" resname="ComputeTables">
+          <source>Compute tables</source>
+          <target>Avaliar tabelas</target>
         </trans-unit>
       </group>
       <group resname="PaletteMergeAggregate">

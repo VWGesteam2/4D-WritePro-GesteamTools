@@ -6,7 +6,7 @@
 	"Cancel": "Cancel",
 	"OK": "Accept",
 	"Record Number": "Record Position within Selection",
-	"Margins": ":xliff:MarginsAlignments",
+	"FontStyle": ":xliff:FontStyle",
 	"Tabulations": ":xliff:Tabulations",
 	"Sizes": ":xliff:Sizes",
 	"Frames": ":xliff:Frames",

@@ -1,0 +1,239 @@
+{
+<<<<<<< HEAD
+	"(Dossier)": {},
+	"ButtonMergeSwitch": {
+		"methods": [
+			"btnM_S_AddsHFSection1",
+			"btnM_S_AddsHFSections2toN",
+			"btnM_S_HFAutoHeight",
+			"btnM_S_KeepOnlyAllSectionsExist",
+			"btnM_S_KeepOnlySections1",
+			"btnM_S_MergeHF",
+			"btnM_S_ProhibitsDifferentSectio",
+			"btnM_S_ReverseFootersOrder"
+		]
+	},
+	"Gesteam": {
+		"groups": [
+			"ButtonMergeSwitch"
+		],
+		"methods": [
+			"GetGesteamImage",
+			"ObToolBarToDocument",
+			"ObToolBarToObMergeOptions",
+			"SetMergeOptionFormOb",
+			"UI_MergeAggregate",
+			"WP_Print_Gesteam",
+			"WP_Set4Dexpression_Gesteam"
+		],
+		"classes": [
+			"MergeOptions"
+=======
+	"CLASSES": {
+		"classes": [
+			"Toolbar"
+>>>>>>> 19R8
+		]
+	},
+	"ImportExport Dialogs": {
+		"forms": [
+			"D_Import"
+		]
+	},
+	"Methods": {
+		"methods": [
+			"Call_CustomColorPalette",
+			"ResetIfMixed",
+			"SetupLocalVariables",
+			"TOOL_HLStoRGB",
+			"TOOL_RGBtoHLS",
+			"UI_ApplySkin",
+			"UI_Palette",
+			"UI_PaletteAlignments",
+			"UI_PaletteFonts",
+			"UI_PaletteInfos",
+			"UI_PaletteSizes",
+			"UI_PaletteTabulations",
+			"UI_Selector",
+			"WP_CopyPasteMenu",
+			"WP_FillCurrent",
+			"WP_GetBackgroundColor",
+			"WP_GetBackgroundSize",
+			"WP_GetBackgroundURL",
+			"WP_GetDecoInfo",
+			"WP_GetFontInfo",
+			"WP_GetFontVertAlign",
+			"WP_GetSizes",
+			"WP_GetTabInfo",
+			"WP_GetTextIndent",
+			"WP_GetTextLineHeight",
+			"WP_GetTextTransform",
+			"WP_GetTextUnderline",
+			"WP_Set4Ddate",
+			"WP_SetAlign",
+			"WP_SetBackgroundColor",
+			"WP_SetBackgroundPicture",
+			"WP_SetBackgroundSize",
+			"WP_SetDocInfos",
+			"WP_SetFontBold",
+			"WP_SetFontFamily",
+			"WP_SetFontItalic",
+			"WP_SetFontSize",
+			"WP_SetFontVertAlign",
+			"WP_SetSizes",
+			"WP_SetTabIndent",
+			"WP_SetTabInfos",
+			"WP_SetTabType",
+			"WP_SetTextColor",
+			"WP_SetTextIndent",
+			"WP_SetTextLineHeight",
+			"WP_SetTextLinetrough",
+			"WP_SetTextShadow",
+			"WP_SetTextTransform",
+			"WP_SetTextUnderline"
+		]
+	},
+	"PaletteForms": {
+		"forms": [
+			"WP_CustomColors",
+			"WP_Palette",
+			"WP_Palette_Alignments",
+			"WP_Palette_Backgrounds",
+			"WP_Palette_BookMarks",
+			"WP_Palette_Expressions",
+			"WP_Palette_Fonts",
+			"WP_Palette_Frames",
+			"WP_Palette_ImportExport",
+			"WP_Palette_Protection",
+			"WP_Palette_Sizes",
+			"WP_Palette_StyleSheets",
+			"WP_Palette_Tables",
+			"WP_Palette_Tabulations"
+		]
+	},
+	"PALETTES": {
+		"groups": [
+			"Methods",
+			"PaletteForms"
+		],
+		"methods": [
+			"4D_Licence",
+			"RndRGB",
+			"TOOL_ColorRgbLongToColorRgbText",
+			"TOOL_ColorRgbTextToColorRgbLong",
+			"TOOL_WPIAlignButtons",
+			"TrapError",
+			"UI_PaletteBackgrounds",
+			"UI_PaletteBookMarks",
+			"WP_Convert",
+			"WP_GetBookmarks",
+			"WP_GetDocInfos",
+			"WP_GetTextShadow",
+			"WP_SelectBookmark",
+			"WP_SetFont"
+		],
+		"forms": [
+			"WP_Palette_FindAndReplace"
+		]
+	},
+	"Table Forms": {
+		"tables": [
+			"SAMPLE"
+		],
+		"forms": [
+<<<<<<< HEAD
+			"[SAMPLE]InputPalettes",
+=======
+			"[SAMPLE]InputToolBar",
+>>>>>>> 19R8
+			"[SAMPLE]Output"
+		]
+	},
+	"TOOLBARS": {
+		"methods": [
+			"debug_ReformatButtons",
+			"TB_GotoPage",
+			"TB_setAutomaticActions",
+			"TB_SwitchSkin"
+		],
+		"forms": [
+			"D_FindOptions"
+		]
+	},
+	"WP_Private": {
+		"methods": [
+			"_and",
+			"_bool",
+			"_or",
+			"MENU_Display",
+			"MENU_Execute",
+			"UI_isProtected",
+			"UI_PaletteFindAndReplace",
+			"UI_PaletteImage",
+			"UI_PaletteImportExport",
+			"UI_PaletteProtect",
+			"UI_PaletteStylesheets",
+			"UI_PictureSettings",
+			"UI_Tables",
+			"UI_Toolbar",
+			"UI_ToolbarStylesheets",
+			"UI_TranslateConstant",
+			"WP_ApplyPictureSettings",
+			"WP_BorderMenu",
+			"WP_FR_InitOptions",
+			"WP_GetPictureSettings",
+			"WP_GetProtections",
+			"WP_GetStyleAttributesByGroup",
+			"WP_GetStyleAttributesByType",
+			"WP_GetStyleSheet",
+			"WP_GetStyleSheets",
+			"WP_GetStylesheetType",
+			"WP_IgnoreError",
+			"WP_InsertSoftHyphen",
+			"WP_PictureSaveSettings",
+			"WP_RemoveSoftHyphen",
+			"WP_Request",
+			"WP_Ruler",
+			"WP_SelectText",
+			"WP_SetCellProtection",
+			"WP_SetDocumentProtection",
+			"WP_SetParagraphProtection",
+			"WP_SetRowProtection",
+			"WP_SetTableProtection",
+			"WP_ShiftIndent",
+			"WP_ShowTabPages",
+			"WP_StyleFillEditLB",
+			"WP_StylesheetAdd",
+			"WP_StylesheetCopyAttributes",
+			"WP_StylesheetEdit",
+			"WP_StylesheetRemove",
+			"WP_StylesheetSetAttributes",
+			"WP_StylesheetUpdate",
+			"WP_SwitchToolbar",
+			"WP_TableMenu"
+		],
+		"forms": [
+			"WP_StyleSheetEdit"
+		]
+	},
+	"WP_Public": {
+		"methods": [
+<<<<<<< HEAD
+			"WP GTB ShowTabPages",
+			"WP GTB SwitchToolbar",
+			"WP GTB UpdateWidget"
+=======
+			"WP RemoveDocumentIndex",
+			"WP SetDocumentIndex",
+			"WP ShowTabPages",
+			"WP SwitchToolbar",
+			"WP UpdateWidget_OLD"
+>>>>>>> 19R8
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Dossier)"
+		]
+	}
+}

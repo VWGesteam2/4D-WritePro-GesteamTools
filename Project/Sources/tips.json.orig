@@ -1,0 +1,28 @@
+{
+	"First Record": "First Record",
+	"Previous Record": "Previous Record",
+	"Next Record": "Next Record",
+	"Delete Record": "Delete Record",
+	"Cancel": "Cancel",
+	"OK": "Accept",
+	"Record Number": "Record Position within Selection",
+<<<<<<< HEAD
+	"Margins": ":xliff:MarginsAlignments",
+=======
+	"FontStyle": ":xliff:FontStyle",
+>>>>>>> 19R8
+	"Tabulations": ":xliff:Tabulations",
+	"Sizes": ":xliff:Sizes",
+	"Frames": ":xliff:Frames",
+	"Document": ":xliff:Document",
+	"Bookmarks": ":xliff:Bookmarks",
+	"NewBookmark": ":xliff:tipNewBookmark",
+	"NewTabulation": ":xliff:tipNewTab",
+	"DeleteTab": ":xliff:tipDeleteTab",
+	"Information": ":xliff:Information",
+	"FontStyle": ":xliff:FontStyle",
+	"Last Record": "Last Record",
+	"InterdiDiffNbSe": "Si est activée, alors seuls les documents avec le même nombre de section pourront être fusionnés avec ce document.\r\rDans le cas contraire une erreur sera envoyée.",
+	"Backgrounds": ":xliff:Backgrounds",
+	"RestartNumPage": "⚠ ATTENTION ⚠\rLes documents avec cette option d’activées seront injectés à la fin de la liasse"
+}

@@ -8,7 +8,6 @@ C_TEXT:C284($trueExpression; $virtualExpression)
 C_LONGINT:C283($start; $end)
 C_LONGINT:C283($n)
 C_POINTER:C301($ptr)
-
 ARRAY TEXT:C222($_titles; 0)
 ARRAY LONGINT:C221($_nums; 0)
 
@@ -41,7 +40,7 @@ If (Count parameters:C259=0)  // component context
 			$trueExpression:=""
 			$virtualExpression:=""
 		End if 
-		EDIT FORMULA:C806($ptr->; $trueExpression)  // always pass the true expression to edit formula  (in/out parameter)
+		EDIT FORMULA:C806($ptr->; $trueExpression)
 		
 		If (ok=1)
 			

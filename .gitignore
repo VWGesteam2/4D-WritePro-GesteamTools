@@ -56,3 +56,4 @@ Thumbs.db
 Project/Trash
 Resources/php.ini
 Libraries
+*.orig

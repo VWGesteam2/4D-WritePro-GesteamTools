@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!--
 Translation file.
 This file is distributed under the same license as the product package.-->
@@ -67,7 +67,7 @@ This file is distributed under the same license as the product package.-->
           <target>縦揃え:</target>
         </trans-unit>
         <trans-unit id="11" resname="FirstIndentationColon">
-          <source>1st indentation:</source>
+          <source>1st indent.:</source>
           <target>第1インデント:</target>
         </trans-unit>
         <trans-unit id="13" resname="BackgroundColon">
@@ -116,7 +116,19 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="MzVx3kZk0LyQrDAWjJAUrA" resname="DecreaseIndent">
           <source>Decrease indent</source>
-          <target>インデント現象</target>
+          <target>インデント減少</target>
+        </trans-unit>
+        <trans-unit id="jOdgvUoCqlAAvJ9MNLCnTQ" resname="insert">
+          <source>Insert</source>
+          <target>挿入</target>
+        </trans-unit>
+        <trans-unit id="f1S2oecx6Pl/gFkJV86S4A" resname="columns">
+          <source>Columns</source>
+          <target>カラム</target>
+        </trans-unit>
+        <trans-unit id="VmvGVTTjR+qrSCge2mVPfw" resname="numberHiphen">
+          <source>Number:</source>
+          <target>数:</target>
         </trans-unit>
       </group>
       <group resname="PaletteBackgrounds">
@@ -136,11 +148,11 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="21" resname="Clip">
           <source>Clip:</source>
-          <target>Clip:</target>
+          <target>クリップ枠:</target>
         </trans-unit>
         <trans-unit id="22" resname="Origin">
           <source>Origin:</source>
-          <target>Origin:</target>
+          <target>原点:</target>
         </trans-unit>
         <trans-unit id="23" resname="HorizontalSize">
           <source>Horizontal Size:</source>
@@ -152,6 +164,10 @@ This file is distributed under the same license as the product package.-->
         </trans-unit>
         <trans-unit id="25" resname="PositionColon">
           <source>Position:</source>
+          <target>位置:</target>
+        </trans-unit>
+        <trans-unit id="26" resname="PositionsColon">
+          <source>Positions:</source>
           <target>位置:</target>
         </trans-unit>
         <trans-unit id="sg9lHFhI0LqrVxCysNWY7g" resname="MoveHyphen">
@@ -170,9 +186,29 @@ This file is distributed under the same license as the product package.-->
           <source>Picture</source>
           <target>ピクチャ</target>
         </trans-unit>
+        <trans-unit id="tYGw5/ib9qWg+J1BxQyfBw" resname="PictureHyphen">
+          <source>Picture:</source>
+          <target>ピクチャー:</target>
+        </trans-unit>
+        <trans-unit id="tYGw5/ib9qWg+J1BxQyfBw" resname="Apply">
+          <source>Apply</source>
+          <target>適用</target>
+        </trans-unit>
+        <trans-unit id="tYGw5/ib9qWg+J1BxQyfBw" resname="Clear">
+          <source>Clear</source>
+          <target>消去</target>
+        </trans-unit>
+        <trans-unit id="tYGw5/ib9qWg+J1BxQyfBw" resname="InsertHyphen">
+          <source>Insert:</source>
+          <target>挿入:</target>
+        </trans-unit>
         <trans-unit id="xZf5yixaHWdVwEkN2lFVkg" resname="AdvancedSettingsEllipsis">
           <source>Advanced settings…</source>
           <target>詳細設定…</target>
+        </trans-unit>
+        <trans-unit id="dOtz4kYVKAUCtHPmPtDbdw" resname="PictureAndTextboxes">
+          <source>Picture &amp; textboxes</source>
+          <target>ピクチャー &amp; テキストボックス</target>
         </trans-unit>
       </group>
       <group resname="PaletteFonts">
@@ -308,10 +344,6 @@ This file is distributed under the same license as the product package.-->
           <source>Expression:</source>
           <target>式:</target>
         </trans-unit>
-        <trans-unit id="50" resname="DisplayCollon">
-          <source>Display:</source>
-          <target>値/式の表示:</target>
-        </trans-unit>
         <trans-unit id="51" resname="LabelColon">
           <source>Label:</source>
           <target>ラベル:</target>
@@ -352,10 +384,6 @@ This file is distributed under the same license as the product package.-->
           <source>Modified:</source>
           <target>変更日:</target>
         </trans-unit>
-        <trans-unit id="58" resname="ActionsColon">
-          <source>Actions:</source>
-          <target>アクション:</target>
-        </trans-unit>
         <trans-unit id="60" resname="Compute">
           <source>Compute</source>
           <target>再計算</target>
@@ -372,14 +400,6 @@ This file is distributed under the same license as the product package.-->
           <source>Expression</source>
           <target>式</target>
         </trans-unit>
-        <trans-unit id="65" resname="Values">
-          <source>Values</source>
-          <target>値</target>
-        </trans-unit>
-        <trans-unit id="66" resname="Expressions">
-          <source>Expressions</source>
-          <target>式</target>
-        </trans-unit>
         <trans-unit id="67" resname="Set">
           <source>Set</source>
           <target>リンク設定</target>
@@ -392,15 +412,23 @@ This file is distributed under the same license as the product package.-->
           <source>No table available. The formula editor can not be open.</source>
           <target>利用できるテーブルがありません。フォーミュラエディターを開くことができません。</target>
         </trans-unit>
+        <trans-unit id="BTTvdZt/pKnIFwe7yAa5iQ" resname="DisplayExpressions">
+          <source>Display expressions</source>
+          <target>式を表示</target>
+        </trans-unit>
+        <trans-unit id="HJEapLue/aA7XG3UPAUXjw" resname="DisplayColon">
+          <source>Display:</source>
+          <target>表示:</target>
+        </trans-unit>
+        <trans-unit id="Qx7gCjGjc14eNrDImk5B/A" resname="FormulasColon">
+          <source>Formulas:</source>
+          <target>フォーミュラ:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteSizes">
         <trans-unit id="68" resname="Paragraph">
           <source>Paragraph</source>
           <target>段落</target>
-        </trans-unit>
-        <trans-unit id="69" resname="Picture">
-          <source>Picture</source>
-          <target>ピクチャー</target>
         </trans-unit>
         <trans-unit id="70" resname="SetWidth">
           <source>Set width</source>
@@ -422,17 +450,13 @@ This file is distributed under the same license as the product package.-->
           <source>Width:</source>
           <target>幅:</target>
         </trans-unit>
-        <trans-unit id="77" resname="AltTextColon">
-          <source>Alt. Text</source>
-          <target>代替テキスト</target>
-        </trans-unit>
         <trans-unit id="74" resname="HeightColon">
           <source>Height:</source>
           <target>高さ:</target>
         </trans-unit>
-        <trans-unit id="75" resname="AltText">
-          <source>Alternate text</source>
-          <target>代替テキスト</target>
+        <trans-unit id="75" resname="AltTextColon">
+          <source>Alternate text:</source>
+          <target>代替テキスト:</target>
         </trans-unit>
         <trans-unit id="76" resname="ZeroAuto">
           <source>(0 = Auto)</source>
@@ -441,6 +465,22 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="83" resname="UnitColon">
           <source>Unit:</source>
           <target>単位:</target>
+        </trans-unit>
+        <trans-unit id="Ozjo60l1QOY5Jt3l4nm2BA" resname="display">
+          <source>Display</source>
+          <target>表示</target>
+        </trans-unit>
+        <trans-unit id="6mdklHugZWAmT19d8JTRBQ" resname="modeHyphen">
+          <source>Mode:</source>
+          <target>モード:</target>
+        </trans-unit>
+        <trans-unit id="aP7rDxq6XdlIr1OxlgkisQ" resname="elementsHyphen">
+          <source>Elements:</source>
+          <target>要素:</target>
+        </trans-unit>
+        <trans-unit id="g85MxHB982KewW/4nsfyrA" resname="zoomHyphen">
+          <source>Zoom:</source>
+          <target>ズーム:</target>
         </trans-unit>
       </group>
       <group resname="PaletteTabulations">
@@ -469,8 +509,8 @@ This file is distributed under the same license as the product package.-->
           <target>新しいタブ区切り</target>
         </trans-unit>
         <trans-unit id="84" resname="DefaultLeadingChar">
-          <source>Default leading char.</source>
-          <target>デフォルトのリード文字</target>
+          <source>Default leading char.:</source>
+          <target>デフォルトのリード文字:</target>
         </trans-unit>
         <trans-unit id="85" resname="LeadingChar">
           <source>Leading char.</source>
@@ -607,56 +647,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="104" resname="SelectADestination">
           <source>Select a destination.</source>
           <target>保存先を選択</target>
-        </trans-unit>
-      </group>
-      <group resname="ListStyleNames">
-        <trans-unit id="1" resname="None">
-          <source>None</source>
-          <target>なし</target>
-        </trans-unit>
-        <trans-unit id="2" resname="Disc">
-          <source>Disc</source>
-          <target>ディスク</target>
-        </trans-unit>
-        <trans-unit id="3" resname="Circle">
-          <source>Circle</source>
-          <target>円</target>
-        </trans-unit>
-        <trans-unit id="4" resname="Square">
-          <source>Square</source>
-          <target>正方形</target>
-        </trans-unit>
-        <trans-unit id="5" resname="HollowSquare">
-          <source>Hollow square</source>
-          <target>穴あき正方形</target>
-        </trans-unit>
-        <trans-unit id="6" resname="Diamond">
-          <source>Diamond</source>
-          <target>ダイヤ</target>
-        </trans-unit>
-        <trans-unit id="7" resname="Club">
-          <source>Club</source>
-          <target>クラブ</target>
-        </trans-unit>
-        <trans-unit id="8" resname="123">
-          <source>1 2 3</source>
-          <target>1 2 3</target>
-        </trans-unit>
-        <trans-unit id="9" resname="010203">
-          <source>01 02 03</source>
-          <target>01 02 03</target>
-        </trans-unit>
-        <trans-unit id="10" resname="abcLow">
-          <source>a b c</source>
-          <target>a b c</target>
-        </trans-unit>
-        <trans-unit id="11" resname="abcCAP">
-          <source>A B C</source>
-          <target>A B C</target>
-        </trans-unit>
-        <trans-unit id="12" resname="Roman">
-          <source>I II III</source>
-          <target>I II III</target>
         </trans-unit>
       </group>
       <group resname="ListUnits">
@@ -1150,6 +1140,14 @@ This file is distributed under the same license as the product package.-->
           <source>No</source>
           <target>いいえ</target>
         </trans-unit>
+        <trans-unit id="4Z4RwzyWeP/Lva2PJqZkIw" resname="detailsColon">
+          <source>Details:</source>
+          <target>詳細設定:</target>
+        </trans-unit>
+        <trans-unit id="KNV1Z0ClwSorv7H0yJnEIQ" resname="globalColon">
+          <source>Global:</source>
+          <target>全体設定:</target>
+        </trans-unit>
       </group>
       <group resname="PaletteFindReplace">
         <trans-unit id="250" resname="CaseSensitive">
@@ -1232,9 +1230,9 @@ This file is distributed under the same license as the product package.-->
           <source>Previous</source>
           <target>前へ</target>
         </trans-unit>
-        <trans-unit id="262" resname="FindSlashReplace">
-          <source>Find/Replace</source>
-          <target>検索/置換</target>
+        <trans-unit id="262" resname="FindElipsis">
+          <source>Find…</source>
+          <target>検索…</target>
         </trans-unit>
         <trans-unit id="260" resname="FullWord">
           <source>Full words only</source>
@@ -1320,7 +1318,6 @@ This file is distributed under the same license as the product package.-->
           <source>Replacements:</source>
           <target>置き換え数:</target>
         </trans-unit>
-
       </group>
       <group resname="PaletteTables">
         <trans-unit id="277" resname="InsertAbove">
@@ -1443,6 +1440,10 @@ This file is distributed under the same license as the product package.-->
           <source>Properties</source>
           <target>プロパティ</target>
         </trans-unit>
+        <trans-unit id="CBa5QNoUGYvlYOhE9ONZzg" resname="SetDatasourceEllipsis">
+          <source>Set datasource…</source>
+          <target>データソースを設定する…</target>
+        </trans-unit>
       </group>
       <group resname="PaletteProtect">
         <trans-unit id="QRCHOUVOvU1y6dkzlbGq5A" resname="protectParagraphs">
@@ -1489,8 +1490,8 @@ This file is distributed under the same license as the product package.-->
           <source>PDF Export</source>
           <target>PDF 書き出し</target>
         </trans-unit>
-        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="background">
-          <source>Background</source>
+        <trans-unit id="jgUBKQFLQybetTjjMlYaYA" resname="backgrounds">
+          <source>Backgrounds</source>
           <target>背景</target>
         </trans-unit>
         <trans-unit id="2zaxAplGAgJvGg5f+KnwOA" resname="headers">
@@ -1504,10 +1505,6 @@ This file is distributed under the same license as the product package.-->
         <trans-unit id="tMZO5KyH1Qe77I7HSLR6og" resname="htmlWysiwyg">
           <source>HTML "WYSIWYG"</source>
           <target>HTML "WYSIWYG"</target>
-        </trans-unit>
-        <trans-unit id="th+uJGqJE/aRdxxSHhxRlg" resname="htmlPrettyPrint">
-          <source>"Pretty print"</source>
-          <target>"整形済みフォーマット"</target>
         </trans-unit>
         <trans-unit id="7yp1Rkz6KWEs2pehpSqJoA" resname="recomputeFormulas">
           <source>Recompute formulas</source>
@@ -1557,24 +1554,97 @@ When not selected, only formulas that have never been evaluated will be computed
 
 選択してない場合、まだ一度も評価されていないフォーミュラのみが計算されます。</target>
         </trans-unit>
-        <trans-unit id="DpRVy4keJdQU2SqZwEacYg" resname="FormulasComma">
-          <source>Formulas:</source>
-          <target>フォーミュラ:</target>
-        </trans-unit>
-        <trans-unit id="TLfxhPbY2ZRWaf3J3RyOcw" resname="htmlEllipsis">
-          <source>HTML…</source>
-          <target>HTML…</target>
-        </trans-unit>
-        <trans-unit id="jqxt3L4zVABvifyA9e+8sA" resname="InfoPrettyPrint">
-          <source>This option generates a document with more human-readable source code and increases document size.</source>
-          <target>このオプションを選択するとより読みやすいソースコードを生成し、ドキュメントサイズは大きくなります。</target>
-        </trans-unit>
         <trans-unit id="6LkWY9PvfM8ea1sA6vSrBw" resname="ExportComma">
           <source>Export:</source>
           <target>書き出し:</target>
         </trans-unit>
+        <trans-unit id="caQYk8btXcl+pUBojuXPoQ" resname="InfoEmbedPictures">
+          <source>With this option, the generated SVG document will be standalone but its size will increase</source>
+          <target>このオプションを使用すると生成されたSVGドキュメントはスタンドアロンとなりますがサイズは重くなります</target>
+        </trans-unit>
+        <trans-unit id="Jm3zqgXEMB//3tACqAcZ0A" resname="InfoExportPictures">
+          <source>This option allows you to export the images of your document to an external "images" folder. The SVG file will be lighter.</source>
+          <target>このオプションを使用すると画像をドキュメント外部の"images"フォルダへと書き出すことができます。SVGファイルのサイズは軽くなります。</target>
+        </trans-unit>
+        <trans-unit id="l5yK2FqhagnuTfX+7DfKjA" resname="InfoCreateFolder">
+          <source>A folder will be created and will contain the SVG file and the pictures folder if needed.</source>
+          <target>フォルダが作成され、必要であればSVGファイルとピクチャーフォルダもそこに格納されます。</target>
+        </trans-unit>
+        <trans-unit id="h60zhveTCxSBSmc8ly911Q" resname="EmbedImages">
+          <source>Embed document pictures</source>
+          <target>ドキュメントにピクチャーを埋め込む</target>
+        </trans-unit>
+        <trans-unit id="EyvZbU4fegiD39MW7BvMNQ" resname="ExportImages">
+          <source>Export images from document</source>
+          <target>ドキュメントから画像を書き出す</target>
+        </trans-unit>
+        <trans-unit id="ftw1H7xGhhRTkqQ2O2LLGg" resname="EnableGoogleFonts">
+          <source>Enable Google fonts substitution</source>
+          <target>Googleフォントでの置換を有効化する</target>
+        </trans-unit>
+        <trans-unit id="NqxkQgc34W90eQYBmYkkvg" resname="InfoGoogleFonts">
+          <source>This option adds a Google font import directive.
+ Use this option if the fonts in your document are not cross-platform.</source>
+          <target>このオプションはGoogle フォントimport ディレクティブを追加します。
+ ドキュメント内のフォントがクロスプラットフォーム対応でない場合にはこのオプションを使用して下さい。</target>
+        </trans-unit>
+        <trans-unit id="KRk/LGj7Cj0IKqbAD1+m2Q" resname="PagesComma">
+          <source>Pages:</source>
+          <target>ページ:</target>
+        </trans-unit>
+        <trans-unit id="9rxyF4rWKl6cSTgcq13Plw" resname="ConfirmImageFolder">
+          <source>An "Images" folder already exists there!
+ Would you like to replace it?</source>
+          <target>"Images" フォルダが既にここに存在します!
+ 上書きしますか?</target>
+        </trans-unit>
+        <trans-unit id="ZYahIeSDiz5Tz/hjbW8C2A" resname="Overwrite">
+          <source>Overwrite</source>
+          <target>上書きする</target>
+        </trans-unit>
+        <trans-unit id="gJPawW7rsig8FtISvxRypw" resname="All">
+          <source>All</source>
+          <target>全て</target>
+        </trans-unit>
+        <trans-unit id="JYFMlsryz/0iGg7gUz7AUA" resname="FromComma">
+          <source>From:</source>
+          <target>From:</target>
+        </trans-unit>
+        <trans-unit id="vcXBxWYL/WBWSqCP8bp63A" resname="ToComma">
+          <source>to:</source>
+          <target>to:</target>
+        </trans-unit>
+        <trans-unit id="RMDC+cSZBoQl5t/kVyWSGg" resname="svgEllipsis">
+          <source>SVG…</source>
+          <target>SVG…</target>
+        </trans-unit>
+        <trans-unit id="yXC6rMdaGMCwbJsOKcSU+Q" resname="htmlEllipsis">
+          <source>HTML…</source>
+          <target>HTML…</target>
+        </trans-unit>
+        <trans-unit id="DlMn8kPNE6u2c2tRr8jppA" resname="FileNamePrompt">
+          <source>Name of the file to be created</source>
+          <target>作成するファイル名</target>
+        </trans-unit>
+        <trans-unit id="9AHHUOIbvZ1JaXXlXU4VWQ" resname="FolderNamePrompt">
+          <source>Name of the folder to be created</source>
+          <target>作成するフォルダ名</target>
+        </trans-unit>
+        <trans-unit id="y32E8D1pr6wrutx/5zbK/A" resname="infoEmptyPictures">
+          <source>Check this box if you want to export empty pictures returned by formulas.</source>
+          <target>フォーミュラから返された空のピクチャーを書き出したい場合にはここをチェックして下さい。</target>
+        </trans-unit>
+        <trans-unit id="gzqU0lQaIqbShE0dEr/AwA" resname="optionsComma">
+          <source>Options:</source>
+          <target>オプション:</target>
+        </trans-unit>
+        <trans-unit id="ILaNpHjjQPifHiTlQjUIGg" resname="blackFrame">
+          <source>Black frame for empty pictures</source>
+          <target>空のピクチャーを黒枠で表示</target>
+        </trans-unit>
       </group>
-      <group resname="DialogImport">
+      <group resname="PaletteImportExport"/>
+      <group resname="textArea">
         <trans-unit id="35LPRJSfvhoZuOyzHa/LXw" resname="EraseDocument">
           <source>Erase the document</source>
           <target>ドキュメントを消去</target>
@@ -1655,7 +1725,6 @@ When not selected, only formulas that have never been evaluated will be computed
           <source>Section number</source>
           <target>セクション番号</target>
         </trans-unit>
-
       </group>
       <group resname="DialogImportLog">
         <trans-unit id="A4sgoBTWcmhTBII7qTJgAQ" resname="HeaderInfo">
@@ -1676,13 +1745,13 @@ When not selected, only formulas that have never been evaluated will be computed
         </trans-unit>
       </group>
       <group resname="DialogPictureSettings">
-        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="Margins">
+        <trans-unit id="nyFYGQNHQerfVfW24a7oeQ" resname="MarginsHyphen">
           <source>Margins:</source>
           <target>余白:</target>
         </trans-unit>
-        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="Padding">
-         <source>Padding:</source>
-         <target>パッディング:</target>
+        <trans-unit id="wL0rIpQnidAkY6wndHrvDg" resname="PaddingHyphen">
+          <source>Padding:</source>
+          <target>パッディング:</target>
         </trans-unit>
         <trans-unit id="PiyV+E6B2BOy4GNsS6PbpQ" resname="FormulaAndURL">
           <source>Formula and URL</source>
@@ -1696,9 +1765,9 @@ When not selected, only formulas that have never been evaluated will be computed
           <source>URL:</source>
           <target>URL:</target>
         </trans-unit>
-        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateText">
-         <source>Alternate text:</source>
-         <target>代替テキスト:</target>
+        <trans-unit id="tX1lPAf1vFI1IN4iTPThbQ" resname="AlternateTextHyphen">
+          <source>Alternate text:</source>
+          <target>代替テキスト:</target>
         </trans-unit>
         <trans-unit id="lUrF6H2gRySYCSMqQIxzdA" resname="PagesAndSections">
           <source>Pages and sections</source>
@@ -1709,12 +1778,12 @@ When not selected, only formulas that have never been evaluated will be computed
           <target>揃え</target>
         </trans-unit>
         <trans-unit id="zRIujmEncGp6o57fw558gQ" resname="HorizontalHyphen">
-          <source>Horizontal:</source>
-          <target>横方向:</target>
+          <source>Horizontal alignment:</source>
+          <target>横方向揃え:</target>
         </trans-unit>
         <trans-unit id="8LsAUIhSSfbN0OJ6Lw53Tg" resname="VerticalHyphen">
-          <source>Vertical:</source>
-          <target>縦方向:</target>
+          <source>Vertical alignment:</source>
+          <target>縦方向揃え:</target>
         </trans-unit>
         <trans-unit id="OeBtEIyH9SPbvssc58l4CQ" resname="OriginHyphen">
           <source>Origin:</source>
@@ -1783,6 +1852,98 @@ When not selected, only formulas that have never been evaluated will be computed
         <trans-unit id="QR7rFC0zJIwfzEn9E+IYRA" resname="PageNumber">
           <source>Page number</source>
           <target>ページ番号</target>
+        </trans-unit>
+        <trans-unit id="ynXAPxhJMkNpcwRliQMXvg" resname="insertImageURL">
+          <source>Insert an image URL…</source>
+          <target>画像をURLを挿入…</target>
+        </trans-unit>
+        <trans-unit id="m3a/CgZ8NS600XAnT/CuFA" resname="insertImageFormula">
+          <source>Insert an image formula…</source>
+          <target>画像フォーミュラを挿入…</target>
+        </trans-unit>
+        <trans-unit id="PkaSe6J+O4IfvlHou7auvA" resname="editImageURL">
+          <source>Edit image URL…</source>
+          <target>画像URLを編集…</target>
+        </trans-unit>
+        <trans-unit id="00lbTfGC7req5VFUsKJClQ" resname="editImageFormula">
+          <source>Edit image formula</source>
+          <target>画像フォーミュラを編集</target>
+        </trans-unit>
+        <trans-unit id="fol28Q4W1QaiCmasz8InLQ" resname="WidthColon">
+          <source>Width:</source>
+          <target>幅:</target>
+        </trans-unit>
+        <trans-unit id="gRUAqvqF/1uDA6gPAG35KQ" resname="HeightColon">
+          <source>Height:</source>
+          <target>高さ:</target>
+        </trans-unit>
+        <trans-unit id="kTXJQBET6xQGp0xvCmrDSg" resname="Propagate">
+          <source>Propagate</source>
+          <target>プロパゲート</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Paragraph">
+        <trans-unit id="OBu9prb/tV2ysSeEdfq4GQ" resname="resetFontAttributes">
+          <source>Reset paragraph font attributes</source>
+          <target>段落フォント属性をリセット</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_DocInfo">
+        <trans-unit id="KIsUNyYrj7evpWMAyBfemg" resname="title">
+          <source>Title</source>
+          <target>タイトル</target>
+        </trans-unit>
+        <trans-unit id="O3s/HchQTWSZ/UcjrtMpWg" resname="author">
+          <source>author</source>
+          <target>作者</target>
+        </trans-unit>
+        <trans-unit id="Au2W7hEQE5ZfKI1rvAnUww" resname="subject">
+          <source>Subject</source>
+          <target>主題</target>
+        </trans-unit>
+        <trans-unit id="s9AD0G6fIMkDCStHS2ysnw" resname="company">
+          <source>Company</source>
+          <target>会社</target>
+        </trans-unit>
+        <trans-unit id="QBkunZ9iy6al8OgBj45hjQ" resname="notes">
+          <source>Notes</source>
+          <target>注記</target>
+        </trans-unit>
+        <trans-unit id="+/lt/JavD2HppAAJysR5rg" resname="creationDate">
+          <source>Creation date</source>
+          <target>作成日</target>
+        </trans-unit>
+        <trans-unit id="wqkPw22mAeFQtMi7rOGTuA" resname="modificationDate">
+          <source>Modification date</source>
+          <target>変更日</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Freeze">
+        <trans-unit id="YJ8st5NVYk9iAGILx5O23A" resname="FreezeDocument">
+          <source>Freeze document</source>
+          <target>ドキュメントを固定化する</target>
+        </trans-unit>
+        <trans-unit id="BsGWfaI7WPuzFCPnZEPaog" resname="FreezeSelection">
+          <source>Freeze selection</source>
+          <target>選択範囲を固定化する</target>
+        </trans-unit>
+        <trans-unit id="a21/ILiIHT15NrT6WxTPpA" resname="FreezeTables">
+          <source>Freeze tables</source>
+          <target>表を固定化する</target>
+        </trans-unit>
+      </group>
+      <group resname="Menu_Compute">
+        <trans-unit id="G1qriI3TB4C8on9assC28g" resname="ComputeSelection">
+          <source>Compute selection</source>
+          <target>選択範囲で計算を実行する</target>
+        </trans-unit>
+        <trans-unit id="X0cFWvYLS2IWq/9nLRCxPg" resname="ComputeDocument">
+          <source>Compute document</source>
+          <target>ドキュメント全体で計算を実行する</target>
+        </trans-unit>
+        <trans-unit id="bK4KIBvTGBVXEffFIfIYkg" resname="ComputeTables">
+          <source>Compute tables</source>
+          <target>表で計算を実行する</target>
         </trans-unit>
       </group>
       <group resname="PaletteMergeAggregate">
