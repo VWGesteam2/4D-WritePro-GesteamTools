@@ -114,11 +114,11 @@ If (Form:C1466.document#Null:C1517)
 						End if 
 						
 						// it may also hapend with keep with next
-						If ($stackItem.property=wk keep with next:K81:366)
-							$sameAsNormal:=False:C215  //••• 
-							$checkValue:=False:C215
-							$stackItem.value:=$source[$property]
-						End if 
+						//Si ($stackItem.property=‘k81;366‘)
+						//$sameAsNormal:=Faux  //••• 
+						//$checkValue:=Faux
+						//$stackItem.value:=$source[$property]
+						//Fin de si 
 						
 					End if 
 					
@@ -199,11 +199,11 @@ If (Form:C1466.document#Null:C1517)
 			: ($item.action="Add")  // must add or update in the style sheet
 				If (Not:C34(Undefined:C82($item.value)))
 					
-					If ($target.name="normal") & ($item.property=wk keep with next:K81:366)
-						// wk keep with next can NOT be aoosciated with "normal" style sheet
-					Else 
-						WP SET ATTRIBUTES:C1342($target; $item.property; $item.value)
-					End if 
+					//Si ($target.name="normal") & ($item.property=‘k81;366‘)
+					//// wk keep with next can NOT be aoosciated with "normal" style sheet
+					//Sinon 
+					//WP FIXER ATTRIBUTS($target; $item.property; $item.value)
+					//Fin de si 
 					
 					If ($removeFromSource)
 						
