@@ -1,5 +1,7 @@
 //%attributes = {"invisible":true}
-#DECLARE($WPrange : Object; $trueExpression : Text)
+//#DECLARE($WPrange : Object; $trueExpression : Text)
+var $1; $WPrange : Object
+var $2; $trueExpression : Text
 
 C_TEXT:C284($trueExpression; $virtualExpression)
 C_LONGINT:C283($n)
@@ -13,7 +15,7 @@ var $formula : Object
 If (Count parameters:C259=0)  // component context
 	
 	
-	$trueExpression:=(OBJECT Get pointer:C1124(Object named:K67:5; "TrueExpression"))->
+	$trueExpression:=(OBJECT Get pointer:C1124(Objet nommé:K67:5; "TrueExpression"))->
 	// the formula is displayed with virtual structure
 	// parse to real structure before edit
 	
@@ -48,10 +50,10 @@ If (Count parameters:C259=0)  // component context
 		
 		If (ok=1)
 			
-			(OBJECT Get pointer:C1124(Object named:K67:5; "TrueExpression"))->:=$trueExpression
+			(OBJECT Get pointer:C1124(Objet nommé:K67:5; "TrueExpression"))->:=$trueExpression
 			
-			$virtualExpression:=Parse formula:C1576($trueExpression; Formula in with virtual structure:K88:1)
-			(OBJECT Get pointer:C1124(Object named:K67:5; "VirtualExpression"))->:=$virtualExpression
+			$virtualExpression:=Parse formula:C1576($trueExpression; Formule entrée avec structure virtuelle:K88:1)
+			(OBJECT Get pointer:C1124(Objet nommé:K67:5; "VirtualExpression"))->:=$virtualExpression
 			
 			If ($trueExpression#"")
 				
@@ -96,7 +98,12 @@ If (Count parameters:C259=0)  // component context
 	
 	
 Else   // host database context
-	
+	$WPrange:=$1
+	If (Count parameters:C259>=2)
+		$trueExpression:=$2
+	Else 
+		$trueExpression:=""
+	End if 
 	
 	$formula:=Formula from string:C1601($trueExpression)
 	If ($WPrange.type#2)  // not an anchored picture

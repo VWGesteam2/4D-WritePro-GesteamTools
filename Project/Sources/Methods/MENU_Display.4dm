@@ -1,8 +1,8 @@
 //%attributes = {"invisible":true}
-#DECLARE($content : Text)->$action : Text
+//#DECLARE($content : Text)->$action : Text
 
-//var $1; $content : Text
-//var $0 : Text
+var $1; $content : Text
+var $0 : Text
 
 var $menu; $action; $item : Text
 var $_menuItems; $_tables : Collection
@@ -58,16 +58,16 @@ Case of
 	: ($content="paragraphSettings")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "widowAndOrphanControlEnabled")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "widowAndOrphanControlEnabled")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "avoidPageBreakInsideEnabled")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "avoidPageBreakInsideEnabled")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "keepWithNext")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "keepWithNext")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; wk line height:K81:51)
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; wk line height:K81:51)
 		
 		
 		APPEND MENU ITEM:C411($menu; Get localized string:C991("resetFontAttributes"))
@@ -137,16 +137,16 @@ Case of
 	: ($content="ColumnsSettings")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "section/columnSpacing")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "section/columnSpacing")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "section/columnRuleStyle")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "section/columnRuleStyle")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "section/columnRuleWidth")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "section/columnRuleWidth")
 		
 		APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-		SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; "section/columnRuleColor")
+		SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; "section/columnRuleColor")
 		
 	: ($content="Edit")
 		
@@ -160,7 +160,7 @@ Case of
 				$o:=Get action info:C1442($item)
 				If ($o.enabled)
 					APPEND MENU ITEM:C411($menu; ak standard action title:K76:83)
-					SET MENU ITEM PROPERTY:C973($menu; -1; Associated standard action:K56:1; $item)  // <----only when action is possible
+					SET MENU ITEM PROPERTY:C973($menu; -1; Action standard associée:K56:1; $item)  // <----only when action is possible
 				Else 
 					APPEND MENU ITEM:C411($menu; $o.title)  // <<<----- Set title (always visible)
 					DISABLE MENU ITEM:C150($menu; -1)  // <<<---------- but disable item
@@ -174,4 +174,4 @@ $action:=Dynamic pop up menu:C1006($menu)
 RELEASE MENU:C978($menu)
 
 
-//$0:=$action
+$0:=$action

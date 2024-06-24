@@ -1,6 +1,7 @@
 //%attributes = {}
-#DECLARE()->$applyTo : Text
-
+//#DECLARE()->$applyTo : Text
+C_TEXT:C284($0)
+var $applyTo : Text
 // read the "applyTo"
 Case of 
 		
@@ -33,3 +34,4 @@ Case of
 		$applyTo:="row"
 End case 
 
+$0:=$applyTo

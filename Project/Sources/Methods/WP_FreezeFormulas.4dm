@@ -1,5 +1,11 @@
 //%attributes = {"invisible":true}
-#DECLARE($scope : Integer)  // 0  = all document, 1 = selection only
+//#DECLARE($scope : Integer)  // 0  = all document, 1 = selection only
+var $1; $scope : Integer
+If (Count parameters:C259>=1)
+	$scope:=$1
+Else 
+	$scope:=0
+End if 
 
 If ($scope=0)
 	WP FREEZE FORMULAS:C1708(Form:C1466.selection.owner; wk do not recompute expressions:K81:312)

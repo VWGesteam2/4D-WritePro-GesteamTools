@@ -1,11 +1,13 @@
 //%attributes = {"shared":true,"invisible":true}
 // this method is executed in the main form context
 
-#DECLARE($widgetName : Text; $areaName : Text; $skin : Object)
-
+//#DECLARE($widgetName : Text; $areaName : Text; $skin : Object)
+var $1; $widgetName; $2; $areaName : Text
+var $3; $skin : Object
 var $oWidget; $oArea : Variant
 var $typeWidget; $typeArea : Integer
 var $oWidgetUpdate : Object
+
 
 C_BOOLEAN:C305($send)
 //C_OBJECT($oWidget)  // variable used manage to the 4D WritePro Widget
@@ -16,7 +18,7 @@ C_POINTER:C301($p)
 Case of 
 	: (Count parameters:C259=1)
 		
-		//$widgetName:=$1
+		$widgetName:=$1
 		$p:=OBJECT Get pointer:C1124(Objet nommé:K67:5; $widgetName)
 		If (Not:C34(Is nil pointer:C315($p)))
 			$p->:=$p->
@@ -24,8 +26,8 @@ Case of
 		
 	: (Count parameters:C259>=2)
 		
-		//$widgetName:=$1
-		//$areaName:=$2
+		$widgetName:=$1
+		$areaName:=$2
 		
 		$p:=OBJECT Get pointer:C1124(Objet nommé:K67:5; $widgetName)
 		
@@ -76,7 +78,7 @@ Case of
 			
 			
 			If (Count parameters:C259>=3)
-				//$skin:=$3
+				$skin:=$3
 				$oWidgetUpdate.skin:=$skin
 			End if 
 			

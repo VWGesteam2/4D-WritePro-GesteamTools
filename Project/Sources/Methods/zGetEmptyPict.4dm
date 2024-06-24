@@ -1,4 +1,4 @@
 //%attributes = {"invisible":true}
-#DECLARE()->$pict : Picture
+//#DECLARE()->$pict : Picture
 
-
+var $0 : Picture

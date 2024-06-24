@@ -1,5 +1,6 @@
 //%attributes = {"invisible":true}
-#DECLARE()->$preferences : Object
+//#DECLARE()->$preferences : Object
+var $0; $preferences : Object
 
 var $folder : 4D:C1709.Folder
 var $file : 4D:C1709.File
@@ -9,8 +10,8 @@ var $oPref : Object
 //var $path : Text  // posix path
 //var $pathName : Text  // plateform path
 
-$databaseName:=Folder:C1567(fk database folder:K87:14; *).name
-$file:=Folder:C1567(fk user preferences folder:K87:10).file($databaseName+"/4dwpInterface.pref")
+$databaseName:=Folder:C1567(fk dossier base de données:K87:14; *).name
+$file:=Folder:C1567(fk dossier préférence utilisateur:K87:10).file($databaseName+"/4dwpInterface.pref")
 
 If ($file.exists=False:C215)
 	
@@ -26,3 +27,4 @@ Else
 	
 End if 
 
+$0:=$preferences

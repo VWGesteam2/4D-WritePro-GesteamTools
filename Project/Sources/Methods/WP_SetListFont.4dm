@@ -1,10 +1,10 @@
 //%attributes = {"invisible":true}
-#DECLARE($range : Object)  // $range:  a text range 
-
+//#DECLARE($range : Object)  // $range:  a text range 
+var $1; $range : Object
 var $paragraphFont; $listFont : Text
 var $listType : Integer
 var $forcedEventCode : Integer
-
+$range:=$1
 If (OB Is defined:C1231(oForm; "forcedEventCode"))
 	$forcedEventCode:=oForm.forcedEventCode
 Else 

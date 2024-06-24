@@ -1,6 +1,6 @@
 //%attributes = {"shared":true,"invisible":true}
-#DECLARE($object : Object)  // 
-
+//#DECLARE($object : Object)  // 
+var $1 : Object
 var $form : Object
 var $elements : Collection
 var $win : Integer
@@ -9,6 +9,8 @@ var $object : Object
 
 If (Count parameters:C259=0)
 	$object:=WP Selection range:C1340(Self:C308->)  // text range OR anchored picture
+Else 
+	$object:=$1
 End if 
 
 $form:=New object:C1471()

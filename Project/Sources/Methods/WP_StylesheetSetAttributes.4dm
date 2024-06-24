@@ -82,14 +82,14 @@ If (Form:C1466.document#Null:C1517)
 						$type:=Value type:C1509($normal[$property])
 						
 						Case of 
-							: ($type=Is real:K8:4) | ($type=Is text:K8:3) | ($type=Is boolean:K8:9)  // let's compare text and numeric
+							: ($type=Est un numérique:K8:4) | ($type=Est un texte:K8:3) | ($type=Est un booléen:K8:9)  // let's compare text and numeric
 								
 								If ($stackItem.value#$normal[$property])
 									$sameAsNormal:=False:C215  //••• 
 									$checkValue:=True:C214  //••• 
 								End if 
 								
-							: ($type=Is object:K8:27) | ($type=Is collection:K8:32)  // let's compare obejcts and collections
+							: ($type=Est un objet:K8:27) | ($type=Est une collection:K8:32)  // let's compare obejcts and collections
 								
 								$jsonSource:=JSON Stringify:C1217($source[$property])
 								$jsonNormal:=JSON Stringify:C1217($normal[$property])
@@ -141,12 +141,12 @@ If (Form:C1466.document#Null:C1517)
 			If ($checkValue)
 				Case of 
 						
-					: (Value type:C1509($stackItem.value)=Is real:K8:4)
+					: (Value type:C1509($stackItem.value)=Est un numérique:K8:4)
 						If ($stackItem.value=wk mixed:K81:89)
 							$exit:=True:C214
 						End if 
 						
-					: (Value type:C1509($stackItem.value)=Is text:K8:3)
+					: (Value type:C1509($stackItem.value)=Est un texte:K8:3)
 						If ($stackItem.value="")
 							$exit:=True:C214
 						End if 

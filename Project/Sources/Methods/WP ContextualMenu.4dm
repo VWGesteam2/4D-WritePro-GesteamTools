@@ -1,10 +1,17 @@
 //%attributes = {"invisible":true}
-#DECLARE($_menuContent : Collection)  // "pictureSettings"; "formulaSettings"
+//#DECLARE($_menuContent : Collection)  // "pictureSettings"; "formulaSettings"
 
+var $1; $_menuContent : Collection
 var $menu : Text
 var $item; $parameter : Text
 var $range; $formula : Object
 var $ok : Boolean
+
+If (Count parameters:C259>=1)
+	$_menuContent:=$1
+Else 
+	$_menuContent:=New collection:C1472()
+End if 
 
 If (Contextual click:C713)
 	

@@ -1,6 +1,9 @@
 //%attributes = {"invisible":true}
 #DECLARE($doc : Object; $options : Object)->$picture : Picture
+//Non utilisé dans GTB
 
+var $1; $doc; $2; $options : Object
+var $0; $picture : Picture
 var $text; $svg : Text
 var $allDefined : Boolean
 

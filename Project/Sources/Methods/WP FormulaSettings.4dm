@@ -1,13 +1,16 @@
 //%attributes = {"invisible":true}
-#DECLARE($range : Object)  // MUST be a range(of any kind)
+//#DECLARE($range : Object)  // MUST be a range(of any kind)
 
+var $1 : Object
 var $elements : Collection
 var $case : Integer
 var $formulaSource : Text
 var $formula : Object
 var $range : Object
 
-If (Count parameters:C259=0)
+If (Count parameters:C259>=1)
+	$range:=$1
+Else 
 	$range:=WP Selection range:C1340(Self:C308->)
 End if 
 

@@ -1,9 +1,8 @@
 //%attributes = {"invisible":true}
-#DECLARE($range : Object; $check : Boolean)
+//#DECLARE($range : Object; $check : Boolean)
 
-//C_OBJECT($1)
-//C_BOOLEAN($2)  // check if not empty selection
-
+C_OBJECT:C1216($1)
+C_BOOLEAN:C305($2)  // check if not empty selection
 var $index : Integer
 
 C_OBJECT:C1216($range)
@@ -18,17 +17,16 @@ C_LONGINT:C283($rangeStart; $rangeEnd)
 C_TEXT:C284($fontFamily)
 C_TEXT:C284($font)
 
-//$range:=$1
-
-//If (Count parameters>=2)
-//$check:=$2
-//Else 
-//$check:=False
-//End if 
-
-If (Count parameters:C259<2)
+$range:=$1
+If (Count parameters:C259>=2)
+	$check:=$2
+Else 
 	$check:=False:C215
 End if 
+
+//Si (Nombre de paramètres<2)
+//$check:=False:C215
+//Fin de si 
 
 $frameColor:=0x00404040
 
@@ -37,8 +35,8 @@ If (Not:C34(OB Is empty:C1297($range)))
 	
 	If ($check)
 		
-		$rangeStart:=OB Get:C1224($range; wk start:K81:87; Is longint:K8:6)
-		$rangeEnd:=OB Get:C1224($range; wk end:K81:88; Is longint:K8:6)
+		$rangeStart:=OB Get:C1224($range; wk start:K81:87; Est un entier long:K8:6)
+		$rangeEnd:=OB Get:C1224($range; wk end:K81:88; Est un entier long:K8:6)
 		
 		$redraw:=($rangeStart#$rangeEnd)
 	Else 

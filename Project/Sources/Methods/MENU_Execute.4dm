@@ -1,5 +1,6 @@
 //%attributes = {"invisible":true}
-#DECLARE($action : Text)
+//#DECLARE($action : Text)
+var $1 : Text
 
 var $exportType; $win; $i; $n; $start; $end : Integer
 var $collection; $_attributes; $_tables : Collection
@@ -14,7 +15,11 @@ var $ptr : Pointer
 
 var $prompt; $path; $action; $rawText; $extension; $form; $memoErrorMethod; $formName : Text
 var $title; $docName; $folderPath; $propertyName : Text
-
+If (Count parameters:C259>=1)
+	$action:=$1
+Else 
+	$action:=""
+End if 
 
 If (OB Is defined:C1231(Form:C1466; "areaPointer")) & (OB Is defined:C1231(Form:C1466; "area"))
 	

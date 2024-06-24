@@ -43,19 +43,19 @@
 			}
 		},
 		"Compiler_Arrays": {
-			"timeStamp": "2024-06-21T13:12:57.593Z",
+			"timeStamp": "2024-06-24T12:58:18.742Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"Compiler_Methods": {
-			"timeStamp": "2024-06-21T13:12:57.739Z",
+			"timeStamp": "2024-06-24T12:58:18.863Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"Compiler_Variables": {
-			"timeStamp": "2024-06-21T13:17:46.119Z",
+			"timeStamp": "2024-06-24T12:58:18.741Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -103,13 +103,13 @@
 			}
 		},
 		"MENU_Display": {
-			"timeStamp": "2024-06-21T08:23:13.521Z",
+			"timeStamp": "2024-06-24T12:19:19.874Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"MENU_Execute": {
-			"timeStamp": "2024-06-21T10:33:20.451Z",
+			"timeStamp": "2024-06-24T13:01:11.032Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -220,7 +220,7 @@
 			}
 		},
 		"UI_GetApplyTo": {
-			"timeStamp": "2024-06-21T08:23:13.524Z"
+			"timeStamp": "2024-06-24T12:21:59.753Z"
 		},
 		"UI_isProtected": {
 			"timeStamp": "2024-06-20T14:59:17.190Z",
@@ -355,19 +355,19 @@
 			}
 		},
 		"WP ContextualMenu": {
-			"timeStamp": "2024-06-21T13:14:32.827Z",
+			"timeStamp": "2024-06-24T12:24:13.992Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP CreatePreview": {
-			"timeStamp": "2024-06-21T13:14:54.928Z",
+			"timeStamp": "2024-06-24T12:33:03.612Z",
 			"attributes": {
 				"invisible": true
 			}
 		},
 		"WP FormulaSettings": {
-			"timeStamp": "2024-06-21T13:15:13.439Z",
+			"timeStamp": "2024-06-24T12:42:06.703Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -387,14 +387,14 @@
 			}
 		},
 		"WP GTB UpdateWidget": {
-			"timeStamp": "2024-06-21T13:15:22.502Z",
+			"timeStamp": "2024-06-24T12:44:49.532Z",
 			"attributes": {
 				"shared": true,
 				"invisible": true
 			}
 		},
 		"WP PictureSettings": {
-			"timeStamp": "2024-06-21T13:15:29.978Z",
+			"timeStamp": "2024-06-24T12:45:38.028Z",
 			"attributes": {
 				"shared": true,
 				"invisible": true
@@ -432,7 +432,7 @@
 			}
 		},
 		"WP_ComputeFormulas": {
-			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"timeStamp": "2024-06-24T12:47:00.960Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -456,7 +456,7 @@
 			}
 		},
 		"WP_FreezeFormulas": {
-			"timeStamp": "2024-06-21T08:23:13.532Z",
+			"timeStamp": "2024-06-24T12:48:04.486Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -534,7 +534,7 @@
 			}
 		},
 		"WP_GetFontInfo": {
-			"timeStamp": "2024-06-21T08:23:13.533Z",
+			"timeStamp": "2024-06-24T13:05:56.058Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -624,7 +624,7 @@
 			}
 		},
 		"WP_GetTablesWithDataSource": {
-			"timeStamp": "2024-06-21T08:23:13.534Z",
+			"timeStamp": "2024-06-24T12:48:57.339Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -702,7 +702,7 @@
 			}
 		},
 		"WP_ReadPreferences": {
-			"timeStamp": "2024-06-21T08:23:13.536Z",
+			"timeStamp": "2024-06-24T12:49:54.946Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -858,7 +858,7 @@
 			}
 		},
 		"WP_SetFormula": {
-			"timeStamp": "2024-06-21T08:23:13.538Z",
+			"timeStamp": "2024-06-24T13:07:59.152Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -870,7 +870,7 @@
 			}
 		},
 		"WP_SetListFont": {
-			"timeStamp": "2024-06-21T13:23:48.691Z",
+			"timeStamp": "2024-06-24T12:57:51.360Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -1026,7 +1026,7 @@
 			}
 		},
 		"WP_StylesheetSetAttributes": {
-			"timeStamp": "2024-06-21T08:23:13.541Z",
+			"timeStamp": "2024-06-24T07:13:32.048Z",
 			"attributes": {
 				"invisible": true
 			}
@@ -1056,7 +1056,7 @@
 			}
 		},
 		"zGetEmptyPict": {
-			"timeStamp": "2024-06-21T08:23:13.545Z",
+			"timeStamp": "2024-06-24T12:58:13.686Z",
 			"attributes": {
 				"invisible": true
 			}
