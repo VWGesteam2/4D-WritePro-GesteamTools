@@ -31,4 +31,4 @@ Else
 	
 End if 
 
-WP UpdateWidget("WPwidget"; "WParea"; $WP_skin)
+WP GTB UpdateWidget("WPwidget"; "WParea"; $WP_skin)

@@ -29,4 +29,4 @@ Else
 	
 End if 
 
-WP UpdateWidget("WPtoolbar"; "WParea"; $WP_skin)
+WP GTB UpdateWidget("WPtoolbar"; "WParea"; $WP_skin)

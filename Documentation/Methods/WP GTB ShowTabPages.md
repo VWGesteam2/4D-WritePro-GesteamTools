@@ -30,6 +30,7 @@ For toolbars, the following tabs are available:
 * "Protection"
 * "ImportExport"
 * "FindAndReplace"
+* "MergeAggregate"
 
 For sidebars, the following tabs are available:
 
@@ -46,6 +47,7 @@ For sidebars, the following tabs are available:
 * "Protection"
 * "ImportExport"
 * "FindAndReplace"
+* "MergeAggregate"
 
 ## Example
 
