@@ -104,7 +104,7 @@ Case of
 		
 		UI_setApplyTo
 		
-		//SET TIMER(-1)
+		SET TIMER:C645(-1)
 		
 	: (Form event code:C388=Sur redimensionnement:K2:27)
 		oForm.redrawTabs:=True:C214
