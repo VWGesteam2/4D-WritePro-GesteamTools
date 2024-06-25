@@ -28,4 +28,5 @@ Else
 End if 
 
 OBJECT SET ENABLED:C1123(*; "lbl_Aggregate"; False:C215)
+OBJECT SET ENABLED:C1123(*; "btn_AggegateOptions_Default"; False:C215)
 OBJECT SET ENABLED:C1123(*; "cb_AggegateRestatNumPages"; False:C215)

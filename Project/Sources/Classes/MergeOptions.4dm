@@ -17,8 +17,12 @@ Function SetOptionValue
 	var $1 : Integer
 	This:C1470.optionsValue:=$1
 	
+Function GetOptionValueDefault
+	var $0 : Integer
+	$0:=0
+	
 Function SetOptionValueDefault
-	This:C1470.optionsValue:=0
+	This:C1470.optionsValue:=This:C1470.GetOptionValueDefault()
 	
 	//---------------------------------------------
 	//Interdi le nombre de section différentes entre les documents

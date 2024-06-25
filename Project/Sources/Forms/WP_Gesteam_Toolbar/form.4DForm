@@ -4269,8 +4269,8 @@
 				"btn_MergeOptions_ProhibitsDifferentSections": {
 					"type": "checkbox",
 					"text": "Autoriser un nombre de section variable",
-					"top": 65,
-					"left": 10,
+					"top": 63,
+					"left": 70,
 					"width": 240,
 					"height": 20,
 					"events": [
@@ -4279,15 +4279,15 @@
 					"style": "toolbar",
 					"focusable": false,
 					"method": "ObjectMethods/btn_MergeOptions_ProhibitsDifferentSections.4dm",
-					"bottom": 85,
+					"bottom": 83,
 					"tooltip": "Si cette option est désactivée, il faudra nécessairement que tous les documents à fusionner aient le même nombre de section.\rDans le cas contraire la fusion ne sera pas faite et une erreur sera renvoyée.",
 					"dataSource": "MO_AllowSectionsDiff"
 				},
 				"btn_MergeOptions_CopyHeadersFooters": {
 					"type": "checkbox",
 					"text": "Fusionner les entête et pieds de page",
-					"top": 45,
-					"left": 10,
+					"top": 43,
+					"left": 70,
 					"width": 240,
 					"height": 20,
 					"events": [
@@ -4304,8 +4304,8 @@
 				},
 				"btn_MergeOptions_OptionsHeaderFooter": {
 					"type": "button",
-					"top": 45,
-					"left": 250,
+					"top": 43,
+					"left": 310,
 					"width": 30,
 					"height": 20,
 					"action": "",
@@ -4325,8 +4325,8 @@
 				},
 				"btn_MergeOptions_OptionsSections": {
 					"type": "button",
-					"top": 65,
-					"left": 250,
+					"top": 63,
+					"left": 310,
 					"width": 30,
 					"height": 20,
 					"action": "",
@@ -4346,19 +4346,19 @@
 				},
 				"lbl_Merge": {
 					"type": "text",
-					"top": 30,
+					"top": 28,
 					"left": 10,
-					"width": 270,
-					"height": 14,
+					"width": 330,
+					"height": 15,
 					"textAlign": "center",
 					"fontTheme": "additional",
 					"text": "Gestion des fusions",
-					"right": 280
+					"right": 340
 				},
 				"Line73": {
 					"type": "line",
-					"top": 30,
-					"left": 295,
+					"top": 28,
+					"left": 355,
 					"height": 50,
 					"stroke": "#888888",
 					"width": 0,
@@ -4366,20 +4366,20 @@
 				},
 				"lbl_Aggregate": {
 					"type": "text",
-					"top": 30,
-					"left": 310,
-					"width": 270,
-					"height": 14,
+					"top": 28,
+					"left": 370,
+					"width": 330,
+					"height": 15,
 					"textAlign": "center",
 					"fontTheme": "additional",
 					"text": "Gestion des liasses",
-					"right": 580
+					"right": 700
 				},
 				"cb_AggegateRestatNumPages": {
 					"type": "checkbox",
 					"text": "Conserver la numérotation des pages",
-					"top": 45,
-					"left": 310,
+					"top": 43,
+					"left": 430,
 					"width": 270,
 					"height": 22,
 					"events": [
@@ -4396,12 +4396,47 @@
 				},
 				"Line74": {
 					"type": "line",
-					"top": 30,
-					"left": 595,
+					"top": 28,
+					"left": 715,
 					"height": 50,
 					"stroke": "#888888",
 					"width": 0,
 					"startPoint": "topLeft"
+				},
+				"btn_MergeOptions_Default": {
+					"type": "button",
+					"text": "",
+					"top": 30,
+					"left": 10,
+					"width": 50,
+					"height": 50,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"icon": "/RESOURCES/Images/Toolbar1/Images/reset_48.png",
+					"iconFrames": 4,
+					"focusable": false,
+					"tooltip": "Valeur par défaut",
+					"method": "ObjectMethods/btn_MergeOptions_Default.4dm"
+				},
+				"btn_AggegateOptions_Default": {
+					"type": "button",
+					"text": "",
+					"top": 30,
+					"left": 370,
+					"width": 50,
+					"height": 50,
+					"events": [
+						"onClick"
+					],
+					"style": "toolbar",
+					"icon": "/RESOURCES/Images/Toolbar1/Images/reset_48.png",
+					"iconFrames": 4,
+					"focusable": false,
+					"tooltip": "Valeur par défaut",
+					"method": "ObjectMethods/btn_AggegateOptions_Default.4dm",
+					"display": true
 				}
 			}
 		}
@@ -4447,5 +4482,5 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 5937
+	"geometryStamp": 5954
 }
