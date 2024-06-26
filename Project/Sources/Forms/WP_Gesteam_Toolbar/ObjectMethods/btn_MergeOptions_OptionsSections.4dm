@@ -15,6 +15,12 @@ If ($MergeOptions#Null:C1517)
 	APPEND MENU ITEM:C411($menuRef; "-")
 	
 	APPEND MENU ITEM:C411($menuRef; "Ne fusionner que les sections existantes dans ce document")
+	//------------------------
+	//Désactivation temporaire (le temps de trouver une solution pour supprimer une section existante 
+	// -> https://discuss.4d.com/t/4d-write-pro-outil-commande-de-suppression-de-section/26017
+	// -> https://discuss.4d.com/t/write-pro-bug-dans-la-copie-de-section/31564 (tentative de contournement, copie section(s) dans un nouveau doc)
+	DISABLE MENU ITEM:C150($menuRef; -1)
+	//------------------------
 	SET MENU ITEM METHOD:C982($menuRef; -1; "btnM_S_KeepOnlySections1")
 	If ($MergeOptions.Get_KeepOnlySections1())
 		SET MENU ITEM ICON:C984($menuRef; -1; $cheminImage{4})
