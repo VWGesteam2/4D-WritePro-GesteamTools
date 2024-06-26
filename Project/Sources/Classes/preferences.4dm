@@ -11,8 +11,12 @@ Class constructor()
 	
 	// === === === === === === === === === === === === === === === === === === === === === === === === === ===
 Function user($fileName) : cs:C1710.preferences
-	
-	$fileName:=$fileName | "preference.pref"
+	Case of 
+		: (Undefined:C82($fileName))
+			$fileName:="preference.pref"
+		: ($fileName="")
+			$fileName:="preference.pref"
+	End case 
 	
 	This:C1470.target:=This:C1470._user.file($fileName)
 	This:C1470.load()
@@ -22,7 +26,12 @@ Function user($fileName) : cs:C1710.preferences
 	// === === === === === === === === === === === === === === === === === === === === === === === === === ===
 Function database($fileName) : cs:C1710.preferences
 	
-	$fileName:=$fileName | "preference.pref"
+	Case of 
+		: (Undefined:C82($fileName))
+			$fileName:="preference.pref"
+		: ($fileName="")
+			$fileName:="preference.pref"
+	End case 
 	
 	This:C1470.target:=This:C1470._database.file($fileName)
 	This:C1470.load()
@@ -32,7 +41,12 @@ Function database($fileName) : cs:C1710.preferences
 	// === === === === === === === === === === === === === === === === === === === === === === === === === ===
 Function session($fileName) : cs:C1710.preferences
 	
-	$fileName:=$fileName | "preference.pref"
+	Case of 
+		: (Undefined:C82($fileName))
+			$fileName:="preference.pref"
+		: ($fileName="")
+			$fileName:="preference.pref"
+	End case 
 	
 	This:C1470.target:=This:C1470._session.file($fileName)
 	This:C1470.load()

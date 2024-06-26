@@ -280,7 +280,7 @@ If (OB Is defined:C1231(Form:C1466; "areaPointer")) & (OB Is defined:C1231(Form:
 					End if 
 					
 					
-					$docName:=Select document:C905(""; ""; $title; Saisie nom de fichier:K24:17)
+					$docName:=Select document:C905(""; $extension; $title; Saisie nom de fichier:K24:17)
 					
 					If (ok=1) & ($docName#"")
 						
